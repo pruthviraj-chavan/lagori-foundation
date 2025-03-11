@@ -67,9 +67,9 @@ const Awards = () => {
 
   return (
     <PageTransition>
-      <main className="overflow-hidden">
+      <div className="overflow-hidden">
         {/* Hero Section */}
-        <section className="relative py-20 bg-gradient-to-r from-lagori-600 to-lagori-700">
+        <section className="relative py-20 bg-pink-gradient">
           <div className="absolute inset-0 mix-blend-overlay opacity-20 bg-[url('https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')]"></div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center text-white">
@@ -82,9 +82,9 @@ const Awards = () => {
         </section>
 
         {/* Introduction Section */}
-        <section className="py-16 bg-lagori-50">
+        <section className="py-16 bg-blue-gradient">
           <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="max-w-3xl mx-auto text-center bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-lg">
               <Award size={48} className="mx-auto mb-6 text-lagori-600" />
               <h2 className="font-playfair text-3xl font-bold mb-6 text-gray-800">
                 Our Journey of Excellence
@@ -104,81 +104,94 @@ const Awards = () => {
           <div className="container mx-auto px-4">
             <div className="relative max-w-5xl mx-auto">
               {/* Vertical Line */}
-              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-lagori-200"></div>
+              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-lagori-200 via-lagori-400 to-lagori-600"></div>
               
               {/* Award Items */}
               <div className="space-y-16 md:space-y-32">
-                {awardsData.map((award, index) => (
-                  <div key={award.id} className="relative">
-                    {/* Date Circle - Only visible on md and above */}
-                    <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-14 h-14 bg-lagori-600 rounded-full items-center justify-center text-white font-bold text-sm z-10">
-                      {new Date(award.date).getFullYear()}
-                    </div>
-                    
-                    {/* Mobile Date Badge - Only visible below md */}
-                    <div className="md:hidden bg-lagori-600 text-white py-1 px-3 rounded-full inline-block mb-4">
-                      {new Date(award.date).getFullYear()}
-                    </div>
-                    
-                    <div className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
-                      {/* Award Image */}
-                      <div className="w-full md:w-1/2 p-4">
-                        <div className="overflow-hidden rounded-xl shadow-lg">
-                          <img
-                            src={award.image}
-                            alt={award.title}
-                            className="w-full h-60 object-cover transition-transform duration-500 hover:scale-105"
-                          />
-                        </div>
+                {awardsData.map((award, index) => {
+                  // Determine gradient based on index
+                  const gradients = [
+                    'bg-pink-gradient', 
+                    'bg-purple-gradient', 
+                    'bg-orange-gradient', 
+                    'bg-green-gradient', 
+                    'bg-blue-gradient',
+                    'bg-pink-gradient'
+                  ];
+                  const gradient = gradients[index % gradients.length];
+                  
+                  return (
+                    <div key={award.id} className="relative">
+                      {/* Date Circle - Only visible on md and above */}
+                      <div className={`hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-14 h-14 ${gradient} rounded-full items-center justify-center text-white font-bold text-sm z-10`}>
+                        {new Date(award.date).getFullYear()}
                       </div>
                       
-                      {/* Award Content */}
-                      <div className="w-full md:w-1/2 p-4">
-                        <div className={`bg-white p-6 rounded-xl shadow-lg hover-lift ${index % 2 === 0 ? 'md:mr-8' : 'md:ml-8'}`}>
-                          <h3 className="font-playfair text-2xl font-bold mb-2 text-gray-800">
-                            {award.title}
-                          </h3>
-                          <p className="text-lagori-600 mb-2">
-                            <strong>Presented by:</strong> {award.presenter}
-                          </p>
-                          <p className="text-gray-500 mb-4">
-                            {formatDate(award.date)}
-                          </p>
-                          <p className="text-gray-600">
-                            {award.description}
-                          </p>
+                      {/* Mobile Date Badge - Only visible below md */}
+                      <div className={`md:hidden ${gradient} text-white py-1 px-3 rounded-full inline-block mb-4`}>
+                        {new Date(award.date).getFullYear()}
+                      </div>
+                      
+                      <div className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
+                        {/* Award Image */}
+                        <div className="w-full md:w-1/2 p-4">
+                          <div className="overflow-hidden rounded-xl shadow-lg">
+                            <img
+                              src={award.image}
+                              alt={award.title}
+                              className="w-full h-60 object-cover transition-transform duration-500 hover:scale-105"
+                            />
+                          </div>
+                        </div>
+                        
+                        {/* Award Content */}
+                        <div className="w-full md:w-1/2 p-4">
+                          <div className={`bg-white p-6 rounded-xl shadow-lg hover-lift ${index % 2 === 0 ? 'md:mr-8' : 'md:ml-8'} border-t-4 ${gradient.replace('bg-', 'border-')}`}>
+                            <h3 className="font-playfair text-2xl font-bold mb-2 text-gray-800">
+                              {award.title}
+                            </h3>
+                            <p className="text-lagori-600 mb-2">
+                              <strong>Presented by:</strong> {award.presenter}
+                            </p>
+                            <p className="text-gray-500 mb-4">
+                              {formatDate(award.date)}
+                            </p>
+                            <p className="text-gray-600">
+                              {award.description}
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           </div>
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-lagori-100">
+        <section className="py-16 bg-purple-gradient text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="font-playfair text-3xl font-bold mb-6 text-gray-800">
+              <h2 className="font-playfair text-3xl font-bold mb-6">
                 Join Us in Our Journey
               </h2>
-              <p className="text-gray-600 mb-8">
+              <p className="text-white/90 mb-8">
                 We're grateful for the recognition our work has received, but our true reward is the positive change we see in the lives of women. Help us continue making a difference by getting involved or supporting our cause.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="#" className="btn-primary">
+                <a href="#" className="btn-primary bg-white text-purple-700 hover:bg-gray-100">
                   Donate Now
                 </a>
-                <a href="/contact" className="btn-secondary">
+                <a href="/contact" className="btn-secondary text-white border-white hover:bg-white/10">
                   Get Involved
                 </a>
               </div>
             </div>
           </div>
         </section>
-      </main>
+      </div>
     </PageTransition>
   );
 };

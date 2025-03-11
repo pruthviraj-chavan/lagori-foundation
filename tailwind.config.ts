@@ -141,7 +141,12 @@ export default {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'hero-pattern': 'linear-gradient(to right bottom, rgba(255, 103, 164, 0.8), rgba(255, 140, 186, 0.8))',
-        'section-pattern': 'linear-gradient(180deg, rgba(255,245,249,1) 0%, rgba(255,230,240,0.5) 100%)'
+        'section-pattern': 'linear-gradient(180deg, rgba(255,245,249,1) 0%, rgba(255,230,240,0.5) 100%)',
+        'pink-gradient': 'linear-gradient(90deg, hsla(324, 91%, 68%, 1) 0%, hsla(18, 100%, 76%, 1) 100%)',
+        'purple-gradient': 'linear-gradient(90deg, hsla(277, 75%, 84%, 1) 0%, hsla(297, 50%, 51%, 1) 100%)',
+        'orange-gradient': 'linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%)',
+        'green-gradient': 'linear-gradient(90deg, hsla(159, 86%, 68%, 1) 0%, hsla(134, 36%, 53%, 1) 100%)',
+        'blue-gradient': 'linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%)',
       }
     }
   },
