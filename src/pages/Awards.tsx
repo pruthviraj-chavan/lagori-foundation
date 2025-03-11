@@ -104,14 +104,19 @@ const Awards = () => {
           <div className="container mx-auto px-4">
             <div className="relative max-w-5xl mx-auto">
               {/* Vertical Line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-lagori-200"></div>
+              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-lagori-200"></div>
               
               {/* Award Items */}
-              <div className="space-y-32">
+              <div className="space-y-16 md:space-y-32">
                 {awardsData.map((award, index) => (
                   <div key={award.id} className="relative">
-                    {/* Date Circle */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 w-14 h-14 bg-lagori-600 rounded-full flex items-center justify-center text-white font-bold text-sm z-10">
+                    {/* Date Circle - Only visible on md and above */}
+                    <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-14 h-14 bg-lagori-600 rounded-full items-center justify-center text-white font-bold text-sm z-10">
+                      {new Date(award.date).getFullYear()}
+                    </div>
+                    
+                    {/* Mobile Date Badge - Only visible below md */}
+                    <div className="md:hidden bg-lagori-600 text-white py-1 px-3 rounded-full inline-block mb-4">
                       {new Date(award.date).getFullYear()}
                     </div>
                     
