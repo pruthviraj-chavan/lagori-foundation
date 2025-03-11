@@ -1,71 +1,29 @@
 
-import { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
-import { Award, Heart, Users, Calendar, Trophy } from "lucide-react";
+import { Heart, Award, Clock } from "lucide-react";
 import { PageTransition } from "../components/Transitions";
 
 const About = () => {
-  const founderRef = useRef<HTMLDivElement>(null);
-  const missionRef = useRef<HTMLDivElement>(null);
-  const timelineRef = useRef<HTMLDivElement>(null);
-
-  // Intersection Observer setup for animation triggers
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.1
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fade-in');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, options);
-
-    const sections = [founderRef.current, missionRef.current, timelineRef.current];
-    sections.forEach(section => {
-      if (section) observer.observe(section);
-    });
-
-    return () => {
-      sections.forEach(section => {
-        if (section) observer.unobserve(section);
-      });
-    };
-  }, []);
-
   return (
     <PageTransition>
-      <main className="pt-20">
+      <main className="overflow-hidden">
         {/* Hero Section */}
-        <section className="bg-lagori-600 text-white py-20">
-          <div className="container max-w-7xl mx-auto px-4 sm:px-6 text-center">
-            <span className="inline-block px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-white font-medium mb-6 animate-fade-in">
-              About Us
-            </span>
-            <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in animate-delay-100">
-              Our Story & Mission
-            </h1>
-            <p className="text-lg max-w-3xl mx-auto animate-fade-in animate-delay-200">
-              Discover the journey, vision, and impact of Lagori Foundation in empowering women and transforming communities.
-            </p>
+        <section className="relative py-20 bg-gradient-to-r from-lagori-600 to-lagori-700">
+          <div className="absolute inset-0 mix-blend-overlay opacity-20 bg-[url('https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')]"></div>
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="text-center text-white">
+              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">About Lagori Foundation</h1>
+              <p className="text-lg md:text-xl max-w-3xl mx-auto">Dedicated to empowering women through support, education, and community.</p>
+            </div>
           </div>
         </section>
 
         {/* Founder Section */}
-        <section className="section-container">
-          <div className="container max-w-7xl mx-auto px-4 sm:px-6">
-            <div 
-              ref={founderRef} 
-              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center opacity-0"
-            >
+        <section className="py-16 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="relative">
-                  <div className="absolute -top-6 -left-6 w-24 h-24 bg-lagori-300 rounded-full opacity-20"></div>
+                  <div className="absolute -top-6 -left-6 w-24 h-24 bg-lagori-200 rounded-full opacity-60"></div>
                   <img 
                     src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
                     alt="Mrs. Sunanda Rajesh Lagori" 
@@ -80,34 +38,25 @@ const About = () => {
                 <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
                   Mrs. Sunanda Rajesh Lagori
                 </h2>
-                <p className="text-gray-600 mb-4">
-                  As the Founder President of Lagori Foundation in Kolhapur, Mrs. Sunanda Rajesh Lagori has dedicated her life to uplifting women and creating positive change in her community.
+                <p className="text-gray-600 mb-6">
+                  Mrs. Sunanda Rajesh Lagori, a passionate advocate for women's rights, founded the Lagori Foundation in 2019. With a background in social work and a deep understanding of the challenges faced by women in society, she has dedicated her life to creating meaningful change.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  With a background in social work and a passion for women's empowerment, she has been the driving force behind numerous initiatives that have transformed the lives of thousands of women over the past four years.
+                  Under her leadership, the foundation has grown from a small community initiative to a recognized NGO that has positively impacted the lives of over 10,000 women through various programs and services.
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                <div className="space-y-4">
                   <div className="flex items-center">
-                    <Award className="text-lagori-600 mr-3" />
-                    <span className="text-gray-800">Multiple Awards Recipient</span>
+                    <Heart className="text-lagori-600 mr-3" size={20} />
+                    <span className="text-gray-700">Founder & President, Lagori Foundation</span>
                   </div>
                   <div className="flex items-center">
-                    <Users className="text-lagori-600 mr-3" />
-                    <span className="text-gray-800">500+ Active Members</span>
+                    <Award className="text-lagori-600 mr-3" size={20} />
+                    <span className="text-gray-700">Recipient of numerous awards for social service</span>
                   </div>
                   <div className="flex items-center">
-                    <Heart className="text-lagori-600 mr-3" />
-                    <span className="text-gray-800">10,000+ Women Helped</span>
+                    <Clock className="text-lagori-600 mr-3" size={20} />
+                    <span className="text-gray-700">Four years of dedicated service to women's empowerment</span>
                   </div>
-                  <div className="flex items-center">
-                    <Calendar className="text-lagori-600 mr-3" />
-                    <span className="text-gray-800">4+ Years of Service</span>
-                  </div>
-                </div>
-                <div>
-                  <p className="text-gray-800 font-medium mb-2">Contact Details:</p>
-                  <p className="text-gray-600">Email: sunanda@lagorifoundation.org</p>
-                  <p className="text-gray-600">Phone: +91 8668545201</p>
                 </div>
               </div>
             </div>
@@ -115,206 +64,205 @@ const About = () => {
         </section>
 
         {/* Mission & Vision Section */}
-        <section className="section-container bg-lagori-50">
-          <div className="container max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
+        <section className="py-16 bg-lagori-50">
+          <div className="container mx-auto px-4">
+            <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                Our Purpose
+                Our Mission & Vision
               </span>
-              <h2 className="section-title">Mission & Vision</h2>
-              <p className="section-subtitle">
-                Guiding principles that drive our work and shape our impact in the community.
-              </p>
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                What Drives Us Forward
+              </h2>
             </div>
-
-            <div 
-              ref={missionRef} 
-              className="grid grid-cols-1 md:grid-cols-2 gap-8 opacity-0"
-            >
-              <div className="glass-card bg-white p-8">
-                <h3 className="font-playfair text-2xl font-bold mb-4 text-lagori-700">Our Mission</h3>
-                <p className="text-gray-600 mb-6">
-                  To empower women through education, support systems, and skill development, enabling them to achieve economic independence and social equality. We strive to create safe spaces for women to heal, grow, and thrive in their communities.
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="font-playfair text-2xl font-bold mb-4 text-gray-800">Our Mission</h3>
+                <p className="text-gray-600">
+                  To empower women through education, support, and community building, enabling them to achieve financial independence, social equality, and personal fulfillment.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <div className="bg-lagori-100 p-1 rounded-full mr-3 mt-1">
-                      <Heart size={16} className="text-lagori-600" />
-                    </div>
-                    <span className="text-gray-700">Provide legal and emotional support to women facing injustice</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="bg-lagori-100 p-1 rounded-full mr-3 mt-1">
-                      <Heart size={16} className="text-lagori-600" />
-                    </div>
-                    <span className="text-gray-700">Develop skills that lead to financial independence</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="bg-lagori-100 p-1 rounded-full mr-3 mt-1">
-                      <Heart size={16} className="text-lagori-600" />
-                    </div>
-                    <span className="text-gray-700">Build confidence and self-reliance in vulnerable women</span>
-                  </li>
-                </ul>
               </div>
-
-              <div className="glass-card bg-white p-8">
-                <h3 className="font-playfair text-2xl font-bold mb-4 text-lagori-700">Our Vision</h3>
-                <p className="text-gray-600 mb-6">
-                  A society where every woman is empowered, respected, and has equal opportunities to reach her full potential. We envision communities where women are leaders, decision-makers, and catalysts for positive change.
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="font-playfair text-2xl font-bold mb-4 text-gray-800">Our Vision</h3>
+                <p className="text-gray-600">
+                  A world where every woman has equal opportunities, is free from discrimination and violence, and can fulfill her potential as a valued member of society.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <div className="bg-lagori-100 p-1 rounded-full mr-3 mt-1">
-                      <Heart size={16} className="text-lagori-600" />
-                    </div>
-                    <span className="text-gray-700">Create a world where gender equality is the norm</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="bg-lagori-100 p-1 rounded-full mr-3 mt-1">
-                      <Heart size={16} className="text-lagori-600" />
-                    </div>
-                    <span className="text-gray-700">Establish networks of women supporting women</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="bg-lagori-100 p-1 rounded-full mr-3 mt-1">
-                      <Heart size={16} className="text-lagori-600" />
-                    </div>
-                    <span className="text-gray-700">Eliminate barriers to women's advancement in society</span>
-                  </li>
-                </ul>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Core Values Section */}
+        <section className="py-16 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
+                Our Core Values
+              </span>
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Principles That Guide Us
+              </h2>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                {
+                  title: "Empathy & Compassion",
+                  description: "We approach every situation with understanding and care, recognizing the unique challenges faced by each woman."
+                },
+                {
+                  title: "Integrity & Transparency",
+                  description: "We operate with honesty and openness, ensuring accountability in all our actions and decisions."
+                },
+                {
+                  title: "Inclusivity & Respect",
+                  description: "We value diversity and treat everyone with dignity, regardless of their background or circumstances."
+                },
+                {
+                  title: "Innovation & Adaptability",
+                  description: "We continuously seek new and effective ways to address the evolving needs of the women we serve."
+                },
+                {
+                  title: "Collaboration & Partnership",
+                  description: "We believe in the power of working together with communities, organizations, and individuals to create lasting change."
+                },
+                {
+                  title: "Empowerment & Independence",
+                  description: "We focus on building capabilities and confidence, enabling women to take control of their own futures."
+                }
+              ].map((value, index) => (
+                <div key={index} className="bg-white p-8 rounded-2xl shadow-md hover-lift">
+                  <h3 className="font-playfair text-xl font-bold mb-3 text-gray-800">{value.title}</h3>
+                  <p className="text-gray-600">{value.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* Growth Timeline Section */}
-        <section className="section-container">
-          <div className="container max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
+        <section className="py-16 bg-lagori-50">
+          <div className="container mx-auto px-4">
+            <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
                 Our Journey
               </span>
-              <h2 className="section-title">Four Years of Growth</h2>
-              <p className="section-subtitle">
-                From humble beginnings to impactful presence, explore the milestones in our journey.
-              </p>
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Four Years of Growth & Impact
+              </h2>
             </div>
-
-            <div 
-              ref={timelineRef} 
-              className="relative opacity-0"
-            >
-              {/* Vertical line */}
-              <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 top-0 h-full w-px bg-lagori-200"></div>
-
-              {/* Year 1 */}
-              <div className="relative mb-16">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:pr-12 md:text-right order-2 md:order-1">
-                    <div className="mb-4 p-6 card hover-lift">
-                      <h3 className="font-playfair text-2xl font-bold mb-2 text-gray-800">Foundation Established</h3>
-                      <p className="text-gray-600">
-                        Lagori Foundation was established with a mission to support women facing social injustice and domestic violence.
-                      </p>
+            
+            <div className="relative">
+              {/* Timeline Line */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-lagori-300"></div>
+              
+              {/* Timeline Items */}
+              <div className="space-y-12">
+                {[
+                  {
+                    year: "2019",
+                    title: "Foundation Established",
+                    description: "Mrs. Sunanda Lagori established the Lagori Foundation with a small team of dedicated volunteers."
+                  },
+                  {
+                    year: "2020",
+                    title: "First Major Initiative",
+                    description: "Launched the first legal assistance program, helping over 100 women with legal counsel and support."
+                  },
+                  {
+                    year: "2021",
+                    title: "Expanding Services",
+                    description: "Added vocational training programs in tailoring, cooking, and other skills to help women become financially independent."
+                  },
+                  {
+                    year: "2022",
+                    title: "Community Growth",
+                    description: "Membership grew to over 500 active participants, with programs reaching more than 5,000 women."
+                  },
+                  {
+                    year: "2023",
+                    title: "National Recognition",
+                    description: "Received multiple awards for outstanding contribution to women's empowerment and community service."
+                  }
+                ].map((item, index) => (
+                  <div key={index} className="relative flex items-center">
+                    <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'order-last pl-8'}`}>
+                      <div className="p-6 bg-white rounded-xl shadow-lg hover-lift">
+                        <div className="font-bold text-lagori-600 text-xl mb-2">{item.year}</div>
+                        <h3 className="font-playfair text-xl font-bold mb-2 text-gray-800">{item.title}</h3>
+                        <p className="text-gray-600">{item.description}</p>
+                      </div>
                     </div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-lagori-500 border-4 border-white shadow"></div>
                   </div>
-                  <div className="order-1 md:order-2 mb-4 md:mb-0">
-                    <div className="w-12 h-12 rounded-full bg-lagori-600 text-white flex items-center justify-center relative z-10">
-                      <Trophy size={20} />
-                    </div>
-                  </div>
-                  <div className="flex-1 md:pl-12 order-3">
-                    <div className="text-lagori-600 font-playfair text-2xl font-bold">2019</div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Year 2 */}
-              <div className="relative mb-16">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:pr-12 order-2 md:order-1">
-                    <div className="text-lagori-600 font-playfair text-2xl font-bold md:text-right">2020</div>
-                  </div>
-                  <div className="order-1 md:order-2 mb-4 md:mb-0">
-                    <div className="w-12 h-12 rounded-full bg-lagori-600 text-white flex items-center justify-center relative z-10">
-                      <Trophy size={20} />
-                    </div>
-                  </div>
-                  <div className="flex-1 md:pl-12 order-3">
-                    <div className="mb-4 p-6 card hover-lift">
-                      <h3 className="font-playfair text-2xl font-bold mb-2 text-gray-800">Expanding Services</h3>
-                      <p className="text-gray-600">
-                        Introduced skill development programs and expanded legal assistance services, helping over 1,000 women.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Year 3 */}
-              <div className="relative mb-16">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:pr-12 md:text-right order-2 md:order-1">
-                    <div className="mb-4 p-6 card hover-lift">
-                      <h3 className="font-playfair text-2xl font-bold mb-2 text-gray-800">Growing Community</h3>
-                      <p className="text-gray-600">
-                        Membership grew to 300+ active members, and the foundation began disaster relief work following floods in Kolhapur.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="order-1 md:order-2 mb-4 md:mb-0">
-                    <div className="w-12 h-12 rounded-full bg-lagori-600 text-white flex items-center justify-center relative z-10">
-                      <Trophy size={20} />
-                    </div>
-                  </div>
-                  <div className="flex-1 md:pl-12 order-3">
-                    <div className="text-lagori-600 font-playfair text-2xl font-bold">2021</div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Year 4 */}
-              <div className="relative">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:pr-12 order-2 md:order-1">
-                    <div className="text-lagori-600 font-playfair text-2xl font-bold md:text-right">2022-23</div>
-                  </div>
-                  <div className="order-1 md:order-2 mb-4 md:mb-0">
-                    <div className="w-12 h-12 rounded-full bg-lagori-600 text-white flex items-center justify-center relative z-10">
-                      <Trophy size={20} />
-                    </div>
-                  </div>
-                  <div className="flex-1 md:pl-12 order-3">
-                    <div className="mb-4 p-6 card hover-lift">
-                      <h3 className="font-playfair text-2xl font-bold mb-2 text-gray-800">Major Milestones</h3>
-                      <p className="text-gray-600">
-                        Reached 500+ members and helped over 10,000 women. Recognized with multiple awards for community service.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-lagori-600 to-lagori-700 text-white">
-          <div className="container max-w-5xl mx-auto px-4 sm:px-6 text-center">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 animate-fade-in">
-              Be Part of Our Story
-            </h2>
-            <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto animate-fade-in animate-delay-100">
-              Join us in our mission to empower women and transform communities. Your support makes a meaningful difference.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 animate-fade-in animate-delay-200">
-              <Link to="/contact" className="btn-primary bg-white text-lagori-700 hover:bg-gray-100">
-                Join Our Team
-              </Link>
-              <Link to="/activities" className="btn-secondary text-white border-white hover:bg-white/10">
-                Explore Our Work
-              </Link>
+        {/* Team Section */}
+        <section className="py-16 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
+                Our Team
+              </span>
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Dedicated to Making a Difference
+              </h2>
+              <p className="text-gray-600">
+                Meet the passionate individuals who work tirelessly to bring positive change in the lives of women.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                {
+                  name: "Sunanda Lagori",
+                  position: "Founder & President",
+                  image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
+                },
+                {
+                  name: "Anjali Sharma",
+                  position: "Program Director",
+                  image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                },
+                {
+                  name: "Priya Patel",
+                  position: "Legal Advisor",
+                  image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
+                },
+                {
+                  name: "Meera Desai",
+                  position: "Skill Development Coordinator",
+                  image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80"
+                },
+                {
+                  name: "Rajesh Kumar",
+                  position: "Outreach Coordinator",
+                  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                },
+                {
+                  name: "Neha Verma",
+                  position: "Community Engagement Specialist",
+                  image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+                }
+              ].map((member, index) => (
+                <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover-lift">
+                  <div className="h-64 overflow-hidden">
+                    <img 
+                      src={member.image} 
+                      alt={member.name} 
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="font-playfair text-xl font-bold mb-1 text-gray-800">{member.name}</h3>
+                    <p className="text-lagori-600">{member.position}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
