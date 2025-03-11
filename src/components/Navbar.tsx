@@ -34,8 +34,8 @@ const Navbar = () => {
     >
       <nav className="container max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center" onClick={closeMenu}>
-          <span className="font-playfair text-2xl font-bold text-lagori-700">
-            Lagori <span className="text-lagori-500">Foundation</span>
+          <span className={`font-playfair text-2xl font-bold ${scrolled ? 'text-lagori-700' : 'text-white'}`}>
+            Lagori <span className={scrolled ? 'text-lagori-500' : 'text-white'}>Foundation</span>
           </span>
         </Link>
 
@@ -43,31 +43,31 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-1">
           <Link 
             to="/" 
-            className={`nav-link ${isActive('/') ? 'nav-link-active' : ''}`}
+            className={`nav-link ${isActive('/') ? 'nav-link-active' : ''} ${!scrolled ? 'text-white hover:text-white/80' : ''}`}
           >
             Home
           </Link>
           <Link 
             to="/about" 
-            className={`nav-link ${isActive('/about') ? 'nav-link-active' : ''}`}
+            className={`nav-link ${isActive('/about') ? 'nav-link-active' : ''} ${!scrolled ? 'text-white hover:text-white/80' : ''}`}
           >
             About Us
           </Link>
           <Link 
             to="/activities" 
-            className={`nav-link ${isActive('/activities') ? 'nav-link-active' : ''}`}
+            className={`nav-link ${isActive('/activities') ? 'nav-link-active' : ''} ${!scrolled ? 'text-white hover:text-white/80' : ''}`}
           >
             Activities
           </Link>
           <Link 
             to="/awards" 
-            className={`nav-link ${isActive('/awards') ? 'nav-link-active' : ''}`}
+            className={`nav-link ${isActive('/awards') ? 'nav-link-active' : ''} ${!scrolled ? 'text-white hover:text-white/80' : ''}`}
           >
             Awards
           </Link>
           <Link 
             to="/contact" 
-            className={`nav-link ${isActive('/contact') ? 'nav-link-active' : ''}`}
+            className={`nav-link ${isActive('/contact') ? 'nav-link-active' : ''} ${!scrolled ? 'text-white hover:text-white/80' : ''}`}
           >
             Contact
           </Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden p-2 rounded-md text-lagori-700 hover:bg-lagori-100 transition-colors"
+          className={`md:hidden p-2 rounded-md ${scrolled ? 'text-lagori-700' : 'text-white'} hover:bg-lagori-100/20 transition-colors`}
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
