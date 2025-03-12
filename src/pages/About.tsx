@@ -199,51 +199,45 @@ const About = () => {
               </div>
             </div>
             
-            {/* Mobile Timeline - new vertical design for better display */}
+            {/* Mobile Timeline - improved mobile layout */}
             <div className="md:hidden">
-              <div className="relative">
-                {/* Timeline Line for mobile */}
-                <div className="absolute left-4 top-0 bottom-0 w-1 bg-lagori-300"></div>
-                
-                {/* Timeline Items for mobile */}
-                <div className="space-y-8 ml-12">
-                  {[
-                    {
-                      year: "2019",
-                      title: "Foundation Established",
-                      description: "Mrs. Sunanda Lagori established the Lagori Foundation with a small team of dedicated volunteers."
-                    },
-                    {
-                      year: "2020",
-                      title: "First Major Initiative",
-                      description: "Launched the first legal assistance program, helping over 100 women with legal counsel and support."
-                    },
-                    {
-                      year: "2021",
-                      title: "Expanding Services",
-                      description: "Added vocational training programs in tailoring, cooking, and other skills to help women become financially independent."
-                    },
-                    {
-                      year: "2022",
-                      title: "Community Growth",
-                      description: "Membership grew to over 500 active participants, with programs reaching more than 5,000 women."
-                    },
-                    {
-                      year: "2023",
-                      title: "National Recognition",
-                      description: "Received multiple awards for outstanding contribution to women's empowerment and community service."
-                    }
-                  ].map((item, index) => (
-                    <div key={index} className="relative">
-                      <div className="absolute left-[-36px] w-8 h-8 rounded-full bg-lagori-500 border-4 border-white shadow"></div>
-                      <div className="p-5 bg-white rounded-xl shadow-lg">
-                        <div className="font-bold text-lagori-600 text-xl mb-2">{item.year}</div>
-                        <h3 className="font-playfair text-xl font-bold mb-2 text-gray-800">{item.title}</h3>
-                        <p className="text-gray-600">{item.description}</p>
-                      </div>
+              <div className="relative border-l-2 border-lagori-300 ml-4 pl-8">
+                {[
+                  {
+                    year: "2019",
+                    title: "Foundation Established",
+                    description: "Mrs. Sunanda Lagori established the Lagori Foundation with a small team of dedicated volunteers."
+                  },
+                  {
+                    year: "2020",
+                    title: "First Major Initiative",
+                    description: "Launched the first legal assistance program, helping over 100 women with legal counsel and support."
+                  },
+                  {
+                    year: "2021",
+                    title: "Expanding Services",
+                    description: "Added vocational training programs in tailoring, cooking, and other skills to help women become financially independent."
+                  },
+                  {
+                    year: "2022",
+                    title: "Community Growth",
+                    description: "Membership grew to over 500 active participants, with programs reaching more than 5,000 women."
+                  },
+                  {
+                    year: "2023",
+                    title: "National Recognition",
+                    description: "Received multiple awards for outstanding contribution to women's empowerment and community service."
+                  }
+                ].map((item, index) => (
+                  <div key={index} className="mb-8 relative">
+                    <div className="absolute -left-12 mt-1.5 w-6 h-6 rounded-full bg-lagori-500 border-2 border-white shadow"></div>
+                    <div className="bg-white p-5 rounded-lg shadow-md">
+                      <div className="font-bold text-lagori-600 text-xl mb-2">{item.year}</div>
+                      <h3 className="font-playfair text-xl font-bold mb-2 text-gray-800">{item.title}</h3>
+                      <p className="text-gray-600">{item.description}</p>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

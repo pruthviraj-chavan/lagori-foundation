@@ -55,7 +55,7 @@ const Index = () => {
     <PageTransition>
       <div className="overflow-hidden">
         {/* Hero Section with static background */}
-        <section className="relative min-h-[600px] md:min-h-[700px] mt-0">
+        <section className="relative h-screen flex items-center">
           {/* Static background image with darkened overlay for better visibility */}
           <div className="absolute inset-0 z-0">
             <img 
@@ -67,47 +67,50 @@ const Index = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-lagori-900/80 z-10"></div>
           </div>
           
-          <div className="absolute inset-0 flex items-center z-20">
-            <div className="container max-w-7xl mx-auto px-4 sm:px-6">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className="text-white stagger-animate pt-12 md:pt-0">
-                  <span className="inline-block px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-lagori-200 font-medium mb-6">
-                    Women Empowerment NGO
-                  </span>
-                  <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                    Empowering Women,<br />Transforming Lives
-                  </h1>
-                  <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
-                    "The empowerment of women is not just the right thing to do, it's the smart thing to do. When women succeed, communities thrive."
-                  </p>
-                  <div className="flex flex-wrap gap-4">
-                    <Link to="#" className="btn-primary">
-                      Donate Now
-                    </Link>
-                    <Link to="/about" className="btn-secondary bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-white/20">
-                      Learn More
-                    </Link>
-                  </div>
+          <div className="container max-w-7xl mx-auto px-4 sm:px-6 relative z-20 pt-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="text-white stagger-animate">
+                <span className="inline-block px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-lagori-200 font-medium mb-6">
+                  Women Empowerment NGO
+                </span>
+                <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                  Empowering Women,<br />Transforming Lives
+                </h1>
+                <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
+                  "The empowerment of women is not just the right thing to do, it's the smart thing to do. When women succeed, communities thrive."
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <a 
+                    href="https://donate.stripe.com/test" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="btn-primary"
+                  >
+                    Donate Now
+                  </a>
+                  <Link to="/about" className="btn-secondary bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-white/20">
+                    Learn More
+                  </Link>
                 </div>
-                <div className="relative hidden lg:block">
-                  <div className="absolute -top-10 -left-10 w-32 h-32 rounded-full bg-lagori-400/30 backdrop-blur-xl animate-float"></div>
-                  <div className="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-lagori-300/30 backdrop-blur-xl animate-float"></div>
-                  <div className="glass-card p-6 animate-fade-in">
-                    <img 
-                      src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
-                      alt="Mrs. Sunanda Lagori" 
-                      className="w-full h-auto rounded-xl mb-4"
-                    />
-                    <h3 className="font-playfair text-2xl font-bold text-white mb-2">
-                      Mrs. Sunanda Lagori
-                    </h3>
-                    <p className="text-gray-200 mb-4">
-                      Founder & President, Lagori Foundation
-                    </p>
-                    <Link to="/about" className="text-lagori-200 font-medium hover:text-white flex items-center">
-                      Read her story <ArrowRight size={16} className="ml-2" />
-                    </Link>
-                  </div>
+              </div>
+              <div className="relative hidden lg:block">
+                <div className="absolute -top-10 -left-10 w-32 h-32 rounded-full bg-lagori-400/30 backdrop-blur-xl animate-float"></div>
+                <div className="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-lagori-300/30 backdrop-blur-xl animate-float"></div>
+                <div className="glass-card p-6 animate-fade-in">
+                  <img 
+                    src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
+                    alt="Mrs. Sunanda Lagori" 
+                    className="w-full h-auto rounded-xl mb-4"
+                  />
+                  <h3 className="font-playfair text-2xl font-bold text-white mb-2">
+                    Mrs. Sunanda Lagori
+                  </h3>
+                  <p className="text-gray-200 mb-4">
+                    Founder & President, Lagori Foundation
+                  </p>
+                  <Link to="/about" className="text-lagori-200 font-medium hover:text-white flex items-center">
+                    Read her story <ArrowRight size={16} className="ml-2" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -401,9 +404,14 @@ const Index = () => {
               Your support can help transform the lives of countless women. Together, we can create a more equitable and empowered future.
             </p>
             <div className="flex flex-wrap justify-center gap-4 animate-fade-in animate-delay-200">
-              <Link to="#" className="btn-primary bg-white text-lagori-700 hover:bg-gray-100">
+              <a 
+                href="https://donate.stripe.com/test" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn-primary bg-white text-lagori-700 hover:bg-gray-100"
+              >
                 Donate Now
-              </Link>
+              </a>
               <Link to="/contact" className="btn-secondary text-white border-white hover:bg-white/10">
                 Get Involved
               </Link>

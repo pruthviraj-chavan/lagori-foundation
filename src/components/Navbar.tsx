@@ -29,7 +29,9 @@ const Navbar = () => {
   return (
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/95 shadow-md backdrop-blur-md py-2' : 'bg-black/50 backdrop-blur-sm py-4'
+        scrolled 
+          ? 'bg-lagori-600 shadow-md backdrop-blur-md py-2' 
+          : 'bg-gradient-to-r from-black/80 to-lagori-900/70 backdrop-blur-md py-4'
       }`}
     >
       <nav className="container max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center">
@@ -71,12 +73,14 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Link 
-            to="#" 
+          <a 
+            href="https://donate.stripe.com/test" 
+            target="_blank" 
+            rel="noopener noreferrer"
             className="ml-4 btn-primary"
           >
             Donate Now
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -131,9 +135,15 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Link to="#" className="btn-primary text-center" onClick={closeMenu}>
+          <a 
+            href="https://donate.stripe.com/test" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-primary text-center" 
+            onClick={closeMenu}
+          >
             Donate Now
-          </Link>
+          </a>
         </div>
       </div>
     </header>
