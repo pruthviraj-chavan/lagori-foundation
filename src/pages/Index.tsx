@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { 
@@ -56,22 +55,22 @@ const Index = () => {
     <PageTransition>
       <div className="overflow-hidden">
         {/* Hero Section with static background */}
-        <section className="relative h-[600px] md:h-[700px]">
-          {/* Static background image */}
+        <section className="relative min-h-[600px] md:min-h-[700px] mt-0">
+          {/* Static background image with darkened overlay for better visibility */}
           <div className="absolute inset-0 z-0">
             <img 
               src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
               alt="Women Empowerment" 
               className="w-full h-full object-cover"
             />
-            {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-lagori-900/90 to-lagori-700/90 z-10"></div>
+            {/* Darker gradient overlay for better text contrast */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-lagori-900/80 z-10"></div>
           </div>
           
           <div className="absolute inset-0 flex items-center z-20">
             <div className="container max-w-7xl mx-auto px-4 sm:px-6">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className="text-white stagger-animate">
+                <div className="text-white stagger-animate pt-12 md:pt-0">
                   <span className="inline-block px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-lagori-200 font-medium mb-6">
                     Women Empowerment NGO
                   </span>
@@ -116,7 +115,7 @@ const Index = () => {
         </section>
 
         {/* About Section */}
-        <section className="section-container bg-section-pattern">
+        <section className="section-container bg-section-pattern py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
@@ -154,7 +153,7 @@ const Index = () => {
         </section>
 
         {/* Video Section - New Addition */}
-        <section className="section-container bg-purple-gradient">
+        <section className="section-container bg-purple-gradient py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-white/20 text-white font-medium mb-4">
@@ -249,7 +248,7 @@ const Index = () => {
         </section>
 
         {/* Services Section */}
-        <section className="section-container">
+        <section className="section-container py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
@@ -300,7 +299,7 @@ const Index = () => {
         </section>
 
         {/* Women's Power Section */}
-        <section className="section-container bg-blue-gradient">
+        <section className="section-container bg-blue-gradient py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-lagori-800 font-medium mb-4">
@@ -348,7 +347,7 @@ const Index = () => {
         </section>
 
         {/* Latest Activities Section */}
-        <section className="section-container">
+        <section className="section-container py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">

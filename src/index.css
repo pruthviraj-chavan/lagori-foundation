@@ -103,7 +103,7 @@
   }
 
   .section-title {
-    @apply font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-foreground;
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-foreground font-['Playfair_Display'];
   }
 
   .section-subtitle {
@@ -127,7 +127,7 @@
   }
 
   .nav-link {
-    @apply relative px-3 py-2 text-foreground hover:text-lagori-600 transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-lagori-600 after:transition-all hover:after:w-full;
+    @apply relative px-3 py-2 hover:text-lagori-600 transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-lagori-600 after:transition-all hover:after:w-full;
   }
 
   .nav-link-active {
