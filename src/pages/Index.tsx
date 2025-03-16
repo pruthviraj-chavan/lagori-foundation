@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { 
@@ -9,11 +10,14 @@ import {
   HeartHandshake, 
   Droplet, 
   ArrowRight,
-  Play
+  Play,
+  Users
 } from "lucide-react";
 import { PageTransition } from "../components/Transitions";
 import ServiceCard from "../components/ServiceCard";
 import ActivityCard from "../components/ActivityCard";
+import TeamCard from "../components/TeamCard";
+import YouTubeVideo from "../components/YouTubeVideo";
 
 const Index = () => {
   const statsRef = useRef<HTMLDivElement>(null);
@@ -21,6 +25,7 @@ const Index = () => {
   const storiesRef = useRef<HTMLDivElement>(null);
   const activitiesRef = useRef<HTMLDivElement>(null);
   const videosRef = useRef<HTMLDivElement>(null);
+  const teamRef = useRef<HTMLDivElement>(null);
 
   // Intersection Observer setup for animation triggers
   useEffect(() => {
@@ -39,7 +44,7 @@ const Index = () => {
       });
     }, options);
 
-    const sections = [statsRef.current, servicesRef.current, storiesRef.current, activitiesRef.current, videosRef.current];
+    const sections = [statsRef.current, servicesRef.current, storiesRef.current, activitiesRef.current, videosRef.current, teamRef.current];
     sections.forEach(section => {
       if (section) observer.observe(section);
     });
@@ -54,9 +59,8 @@ const Index = () => {
   return (
     <PageTransition>
       <div className="overflow-hidden">
-        {/* Hero Section with static background */}
-        <section className="relative h-screen flex items-center">
-          {/* Static background image with darkened overlay for better visibility */}
+        {/* Hero Section with improved layout */}
+        <section className="relative pt-20 pb-16 flex items-center bg-gradient-to-r from-lagori-900/90 to-lagori-700/80">
           <div className="absolute inset-0 z-0">
             <img 
               src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
@@ -67,7 +71,7 @@ const Index = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-lagori-900/80 z-10"></div>
           </div>
           
-          <div className="container max-w-7xl mx-auto px-4 sm:px-6 relative z-20 pt-16">
+          <div className="container max-w-7xl mx-auto px-4 sm:px-6 relative z-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="text-white stagger-animate">
                 <span className="inline-block px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-lagori-200 font-medium mb-6">
@@ -118,7 +122,7 @@ const Index = () => {
         </section>
 
         {/* About Section */}
-        <section className="section-container bg-section-pattern py-20">
+        <section className="section-container bg-section-pattern">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
@@ -155,7 +159,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Video Section - New Addition */}
+        {/* Video Section - Updated with YouTube Videos */}
         <section className="section-container bg-purple-gradient py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -172,80 +176,35 @@ const Index = () => {
               ref={videosRef} 
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 opacity-0"
             >
-              {/* Video Card 1 */}
-              <div className="bg-white/10 backdrop-blur-md rounded-xl overflow-hidden shadow-lg">
-                <div className="relative aspect-video group">
-                  <img 
-                    src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
-                    alt="Women Empowerment Workshop" 
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-16 h-16 flex items-center justify-center bg-lagori-600 rounded-full">
-                      <Play className="text-white ml-1" size={24} />
-                    </div>
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="font-playfair text-xl font-bold text-white mb-2">Women Empowerment Workshop</h3>
-                  <p className="text-white/70 mb-4">Learn how our workshops help women build confidence and skills.</p>
-                  <div className="flex items-center text-lagori-200">
-                    <span className="text-sm">4:32</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Video Card 2 */}
-              <div className="bg-white/10 backdrop-blur-md rounded-xl overflow-hidden shadow-lg">
-                <div className="relative aspect-video group">
-                  <img 
-                    src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
-                    alt="Skill Development Program" 
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-16 h-16 flex items-center justify-center bg-lagori-600 rounded-full">
-                      <Play className="text-white ml-1" size={24} />
-                    </div>
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="font-playfair text-xl font-bold text-white mb-2">Skill Development Program</h3>
-                  <p className="text-white/70 mb-4">Watch how we train women in various skills to gain financial independence.</p>
-                  <div className="flex items-center text-lagori-200">
-                    <span className="text-sm">6:15</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Video Card 3 */}
-              <div className="bg-white/10 backdrop-blur-md rounded-xl overflow-hidden shadow-lg">
-                <div className="relative aspect-video group">
-                  <img 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2088&q=80" 
-                    alt="Success Stories" 
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-16 h-16 flex items-center justify-center bg-lagori-600 rounded-full">
-                      <Play className="text-white ml-1" size={24} />
-                    </div>
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="font-playfair text-xl font-bold text-white mb-2">Success Stories</h3>
-                  <p className="text-white/70 mb-4">Listen to the inspiring stories of women who transformed their lives.</p>
-                  <div className="flex items-center text-lagori-200">
-                    <span className="text-sm">8:47</span>
-                  </div>
-                </div>
-              </div>
+              <YouTubeVideo 
+                videoId="ZrNUXQCxeLw"
+                title="Women Empowerment Workshop"
+                description="Learn how our workshops help women build confidence and skills."
+                duration="4:32"
+              />
+              <YouTubeVideo 
+                videoId="3m49c2WxOlY"
+                title="Skill Development Program"
+                description="Watch how we train women in various skills to gain financial independence."
+                duration="6:15"
+              />
+              <YouTubeVideo 
+                videoId="iXu2F9GPrXY"
+                title="Success Stories"
+                description="Listen to the inspiring stories of women who transformed their lives."
+                duration="8:47"
+              />
             </div>
 
             <div className="text-center mt-12">
-              <Link to="#" className="btn-primary bg-white text-lagori-700 hover:bg-gray-100 inline-flex items-center">
+              <a 
+                href="https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn-primary bg-white text-lagori-700 hover:bg-gray-100 inline-flex items-center"
+              >
                 View All Videos <ArrowRight size={16} className="ml-2" />
-              </Link>
+              </a>
             </div>
           </div>
         </section>
@@ -298,6 +257,64 @@ const Index = () => {
                 description="Responding to natural disasters by providing immediate relief and long-term rehabilitation support."
               />
             </div>
+            
+            <div className="text-center mt-12">
+              <Link to="/about" className="btn-primary inline-flex items-center">
+                Learn More About Our Services <ArrowRight size={16} className="ml-2" />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Team Section - New Addition */}
+        <section className="section-container bg-section-pattern py-20">
+          <div className="container max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
+              <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
+                <Users size={16} className="inline mr-2" />
+                Our Team
+              </span>
+              <h2 className="section-title">Meet The People Behind Lagori Foundation</h2>
+              <p className="section-subtitle">
+                Our dedicated team works tirelessly to uplift women and create a positive impact in the community.
+              </p>
+            </div>
+
+            <div 
+              ref={teamRef} 
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 opacity-0"
+            >
+              <TeamCard 
+                image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                name="Sunanda Lagori"
+                role="Founder & President"
+                bio="With over 15 years of experience in social work, Sunanda has dedicated her life to empowering women in underserved communities."
+              />
+              <TeamCard 
+                image="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80"
+                name="Reema Patel"
+                role="Legal Advisor"
+                bio="A practicing lawyer with expertise in women's rights and family law, providing crucial legal support to women in need."
+              />
+              <TeamCard 
+                image="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                name="Priya Sharma"
+                role="Program Director"
+                bio="Coordinating various empowerment programs and ensuring effective implementation of all initiatives across communities."
+              />
+              <TeamCard 
+                image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
+                name="Anjali Deshmukh"
+                role="Community Outreach"
+                bio="Passionate about community work, Anjali leads outreach efforts to identify and assist women who need support."
+              />
+            </div>
+
+            <div className="text-center mt-12">
+              <Link to="/about" className="btn-primary inline-flex items-center">
+                Meet Our Whole Team <ArrowRight size={16} className="ml-2" />
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -341,7 +358,7 @@ const Index = () => {
                 <p className="text-gray-800 font-medium mb-8">
                   - Priya, Entrepreneur & Mentor
                 </p>
-                <Link to="#" className="btn-primary inline-flex items-center">
+                <Link to="/about" className="btn-primary inline-flex items-center">
                   More Stories <ArrowRight size={16} className="ml-2" />
                 </Link>
               </div>
