@@ -164,11 +164,11 @@ const Index = () => {
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-white/20 text-white font-medium mb-4">
-                Featured Videos
+                महत्वाचे व्हिडिओ
               </span>
-              <h2 className="section-title text-white">Our Impact in Action</h2>
+              <h2 className="section-title text-white">आमच्या कार्याचा प्रभाव अनुभवा</h2>
               <p className="section-subtitle text-white/80">
-                Watch these inspiring stories and see how Lagori Foundation is making a difference in women's lives.
+                महिलांना आत्मविश्वास आणि कौशल्ये मिळविण्यास मदत करणाऱ्या आमच्या कार्यशाळांबद्दल जाणून घ्या.
               </p>
             </div>
 
@@ -198,12 +198,12 @@ const Index = () => {
 
             <div className="text-center mt-12">
               <a 
-                href="https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A" 
+                href="https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A" // youtubechannel link will be here
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary bg-white text-lagori-700 hover:bg-gray-100 inline-flex items-center"
               >
-                View All Videos <ArrowRight size={16} className="ml-2" />
+                सर्व व्हिडिओ पहा <ArrowRight size={16} className="ml-2" />
               </a>
             </div>
           </div>
@@ -214,11 +214,11 @@ const Index = () => {
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                Key Services & Initiatives
+                मुख्य सेवा आणि उपक्रम
               </span>
-              <h2 className="section-title">How We Make a Difference</h2>
+              <h2 className="section-title">आम्ही बदल कसा घडवतो</h2>
               <p className="section-subtitle">
-                Our comprehensive programs address various aspects of women's empowerment, from legal assistance to skill development.
+                आमच्या सर्वसमावेशक कार्यक्रमांमध्ये महिला सशक्तीकरणाचे विविध पैलू समाविष्ट आहेत, ज्यामध्ये कायदेशीर मदत ते कौशल्य विकासापर्यंतची सेवा दिली जाते.
               </p>
             </div>
 
@@ -228,39 +228,39 @@ const Index = () => {
             >
               <ServiceCard 
                 icon={<Scale size={32} />}
-                title="Free Legal Assistance"
-                description="Providing legal counsel and support to women facing injustice, ensuring their rights are protected and voices heard."
+                title="मोफत कायदेशीर मदत"
+                description="अन्यायाला तोंड देणाऱ्या महिलांना कायदेशीर सल्ला व मदत प्रदान करणे."
               />
               <ServiceCard 
                 icon={<UserPlus size={32} />}
-                title="Self-Reliance Programs"
-                description="Building confidence and independence through workshops, mentorship, and emotional support systems."
+                title="स्वावलंबन कार्यक्रम"
+                description="कार्यशाळा, मार्गदर्शन आणि भावनिक आधाराद्वारे महिलांना आत्मनिर्भर बनवणे."
               />
               <ServiceCard 
                 icon={<GraduationCap size={32} />}
-                title="Skill Development"
-                description="Offering training in tailoring, cooking, two-wheeler driving, cake-making, and more to enhance employment opportunities."
+                title="कौशल्य विकास"
+                description="शिवणकाम, स्वयंपाक, दुचाकी चालवणे, केक बनवणे यासारख्या विविध कौशल्यांचे प्रशिक्षण."
               />
               <ServiceCard 
                 icon={<Briefcase size={32} />}
-                title="Business Support"
-                description="Providing sewing machines, financial aid, and mentorship for underprivileged women to start their own businesses."
+                title="व्यवसाय सहाय्य"
+                description="गरजू महिलांना शिलाई मशीन, आर्थिक मदत आणि मार्गदर्शन प्रदान करणे."
               />
               <ServiceCard 
                 icon={<HeartHandshake size={32} />}
-                title="Community Support"
-                description="Distributing food, clothes, and essentials to disabled children and elderly people in need."
+                title="समुदाय मदतकार्य"
+                description="दिव्यांग मुले आणि वृद्धांसाठी अन्न, कपडे व आवश्यक साहित्याचे वाटप."
               />
               <ServiceCard 
                 icon={<Droplet size={32} />}
-                title="Disaster Relief Work"
-                description="Responding to natural disasters by providing immediate relief and long-term rehabilitation support."
+                title="आपत्ती निवारण कार्य"
+                description="नैसर्गिक आपत्तीमध्ये तत्काळ मदत व दीर्घकालीन पुनर्वसन समर्थन."
               />
             </div>
             
             <div className="text-center mt-12">
               <Link to="/about" className="btn-primary inline-flex items-center">
-                Learn More About Our Services <ArrowRight size={16} className="ml-2" />
+                आमच्या सेवांबद्दल अधिक जाणून घ्या <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
           </div>
