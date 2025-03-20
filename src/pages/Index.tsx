@@ -75,13 +75,13 @@ const Index = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="text-white stagger-animate">
                 <span className="inline-block px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-lagori-200 font-medium mb-6">
-                  Women Empowerment NGO
+                  महिला सशक्तीकरण
                 </span>
                 <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  Empowering Women,<br />Transforming Lives
+                  महिलांना सक्षम बनवणे,<br /> जगण्याची नवी उमेद देणे
                 </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
-                  "The empowerment of women is not just the right thing to do, it's the smart thing to do. When women succeed, communities thrive."
+                  "महिला सशक्तीकरण हा केवळ योग्य मार्ग नाही, तर तो हुशारीचा मार्ग आहे. जेव्हा महिला यशस्वी होतात, तेव्हा संपूर्ण समाज समृद्ध होतो."
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a 
@@ -110,7 +110,7 @@ const Index = () => {
                     Mrs. शुभांगी साखरे
                   </h3>
                   <p className="text-gray-200 mb-4">
-                    Founder & President, Lagori Foundation
+                    संस्थापक आणि अध्यक्षा, लगोरी फाउंडेशन, कोल्हापूर
                   </p>
                   <Link to="/about" className="text-lagori-200 font-medium hover:text-white flex items-center">
                     Read her story <ArrowRight size={16} className="ml-2" />
@@ -130,7 +130,7 @@ const Index = () => {
               </span>
               <h2 className="section-title">Your Support, A Helping Hand</h2>
               <p className="section-subtitle">
-                For over four years, Lagori Foundation has been dedicated to empowering women through education, support, and community building.
+                गेल्या सात वर्षांपासून, लागोरी फाउंडेशन महिलांना शिक्षण, मदत, आणि समुदाय उभारणीद्वारे सक्षम करण्यासाठी कार्यरत आहे.
               </p>
             </div>
 
