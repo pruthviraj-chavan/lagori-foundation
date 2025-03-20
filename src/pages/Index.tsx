@@ -107,7 +107,7 @@ const Index = () => {
                     className="w-full h-auto rounded-xl mb-4"
                   />
                   <h3 className="font-playfair text-2xl font-bold text-white mb-2">
-                    Mrs. Sunanda Lagori
+                    Mrs. शुभांगी साखरे
                   </h3>
                   <p className="text-gray-200 mb-4">
                     Founder & President, Lagori Foundation
