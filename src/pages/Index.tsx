@@ -113,7 +113,7 @@ const Index = () => {
                     संस्थापक आणि अध्यक्षा, लगोरी फाउंडेशन, कोल्हापूर
                   </p>
                   <Link to="/about" className="text-lagori-200 font-medium hover:text-white flex items-center">
-                    Read her story <ArrowRight size={16} className="ml-2" />
+                    'ती' चा प्रवास <ArrowRight size={16} className="ml-2" />
                   </Link>
                 </div>
               </div>
@@ -126,9 +126,9 @@ const Index = () => {
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                About Lagori Foundation
+                लगोरी फाउंडेशन बद्दल
               </span>
-              <h2 className="section-title">Your Support, A Helping Hand</h2>
+              <h2 className="section-title">तुमची साथ, एक मदतीचा हात</h2>
               <p className="section-subtitle">
                 गेल्या सात वर्षांपासून, लागोरी फाउंडेशन महिलांना शिक्षण, मदत, आणि समुदाय उभारणीद्वारे सक्षम करण्यासाठी कार्यरत आहे.
               </p>
@@ -141,19 +141,19 @@ const Index = () => {
             >
               <div className="text-center p-6 bg-pink-gradient text-white rounded-2xl shadow-md">
                 <div className="font-bold text-4xl mb-2">500+</div>
-                <p>Active Members</p>
+                <p>सक्रिय सदस्य</p>
               </div>
               <div className="text-center p-6 bg-purple-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">4</div>
-                <p>Years of Service</p>
+                <div className="font-bold text-4xl mb-2">7</div>
+                <p>वर्षांची अविरत सेवा</p>
               </div>
               <div className="text-center p-6 bg-orange-gradient text-white rounded-2xl shadow-md">
                 <div className="font-bold text-4xl mb-2">10,000+</div>
-                <p>Women Helped</p>
+                <p>महिलांना मदत</p>
               </div>
               <div className="text-center p-6 bg-green-gradient text-white rounded-2xl shadow-md">
                 <div className="font-bold text-4xl mb-2">10-15</div>
-                <p>Marriages Restored</p>
+                <p>वैवाहिक जीवन पूर्ववत</p>
               </div>
             </div>
           </div>
