@@ -272,9 +272,9 @@ const Index = () => {
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
                 <Users size={16} className="inline mr-2" />
-                Our Team
+                आमची कार्यकारिणी
               </span>
-              <h2 className="section-title">Meet The People Behind Lagori Foundation</h2>
+              <h2 className="section-title">लगोरी फाउंडेशनसाठी कार्य करणारी समर्पित कार्यकारिणी</h2>
               <p className="section-subtitle">
                 Our dedicated team works tirelessly to uplift women and create a positive impact in the community.
               </p>
@@ -286,15 +286,15 @@ const Index = () => {
             >
               <TeamCard 
                 image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-                name="Sunanda Lagori"
-                role="Founder & President"
-                bio="With over 15 years of experience in social work, Sunanda has dedicated her life to empowering women in underserved communities."
+                name="शुभांगी साखरे"
+                role="संस्थापक आणि अध्यक्षा"
+                bio=" १५+ वर्षांचा सामाजिक कार्याचा अनुभव, शुभांगीने आपल्या जीवनाचा काही भाग मागासलेल्या समुदायांतील महिलांना सक्षम करण्यासाठी समर्पित केला आहे."
               />
               <TeamCard 
                 image="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80"
-                name="Reema Patel"
-                role="Legal Advisor"
-                bio="A practicing lawyer with expertise in women's rights and family law, providing crucial legal support to women in need."
+                name="ऐश्वर्या झांजगे"
+                role="उपाध्यक्षा"
+                bio="सामाजिक क्षेत्रातील युवा नेतृत्व आणि परिवर्तनाची परंपरा पुढे नेणारी सशक्त नारी"
               />
               <TeamCard 
                 image="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
@@ -312,7 +312,7 @@ const Index = () => {
 
             <div className="text-center mt-12">
               <Link to="/about" className="btn-primary inline-flex items-center">
-                Meet Our Whole Team <ArrowRight size={16} className="ml-2" />
+                 संपूर्ण कार्यकारिणी बघा <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
           </div>
