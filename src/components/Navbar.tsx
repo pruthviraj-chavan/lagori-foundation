@@ -93,44 +93,48 @@ const Navbar = () => {
         </button>
       </nav>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Navigation - Improved with white background */}
       <div 
         className={`md:hidden fixed inset-0 z-40 bg-white transform ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
-        } transition-transform duration-300 ease-in-out pt-20`}
+        } transition-transform duration-200 ease-in-out pt-20 shadow-lg`}
+        style={{ 
+          willChange: 'transform',
+          overflowY: 'auto'
+        }}
       >
-        <div className="flex flex-col px-4 py-6 space-y-6">
+        <div className="flex flex-col px-4 py-6 space-y-5">
           <Link 
             to="/" 
-            className={`text-xl ${isActive('/') ? 'text-lagori-600 font-medium' : 'text-gray-800'}`} 
+            className={`text-xl font-medium ${isActive('/') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
             onClick={closeMenu}
           >
             Home
           </Link>
           <Link 
             to="/about" 
-            className={`text-xl ${isActive('/about') ? 'text-lagori-600 font-medium' : 'text-gray-800'}`} 
+            className={`text-xl font-medium ${isActive('/about') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
             onClick={closeMenu}
           >
             About Us
           </Link>
           <Link 
             to="/activities" 
-            className={`text-xl ${isActive('/activities') ? 'text-lagori-600 font-medium' : 'text-gray-800'}`} 
+            className={`text-xl font-medium ${isActive('/activities') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
             onClick={closeMenu}
           >
             Activities
           </Link>
           <Link 
             to="/awards" 
-            className={`text-xl ${isActive('/awards') ? 'text-lagori-600 font-medium' : 'text-gray-800'}`} 
+            className={`text-xl font-medium ${isActive('/awards') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
             onClick={closeMenu}
           >
             Awards
           </Link>
           <Link 
             to="/contact" 
-            className={`text-xl ${isActive('/contact') ? 'text-lagori-600 font-medium' : 'text-gray-800'}`} 
+            className={`text-xl font-medium ${isActive('/contact') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
             onClick={closeMenu}
           >
             Contact
@@ -139,7 +143,7 @@ const Navbar = () => {
             href="https://donate.stripe.com/test" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="btn-primary text-center" 
+            className="btn-primary text-center mt-4" 
             onClick={closeMenu}
           >
             Donate Now
