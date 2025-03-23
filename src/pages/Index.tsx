@@ -189,16 +189,16 @@ const Index = () => {
                 duration="10:36"
               />
               <YouTubeVideo 
-                videoId="iXu2F9GPrXY"
-                title="Success Stories"
-                description="Listen to the inspiring stories of women who transformed their lives."
-                duration="8:47"
+                videoId="hLnTLVjb91Q"
+                title="लगोरी फाउंडेशनची यशोगाथा"
+                description="लगोरी फाउंडेशनमुळे मला माझे जीवन पुन्हा उभारण्याची ताकद मिळाली..."
+                duration="20:00"
               />
             </div>
 
             <div className="text-center mt-12">
               <a 
-                href="https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A" // youtubechannel link will be here
+                href="https://www.youtube.com/@shubhangisakhare4679/featured" // youtubechannel link will be here
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary bg-white text-lagori-700 hover:bg-gray-100 inline-flex items-center"
@@ -427,7 +427,7 @@ const Index = () => {
                 rel="noopener noreferrer" 
                 className="btn-primary bg-white text-lagori-700 hover:bg-gray-100"
               >
-                बदल घडवण्यासाठी
+                देणगी द्या
               </a>
               <Link to="/contact" className="btn-secondary text-white border-white hover:bg-white/10">
                 सहभागी व्हा ...
