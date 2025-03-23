@@ -63,7 +63,7 @@ const Index = () => {
         <section className="relative pt-20 pb-16 flex items-center bg-gradient-to-r from-lagori-900/90 to-lagori-700/80">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://drive.google.com/uc?id=1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK" 
+              src="https://drive.google.com/file/d/1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK/view?usp=drive_link" 
               alt="Women Empowerment" 
               className="w-full h-full object-cover"
             />
@@ -102,7 +102,7 @@ const Index = () => {
                 <div className="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-lagori-300/30 backdrop-blur-xl animate-float"></div>
                 <div className="glass-card p-6 animate-fade-in">
                   <img 
-                    src="https://drive.google.com/uc?id=1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK" 
+                    src="https://drive.google.com/file/d/1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK/view?usp=drive_link" 
                     alt="Mrs. Sunanda Lagori" 
                     className="w-full h-auto rounded-xl mb-4"
                   />
@@ -183,7 +183,7 @@ const Index = () => {
                 duration="13:54"
               />
               <YouTubeVideo 
-                videoId="3m49c2WxOlY"
+                videoId="94_kR46zHvk"
                 title="स्वाभिमानी गृहउद्योग"
                 description="ज्या महिलांनी नावे ठेवली त्यांच्यासाठीच सुरु केला महिला गृहउद्योग"
                 duration="10:36"
