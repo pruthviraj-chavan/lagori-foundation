@@ -63,7 +63,7 @@ const Index = () => {
         <section className="relative pt-20 pb-16 flex items-center bg-gradient-to-r from-lagori-900/90 to-lagori-700/80">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
+              src="https://drive.google.com/file/d/1pT4uX35yA858AiiQ4bfUVzv-5muo-Tl3/view?usp=sharing&auto=format&fit=crop&w=1976&q=80" 
               alt="Women Empowerment" 
               className="w-full h-full object-cover"
             />
