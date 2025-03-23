@@ -25,36 +25,37 @@ const About = () => {
                   <div className="absolute -top-6 -left-6 w-24 h-24 bg-lagori-200 rounded-full opacity-60"></div>
                   <img 
                     src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
-                    alt="Mrs. Sunanda Rajesh Lagori" 
+                    alt="सौ. शुभांगी साखरे" 
                     className="rounded-2xl w-full h-auto relative z-10 shadow-xl"
                   />
                 </div>
               </div>
               <div className="stagger-animate">
                 <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                  About the Founder
+                  संस्थापकाबद्दल
                 </span>
                 <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                  Mrs. Sunanda Rajesh Lagori
+                  सौ. शुभांगी साखरे
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Mrs. Sunanda Rajesh Lagori, a passionate advocate for women's rights, founded the Lagori Foundation in 2019. With a background in social work and a deep understanding of the challenges faced by women in society, she has dedicated her life to creating meaningful change.
-                </p>
+                  सौ. शुभांगी साखरे, महिला हक्कांसाठी लढणाऱ्या एक ध्येयवेड्या कार्यकर्त्या, यांनी २०१९ मध्ये लगोरी फाउंडेशनची स्थापना केली. सामाजिक कार्याचा भक्कम अनुभव आणि समाजातील महिलांसमोर उभ्या राहणाऱ्या आव्हानांची सखोल जाण यांच्या जोरावर, त्यांनी महिलांच्या जीवनात सकारात्मक बदल घडवण्यासाठी आपले संपूर्ण जीवन समर्पित केले आहे.                </p>
                 <p className="text-gray-600 mb-6">
-                  Under her leadership, the foundation has grown from a small community initiative to a recognized NGO that has positively impacted the lives of over 10,000 women through various programs and services.
+                  त्यांच्या सुदृढ नेतृत्वाखाली, लगोरी फाउंडेशनने एका लहानशा उपक्रमातून एक सुप्रसिद्ध स्वयंसेवी संस्थेपर्यंतचा यशस्वी प्रवास केला आहे. आजपर्यंत १०,००० हून अधिक महिलांच्या जीवनावर सकारात्मक प्रभाव टाकणारे अनेक कार्यक्रम आणि सेवा फाउंडेशनच्या माध्यमातून राबवले गेले आहेत.
+
+त्यांचे दृष्टीकोन, समर्पण आणि अथक परिश्रम यांमुळे अनेक महिलांना नवा आत्मविश्वास, स्वावलंबन आणि न्याय मिळण्याचा मार्ग खुला झाला आहे.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Heart className="text-lagori-600 mr-3" size={20} />
-                    <span className="text-gray-700">Founder & President, Lagori Foundation</span>
+                    <span className="text-gray-700">संस्थापक आणि अध्यक्षा, लगोरी फाउंडेशन, कोल्हापूर</span>
                   </div>
                   <div className="flex items-center">
                     <Award className="text-lagori-600 mr-3" size={20} />
-                    <span className="text-gray-700">Recipient of numerous awards for social service</span>
+                    <span className="text-gray-700">सामाजिक सेवेसाठी अनेक पुरस्कारांची प्राप्ती</span>
                   </div>
                   <div className="flex items-center">
                     <Clock className="text-lagori-600 mr-3" size={20} />
-                    <span className="text-gray-700">Four years of dedicated service to women's empowerment</span>
+                    <span className="text-gray-700">महिलांच्या सशक्तीकरणासाठी ११ वर्षे समर्पित सेवा</span>
                   </div>
                 </div>
               </div>
@@ -67,24 +68,24 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                Our Mission & Vision
+                आमची ध्येय आणि दृष्टिकोन
               </span>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                What Drives Us Forward
+                आम्हाला पुढे नेणारे प्रेरक शक्ती
               </h2>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="font-playfair text-2xl font-bold mb-4 text-gray-800">Our Mission</h3>
+                <h3 className="font-playfair text-2xl font-bold mb-4 text-gray-800">आमचे ध्येय</h3>
                 <p className="text-gray-600">
-                  To empower women through education, support, and community building, enabling them to achieve financial independence, social equality, and personal fulfillment.
+                  महिलांना शिक्षण, मदत, आणि समुदाय उभारणीद्वारे सक्षम करणे, ज्यामुळे त्यांना आर्थिक स्वावलंबन, सामाजिक समानता, आणि व्यक्तिगत समाधान मिळवता येईल.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="font-playfair text-2xl font-bold mb-4 text-gray-800">Our Vision</h3>
+                <h3 className="font-playfair text-2xl font-bold mb-4 text-gray-800">आमची दृष्टिकोन</h3>
                 <p className="text-gray-600">
-                  A world where every woman has equal opportunities, is free from discrimination and violence, and can fulfill her potential as a valued member of society.
+                  एक अशी दुनिया जिथे प्रत्येक महिलेला समान संधी उपलब्ध असतील, ती भेदभाव आणि हिंसापासून मुक्त असेल, आणि ती समाजातील एक मूल्यवान सदस्य म्हणून आपली क्षमता पूर्ण करू शकेल.
                 </p>
               </div>
             </div>
@@ -96,38 +97,38 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                Our Core Values
+                आमची मुख्य मूल्ये
               </span>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                Principles That Guide Us
+                आम्हाला मार्गदर्शन करणारे तत्त्वे
               </h2>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Empathy & Compassion",
-                  description: "We approach every situation with understanding and care, recognizing the unique challenges faced by each woman."
+                  title: "सहानुभूती आणि करुणा",
+                  description: "आम्ही प्रत्येक परिस्थितीला समजून घेऊन आणि काळजीपूर्वक हाताळतो, प्रत्येक महिलेसमोरील अद्वितीय आव्हाने ओळखतो."
                 },
                 {
-                  title: "Integrity & Transparency",
-                  description: "We operate with honesty and openness, ensuring accountability in all our actions and decisions."
+                  title: "सचोटी आणि पारदर्शकता",
+                  description: "आम्ही प्रामाणिकपणा आणि मोकळेपणाने काम करतो, आमच्या सर्व कृती आणि निर्णयांमध्ये जबाबदारी सुनिश्चित करतो."
                 },
                 {
-                  title: "Inclusivity & Respect",
-                  description: "We value diversity and treat everyone with dignity, regardless of their background or circumstances."
+                  title: "समावेशकता आणि आदर",
+                  description: "आम्ही विविधतेला महत्त्व देतो आणि प्रत्येकाशी त्यांची पार्श्वभूमी किंवा परिस्थिती काहीही असो, सन्मानाने वागतो."
                 },
                 {
-                  title: "Innovation & Adaptability",
-                  description: "We continuously seek new and effective ways to address the evolving needs of the women we serve."
+                  title: "नाविन्य आणि अनुकूलता",
+                  description: "आम्ही ज्या महिलांची सेवा करतो त्यांच्या वाढत्या गरजा पूर्ण करण्यासाठी आम्ही सतत नवीन आणि प्रभावी मार्ग शोधत असतो."
                 },
                 {
-                  title: "Collaboration & Partnership",
-                  description: "We believe in the power of working together with communities, organizations, and individuals to create lasting change."
+                  title: "सहयोग आणि भागीदारी",
+                  description: "कायमस्वरूपी बदल घडवून आणण्यासाठी समुदाय, संस्था आणि व्यक्तींसोबत एकत्र काम करण्याच्या शक्तीवर आमचा विश्वास आहे."
                 },
                 {
-                  title: "Empowerment & Independence",
-                  description: "We focus on building capabilities and confidence, enabling women to take control of their own futures."
+                  title: "सबलीकरण आणि स्वातंत्र्य",
+                  description: "आम्ही क्षमता आणि आत्मविश्वास निर्माण करण्यावर लक्ष केंद्रित करतो, ज्यामुळे महिलांना त्यांच्या भविष्याचे नियंत्रण स्वतःकडे घेता येते."
                 }
               ].map((value, index) => (
                 <div key={index} className="bg-white p-8 rounded-2xl shadow-md hover-lift">
@@ -144,7 +145,7 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                Our Journey
+                आमचा प्रवास
               </span>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
                 Four Years of Growth & Impact
@@ -178,6 +179,11 @@ const About = () => {
                     year: "2022",
                     title: "Community Growth",
                     description: "Membership grew to over 500 active participants, with programs reaching more than 5,000 women."
+                  },
+                  {
+                    year: "2023",
+                    title: "National Recognition",
+                    description: "Received multiple awards for outstanding contribution to women's empowerment and community service."
                   },
                   {
                     year: "2023",
