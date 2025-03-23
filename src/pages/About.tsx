@@ -71,7 +71,7 @@ const About = () => {
                 आमची ध्येय आणि दृष्टिकोन
               </span>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                आम्हाला पुढे नेणारे प्रेरक शक्ती
+                आम्हाला पुढे नेणाररी प्रेरक शक्ती
               </h2>
             </div>
             
@@ -100,7 +100,7 @@ const About = () => {
                 आमची मुख्य मूल्ये
               </span>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                आम्हाला मार्गदर्शन करणारे तत्त्वे
+                आम्हाला मार्गदर्शन करणारी तत्त्वे
               </h2>
             </div>
             
@@ -148,7 +148,7 @@ const About = () => {
                 आमचा प्रवास
               </span>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                Four Years of Growth & Impact
+                सात वर्षांची वाढ आणि प्रभाव
               </h2>
             </div>
             
@@ -158,37 +158,36 @@ const About = () => {
               <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-lagori-300"></div>
               
               {/* Timeline Items */}
-              <div className="space-y-12">
-                {[
+              <div className="space-y-12">{[
                   {
                     year: "2019",
-                    title: "Foundation Established",
-                    description: "Mrs. Sunanda Lagori established the Lagori Foundation with a small team of dedicated volunteers."
+                    title: "संस्थेची स्थापना",
+                    description: "सौ. शुभांगी साखरे यांनी समर्पित स्वयंसेवकांच्या लहान टीमसह लागोरी फाउंडेशनची स्थापना केली."
                   },
                   {
                     year: "2020",
-                    title: "First Major Initiative",
-                    description: "Launched the first legal assistance program, helping over 100 women with legal counsel and support."
+                    title: "पहिला मोठा उपक्रम",
+                    description: "कायदेशीर मदत कार्यक्रमाची सुरुवात केली, ज्यामुळे १०० हून अधिक महिलांना कायदेशीर सल्ला व मदत मिळाली."
                   },
                   {
                     year: "2021",
-                    title: "Expanding Services",
-                    description: "Added vocational training programs in tailoring, cooking, and other skills to help women become financially independent."
+                    title: "सेवांचा विस्तार",
+                    description: "महिलांना आर्थिक स्वावलंबी बनवण्यासाठी शिवणकाम, स्वयंपाक आणि इतर कौशल्य प्रशिक्षण कार्यक्रम सुरू करण्यात आले."
                   },
                   {
                     year: "2022",
-                    title: "Community Growth",
-                    description: "Membership grew to over 500 active participants, with programs reaching more than 5,000 women."
+                    title: "समुदायाचा विस्तार",
+                    description: "सक्रिय सदस्यांची संख्या ५०० हून अधिक झाली आणि कार्यक्रमांमुळे ५,००० हून अधिक महिलांना लाभ मिळाला."
                   },
                   {
                     year: "2023",
-                    title: "National Recognition",
-                    description: "Received multiple awards for outstanding contribution to women's empowerment and community service."
+                    title: "राष्ट्रीय मान्यता",
+                    description: "महिलांच्या सशक्तीकरण आणि समाजसेवेतील उल्लेखनीय योगदानासाठी अनेक पुरस्कार प्राप्त झाले"
                   },
                   {
-                    year: "2023",
-                    title: "National Recognition",
-                    description: "Received multiple awards for outstanding contribution to women's empowerment and community service."
+                    year: "2025",
+                    title: "सातत्यपूर्ण वाढ",
+                    description: "महिला सशक्तीकरणाच्या कार्यात सातत्यपूर्ण वाढ सुरू आहे, ज्यामध्ये दरवर्षी अधिक महिला सामील होत आहेत आणि कार्यक्रमांचा प्रभाव वाढत आहे."
                   }
                 ].map((item, index) => (
                   <div key={index} className="relative flex items-center">
