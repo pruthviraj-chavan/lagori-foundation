@@ -63,7 +63,7 @@ const Index = () => {
         <section className="relative pt-20 pb-16 flex items-center bg-gradient-to-r from-lagori-900/90 to-lagori-700/80">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://drive.google.com/file/d/1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK/view?usp=drive_link" 
+              src="https://drive.google.com/uc?export=view&id=1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK" 
               alt="Women Empowerment" 
               className="w-full h-full object-cover"
             />
@@ -102,8 +102,8 @@ const Index = () => {
                 <div className="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-lagori-300/30 backdrop-blur-xl animate-float"></div>
                 <div className="glass-card p-6 animate-fade-in">
                   <img 
-                    src="https://drive.google.com/file/d/1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK/view?usp=drive_link" 
-                    alt="Mrs. Sunanda Lagori" 
+                    src="https://drive.google.com/uc?export=view&id=1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK" 
+                    alt="Mrs. Shubhangi Sakhare" 
                     className="w-full h-auto rounded-xl mb-4"
                   />
                   <h3 className="font-playfair text-2xl font-bold text-white mb-2">
@@ -276,7 +276,7 @@ const Index = () => {
               </span>
               <h2 className="section-title">लगोरी फाउंडेशनसाठी कार्य करणारी समर्पित कार्यकारिणी</h2>
               <p className="section-subtitle">
-                Our dedicated team works tirelessly to uplift women and create a positive impact in the community.
+                आमची समर्पित टीम महिलांना उन्नत करण्यासाठी आणि समाजात सकारात्मक प्रभाव निर्माण करण्यासाठी अथक परिश्रम करते.
               </p>
             </div>
 
@@ -288,7 +288,7 @@ const Index = () => {
                 image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                 name="शुभांगी साखरे"
                 role="संस्थापक आणि अध्यक्षा"
-                bio=" १५+ वर्षांचा सामाजिक कार्याचा अनुभव, शुभांगीने आपल्या जीवनाचा काही भाग मागासलेल्या समुदायांतील महिलांना सक्षम करण्यासाठी समर्पित केला आहे."
+                bio=" १०+ वर्षांचा सामाजिक कार्याचा अनुभव, शुभांगीने आपल्या जीवनाचा काही भाग मागासलेल्या समुदायांतील महिलांना सक्षम करण्यासाठी समर्पित केला आहे."
               />
               <TeamCard 
                 image="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80"
