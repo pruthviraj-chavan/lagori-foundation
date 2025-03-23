@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -11,6 +10,7 @@ import {
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false); // State to control mobile menu
   const location = useLocation();
   const isMobile = useIsMobile();
 
@@ -29,6 +29,11 @@ const Navbar = () => {
   }, [scrolled]);
 
   const isActive = (path: string) => location.pathname === path;
+
+  // Function to close menu when a link is clicked
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <header 
@@ -89,11 +94,12 @@ const Navbar = () => {
 
         {/* Mobile Menu Button - Using Sheet from shadcn/ui */}
         {isMobile && (
-          <Sheet>
+          <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger asChild>
               <button
                 className="md:hidden p-2 rounded-md text-white hover:bg-lagori-100/20 transition-colors"
                 aria-label="Toggle menu"
+                onClick={() => setMenuOpen(true)}
               >
                 <Menu size={24} />
               </button>
@@ -103,30 +109,35 @@ const Navbar = () => {
                 <Link 
                   to="/" 
                   className={`text-xl font-medium ${isActive('/') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`}
+                  onClick={handleLinkClick}
                 >
                   Home
                 </Link>
                 <Link 
                   to="/about" 
                   className={`text-xl font-medium ${isActive('/about') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`}
+                  onClick={handleLinkClick}
                 >
                   About Us
                 </Link>
                 <Link 
                   to="/activities" 
                   className={`text-xl font-medium ${isActive('/activities') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
+                  onClick={handleLinkClick}
                 >
                   Activities
                 </Link>
                 <Link 
                   to="/awards" 
                   className={`text-xl font-medium ${isActive('/awards') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
+                  onClick={handleLinkClick}
                 >
                   Awards
                 </Link>
                 <Link 
                   to="/contact" 
                   className={`text-xl font-medium ${isActive('/contact') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
+                  onClick={handleLinkClick}
                 >
                   Contact
                 </Link>
@@ -135,6 +146,7 @@ const Navbar = () => {
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-primary text-center mt-4"
+                  onClick={handleLinkClick}
                 >
                   Donate Now
                 </a>
