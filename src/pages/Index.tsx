@@ -177,10 +177,10 @@ const Index = () => {
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 opacity-0"
             >
               <YouTubeVideo 
-                videoId="ZrNUXQCxeLw"
-                title="Women Empowerment Workshop"
-                description="Learn how our workshops help women build confidence and skills."
-                duration="4:32"
+                videoId="FSqslPRDl0s"
+                title="महिला दिन विशेष"
+                description="ती आणि तिचे विश्व उलगडण्याचा एक प्रयत्न !"
+                duration="13:54"
               />
               <YouTubeVideo 
                 videoId="3m49c2WxOlY"
