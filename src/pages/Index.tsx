@@ -140,7 +140,7 @@ const Index = () => {
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 opacity-0"
             >
               <div className="text-center p-6 bg-pink-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">500+</div>
+                <div className="font-bold text-4xl mb-2">700+</div>
                 <p>सक्रिय सदस्य</p>
               </div>
               <div className="text-center p-6 bg-purple-gradient text-white rounded-2xl shadow-md">
@@ -184,9 +184,9 @@ const Index = () => {
               />
               <YouTubeVideo 
                 videoId="3m49c2WxOlY"
-                title="Skill Development Program"
-                description="Watch how we train women in various skills to gain financial independence."
-                duration="6:15"
+                title="स्वाभिमानी गृहउद्योग"
+                description="ज्या महिलांनी नावे ठेवली त्यांच्यासाठीच सुरु केला महिला गृहउद्योग"
+                duration="10:36"
               />
               <YouTubeVideo 
                 videoId="iXu2F9GPrXY"
@@ -405,7 +405,7 @@ const Index = () => {
 
             <div className="text-center mt-12">
               <Link to="/activities" className="btn-primary inline-flex items-center">
-                View All Activities <ArrowRight size={16} className="ml-2" />
+                सर्व उपक्रम पाहा <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
           </div>
@@ -415,10 +415,10 @@ const Index = () => {
         <section className="py-20 bg-pink-gradient text-white">
           <div className="container max-w-5xl mx-auto px-4 sm:px-6 text-center">
             <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 animate-fade-in">
-              Join Us in Making a Difference
+              आमच्यासोबत बदला घडवा!
             </h2>
             <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto animate-fade-in animate-delay-100">
-              Your support can help transform the lives of countless women. Together, we can create a more equitable and empowered future.
+              तुमच्या पाठिंब्याने आपण हजारो महिलांचे जीवन बदलू शकतो. चला, एकत्र येऊन समताधिष्ठित आणि सक्षम भविष्य घडवूया...
             </p>
             <div className="flex flex-wrap justify-center gap-4 animate-fade-in animate-delay-200">
               <a 
@@ -427,10 +427,10 @@ const Index = () => {
                 rel="noopener noreferrer" 
                 className="btn-primary bg-white text-lagori-700 hover:bg-gray-100"
               >
-                Donate Now
+                बदल घडवण्यासाठी
               </a>
               <Link to="/contact" className="btn-secondary text-white border-white hover:bg-white/10">
-                Get Involved
+                सहभागी व्हा ...
               </Link>
             </div>
           </div>
