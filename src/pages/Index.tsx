@@ -102,7 +102,7 @@ const Index = () => {
                 <div className="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-lagori-300/30 backdrop-blur-xl animate-float"></div>
                 <div className="glass-card p-6 animate-fade-in">
                   <img 
-                    src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
+                    src="https://drive.google.com/file/d/1pT4uX35yA858AiiQ4bfUVzv-5muo-Tl3/view?usp=sharing&auto=format&fit=crop&w=1976&q=80" 
                     alt="Mrs. Sunanda Lagori" 
                     className="w-full h-auto rounded-xl mb-4"
                   />
