@@ -347,7 +347,7 @@ const Index = () => {
               </div>
               <div className="stagger-animate bg-white/60 backdrop-blur-md p-8 rounded-2xl shadow-lg">
                 <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                  Success Story
+                  यशोगाथा
                 </span>
                 <h3 className="font-playfair text-3xl font-bold mb-6 text-gray-800">
                   "Lagori Foundation gave me the strength to rebuild my life"
@@ -373,9 +373,9 @@ const Index = () => {
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
                 Latest Activities
               </span>
-              <h2 className="section-title">Recent Events & Initiatives</h2>
+              <h2 className="section-title">अलीकडील उपक्रम आणि घडामोडी</h2>
               <p className="section-subtitle">
-                Explore our recent activities, workshops, and community events making a difference.
+                आमच्या अलीकडील उपक्रम, कार्यशाळा आणि समाजसेवा कार्यक्रमांविषयी जाणून घ्या, जे समाजात सकारात्मक बदल घडवत आहेत.
               </p>
             </div>
 
