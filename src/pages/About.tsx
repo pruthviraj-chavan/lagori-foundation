@@ -10,8 +10,8 @@ const About = () => {
           <div className="absolute inset-0 mix-blend-overlay opacity-20 bg-[url('https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')]"></div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center text-white">
-              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">About Lagori Foundation</h1>
-              <p className="text-lg md:text-xl max-w-3xl mx-auto">Dedicated to empowering women through support, education, and community.</p>
+              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">लगोरी फाउंडेशन बद्दल</h1>
+              <p className="text-lg md:text-xl max-w-3xl mx-auto">समर्थन, शिक्षण आणि समुदायाद्वारे महिलांना सक्षम करण्यासाठी समर्पित.</p>
             </div>
           </div>
         </section>
@@ -257,26 +257,26 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                Our Team
+                आमची कार्यकारिणी
               </span>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                Dedicated to Making a Difference
+                परिवर्तन घडवण्यास समर्पित
               </h2>
               <p className="text-gray-600">
-                Meet the passionate individuals who work tirelessly to bring positive change in the lives of women.
+                त्या उत्साही व्यक्तींना भेटा, जे महिलांच्या जीवनात सकारात्मक बदल घडवण्यासाठी अथक परिश्रम करत आहेत
               </p>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 {
-                  name: "Sunanda Lagori",
-                  position: "Founder & President",
+                  name: "शुभांगी साखरे",
+                  position: "संस्थापक आणि अध्यक्षा",
                   image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
                 },
                 {
-                  name: "Anjali Sharma",
-                  position: "Program Director",
+                  name: "ऐश्वर्या झांजगे",
+                  position: "उपाध्यक्ष",
                   image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                 },
                 {
