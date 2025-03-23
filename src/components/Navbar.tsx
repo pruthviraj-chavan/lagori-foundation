@@ -2,11 +2,17 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { 
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,8 +28,6 @@ const Navbar = () => {
     };
   }, [scrolled]);
 
-  const closeMenu = () => setIsOpen(false);
-
   const isActive = (path: string) => location.pathname === path;
 
   return (
@@ -35,7 +39,7 @@ const Navbar = () => {
       }`}
     >
       <nav className="container max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center">
-        <Link to="/" className="flex items-center" onClick={closeMenu}>
+        <Link to="/" className="flex items-center">
           <span className="font-playfair text-2xl font-bold text-white">
             Lagori <span className="text-white">Foundation</span>
           </span>
@@ -83,73 +87,62 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden p-2 rounded-md text-white hover:bg-lagori-100/20 transition-colors"
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle menu"
-        >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        {/* Mobile Menu Button - Using Sheet from shadcn/ui */}
+        {isMobile && (
+          <Sheet>
+            <SheetTrigger asChild>
+              <button
+                className="md:hidden p-2 rounded-md text-white hover:bg-lagori-100/20 transition-colors"
+                aria-label="Toggle menu"
+              >
+                <Menu size={24} />
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[85%] bg-white p-0 pt-12">
+              <div className="flex flex-col px-6 py-6 space-y-6">
+                <Link 
+                  to="/" 
+                  className={`text-xl font-medium ${isActive('/') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`}
+                >
+                  Home
+                </Link>
+                <Link 
+                  to="/about" 
+                  className={`text-xl font-medium ${isActive('/about') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`}
+                >
+                  About Us
+                </Link>
+                <Link 
+                  to="/activities" 
+                  className={`text-xl font-medium ${isActive('/activities') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
+                >
+                  Activities
+                </Link>
+                <Link 
+                  to="/awards" 
+                  className={`text-xl font-medium ${isActive('/awards') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
+                >
+                  Awards
+                </Link>
+                <Link 
+                  to="/contact" 
+                  className={`text-xl font-medium ${isActive('/contact') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
+                >
+                  Contact
+                </Link>
+                <a 
+                  href="https://donate.stripe.com/test" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn-primary text-center mt-4"
+                >
+                  Donate Now
+                </a>
+              </div>
+            </SheetContent>
+          </Sheet>
+        )}
       </nav>
-
-      {/* Mobile Navigation - Improved with white background */}
-      <div 
-        className={`md:hidden fixed inset-0 z-40 bg-white transform ${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        } transition-transform duration-200 ease-in-out pt-20 shadow-lg`}
-        style={{ 
-          willChange: 'transform',
-          overflowY: 'auto'
-        }}
-      >
-        <div className="flex flex-col px-4 py-6 space-y-5">
-          <Link 
-            to="/" 
-            className={`text-xl font-medium ${isActive('/') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
-            onClick={closeMenu}
-          >
-            Home
-          </Link>
-          <Link 
-            to="/about" 
-            className={`text-xl font-medium ${isActive('/about') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
-            onClick={closeMenu}
-          >
-            About Us
-          </Link>
-          <Link 
-            to="/activities" 
-            className={`text-xl font-medium ${isActive('/activities') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
-            onClick={closeMenu}
-          >
-            Activities
-          </Link>
-          <Link 
-            to="/awards" 
-            className={`text-xl font-medium ${isActive('/awards') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
-            onClick={closeMenu}
-          >
-            Awards
-          </Link>
-          <Link 
-            to="/contact" 
-            className={`text-xl font-medium ${isActive('/contact') ? 'text-lagori-600' : 'text-gray-800'} hover:text-lagori-500 transition-colors`} 
-            onClick={closeMenu}
-          >
-            Contact
-          </Link>
-          <a 
-            href="https://donate.stripe.com/test" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="btn-primary text-center mt-4" 
-            onClick={closeMenu}
-          >
-            Donate Now
-          </a>
-        </div>
-      </div>
     </header>
   );
 };
