@@ -276,7 +276,7 @@ const About = () => {
                 },
                 {
                   name: "ऐश्वर्या झांजगे",
-                  position: "उपाध्यक्ष",
+                  position: "उपाध्यक्षा",
                   image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                 },
                 {
@@ -297,7 +297,7 @@ const About = () => {
                 {
                   name: "Neha Verma",
                   position: "Community Engagement Specialist",
-                  image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+                  image: "https://drive.google.com/uc?export=view&id=1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK"
                 }
               ].map((member, index) => (
                 <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover-lift">
