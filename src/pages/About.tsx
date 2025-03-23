@@ -10,7 +10,7 @@ const About = () => {
           <div className="absolute inset-0 mix-blend-overlay opacity-20 bg-[url('https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')]"></div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center text-white">
-              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">लगोरी फाउंडेशन बद्दल</h1>
+              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">About Lagori Foundation</h1>
               <p className="text-lg md:text-xl max-w-3xl mx-auto">समर्थन, शिक्षण आणि समुदायाद्वारे महिलांना सक्षम करण्यासाठी समर्पित.</p>
             </div>
           </div>
