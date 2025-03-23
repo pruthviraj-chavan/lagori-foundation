@@ -63,7 +63,7 @@ const Index = () => {
         <section className="relative pt-20 pb-16 flex items-center bg-gradient-to-r from-lagori-900/90 to-lagori-700/80">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://drive.google.com/file/d/1pT4uX35yA858AiiQ4bfUVzv-5muo-Tl3/view?usp=sharing&auto=format&fit=crop&w=1976&q=80" 
+              src="https://drive.google.com/uc?id=1pT4uX35yA858AiiQ4bfUVzv-5muo-Tl3" 
               alt="Women Empowerment" 
               className="w-full h-full object-cover"
             />
@@ -102,7 +102,7 @@ const Index = () => {
                 <div className="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-lagori-300/30 backdrop-blur-xl animate-float"></div>
                 <div className="glass-card p-6 animate-fade-in">
                   <img 
-                    src="https://drive.google.com/file/d/1pT4uX35yA858AiiQ4bfUVzv-5muo-Tl3/view?usp=sharing&auto=format&fit=crop&w=1976&q=80" 
+                    src="https://drive.google.com/file/d/1pT4uX35yA858AiiQ4bfUVzv-5muo-Tl3" 
                     alt="Mrs. Sunanda Lagori" 
                     className="w-full h-auto rounded-xl mb-4"
                   />
