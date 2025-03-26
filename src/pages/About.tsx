@@ -32,7 +32,7 @@ const About = () => {
               </div>
               <div className="stagger-animate">
                 <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
-                  संस्थापकाबद्दल
+                  संस्थापकांबद्दल
                 </span>
                 <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 text-gray-800">
                   सौ. शुभांगी साखरे
@@ -272,7 +272,7 @@ const About = () => {
                 {
                   name: "शुभांगी साखरे",
                   position: "संस्थापक आणि अध्यक्षा",
-                  image: "/DSC.JPG"
+                  image: "/a1.jpe                      g"
                 },
                 {
                   
@@ -293,12 +293,12 @@ const About = () => {
                 {
                   name: "कमल झांजगे",
                   position: "संचालक",
-                  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                  image: ""
                 },
                 {
                   name: "शारदा कापसे",
                   position: "संचालक",
-                  image: "https://drive.google.com/uc?export=view&id=1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK"
+                  image: ""
                 }
               ].map((member, index) => (
                 <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover-lift">
