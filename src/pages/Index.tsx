@@ -291,13 +291,13 @@ const Index = () => {
                 bio=" १०+ वर्षांचा सामाजिक कार्याचा अनुभव, शुभांगीने आपल्या जीवनाचा काही भाग मागासलेल्या समुदायांतील महिलांना सक्षम करण्यासाठी समर्पित केला आहे."
               />
               <TeamCard 
-                image="/DSC.JPG"
+                image=""
                 name="निकिता कापसे"
                 role="उपाध्यक्षा"
                 bio="सामुदायिक कार्याबद्दल उत्साही असलेल्या निकिता मदतीची गरज असलेल्या महिलांची ओळख पटवण्यासाठी आणि त्यांना सहाय्य करण्यासाठी प्रयत्नांचे नेतृत्व करते."
               />
               <TeamCard 
-                image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
+                image="/aish.jpg"
                 name="ऐश्वर्या झांजगे"
                 role="सचिव"
                 bio="सामाजिक क्षेत्रातील युवा नेतृत्व आणि परिवर्तनाची परंपरा पुढे नेणारी सशक्त नारी."
@@ -323,11 +323,11 @@ const Index = () => {
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-lagori-800 font-medium mb-4">
-                Women's Power
+                स्त्री शक्ती
               </span>
-              <h2 className="section-title text-gray-800">Inspiring Stories of Transformation</h2>
+              <h2 className="section-title text-gray-800">परिवर्तनाच्या प्रेरणादायी कथा</h2>
               <p className="section-subtitle text-gray-700">
-                Meet the women who have transformed their lives with the help of Lagori Foundation.
+                लगोरी फाउंडेशनच्या मदतीने ज्यांनी आपले जीवन बदलले आहे अशा महिलांना भेटा.
               </p>
             </div>
 
@@ -350,17 +350,17 @@ const Index = () => {
                   यशोगाथा
                 </span>
                 <h3 className="font-playfair text-3xl font-bold mb-6 text-gray-800">
-                  "Lagori Foundation gave me the strength to rebuild my life"
+                  "लगोरी फाउंडेशनने मला माझे जीवन नव्याने उभारण्याची ताकद दिली."
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  After facing domestic violence for years, I was left without hope and resources. The Lagori Foundation provided me with legal assistance, emotional support, and skill training that helped me start my own tailoring business. Today, I am financially independent and inspiring other women in my community.
+                  वर्षानुवर्षे घरगुती हिंसाचार सहन केल्यानंतर, मी आशा आणि साधनांविना उरले होते. लागोरी फाउंडेशनने मला कायदेशीर मदत, भावनिक पाठबळ आणि कौशल्य प्रशिक्षण दिले, ज्यामुळे मी स्वतःचा शिवण व्यवसाय सुरू करू शकले. आज मी आर्थिकदृष्ट्या स्वतंत्र आहे आणि माझ्या समुदायातील इतर महिलांसाठी प्रेरणास्थान आहे.
                 </p>
                 <p className="text-gray-800 font-medium mb-8">
                   - Priya, Entrepreneur & Mentor
                 </p>
-                <Link to="/about" className="btn-primary inline-flex items-center">
+{/*                 <Link to="/about" className="btn-primary inline-flex items-center">
                   More Stories <ArrowRight size={16} className="ml-2" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
