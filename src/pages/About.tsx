@@ -24,7 +24,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute -top-6 -left-6 w-24 h-24 bg-lagori-200 rounded-full opacity-60"></div>
                   <img 
-                    src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
+                    src="/DSC.JPG" 
                     alt="सौ. शुभांगी साखरे" 
                     className="rounded-2xl w-full h-auto relative z-10 shadow-xl"
                   />
@@ -275,28 +275,29 @@ const About = () => {
                   image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
                 },
                 {
-                  name: "ऐश्वर्या झांजगे",
+                  
+                  name: " निकिता कापसे",
                   position: "उपाध्यक्षा",
                   image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                 },
                 {
-                  name: "Priya Patel",
-                  position: "Legal Advisor",
+                  name: "ऐश्वर्या झांजगे",
+                  position: "सचिव",
                   image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
                 },
                 {
-                  name: "Meera Desai",
-                  position: "Skill Development Coordinator",
+                  name: "ललिता साखरे",
+                  position: "संचालक",
                   image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80"
                 },
                 {
-                  name: "Rajesh Kumar",
-                  position: "Outreach Coordinator",
+                  name: "कमल झांजगे",
+                  position: "संचालक",
                   image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                 },
                 {
-                  name: "Neha Verma",
-                  position: "Community Engagement Specialist",
+                  name: "शारदा कापसे",
+                  position: "संचालक",
                   image: "https://drive.google.com/uc?export=view&id=1hgqbwLbphaNss0x0PBaNtb7_x8SgCNiK"
                 }
               ].map((member, index) => (
