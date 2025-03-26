@@ -285,28 +285,28 @@ const Index = () => {
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 opacity-0"
             >
               <TeamCard 
-                image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                image="/a1.jpeg"
                 name="शुभांगी साखरे"
                 role="संस्थापक आणि अध्यक्षा"
                 bio=" १०+ वर्षांचा सामाजिक कार्याचा अनुभव, शुभांगीने आपल्या जीवनाचा काही भाग मागासलेल्या समुदायांतील महिलांना सक्षम करण्यासाठी समर्पित केला आहे."
               />
               <TeamCard 
-                image="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80"
-                name="ऐश्वर्या झांजगे"
+                image="/DSC.JPG"
+                name="निकिता कापसे"
                 role="उपाध्यक्षा"
-                bio="सामाजिक क्षेत्रातील युवा नेतृत्व आणि परिवर्तनाची परंपरा पुढे नेणारी सशक्त नारी"
-              />
-              <TeamCard 
-                image="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-                name="Priya Sharma"
-                role="Program Director"
-                bio="Coordinating various empowerment programs and ensuring effective implementation of all initiatives across communities."
+                bio="सामुदायिक कार्याबद्दल उत्साही असलेल्या निकिता मदतीची गरज असलेल्या महिलांची ओळख पटवण्यासाठी आणि त्यांना सहाय्य करण्यासाठी प्रयत्नांचे नेतृत्व करते."
               />
               <TeamCard 
                 image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
-                name="Anjali Deshmukh"
-                role="Community Outreach"
-                bio="Passionate about community work, Anjali leads outreach efforts to identify and assist women who need support."
+                name="ऐश्वर्या झांजगे"
+                role="सचिव"
+                bio="सामाजिक क्षेत्रातील युवा नेतृत्व आणि परिवर्तनाची परंपरा पुढे नेणारी सशक्त नारी."
+              />
+              <TeamCard 
+                image="/l1.jpg"
+                name="ललिता साखरे"
+                role="संचालक"
+                bio="विविध सशक्तीकरण कार्यक्रमांचे समन्वय साधणे आणि समुदायांमध्ये सर्व उपक्रम प्रभावीपणे राबवण्याची खात्री करणे."
               />
             </div>
 
