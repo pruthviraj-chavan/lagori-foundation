@@ -272,7 +272,7 @@ const About = () => {
                 {
                   name: "शुभांगी साखरे",
                   position: "संस्थापक आणि अध्यक्षा",
-                  image: "/a1.jpe                      g"
+                  image: "/a1.jpeg"
                 },
                 {
                   
