@@ -102,7 +102,7 @@ const Index = () => {
                 <div className="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-lagori-300/30 backdrop-blur-xl animate-float"></div>
                 <div className="glass-card p-6 animate-fade-in">
                   <img 
-                    src="/lagori1.jpg" 
+                    src="/DSC.JPG" 
                     alt="Mrs. Shubhangi Sakhare" 
                     className="w-full h-auto rounded-xl mb-4"
                   />
