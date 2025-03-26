@@ -53,7 +53,7 @@ const Contact = () => {
             <div className="text-center text-white">
               <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Contact Us</h1>
               <p className="text-lg md:text-xl max-w-3xl mx-auto">
-                Have questions or want to get involved? We'd love to hear from you.
+                तुमचे काही प्रश्न आहेत का किंवा तुम्हाला सहभागी व्हायचे आहे? आम्हाला तुमच्याकडून ऐकायला आवडेल.
               </p>
             </div>
           </div>
@@ -66,10 +66,10 @@ const Contact = () => {
               {/* Contact Information */}
               <div>
                 <h2 className="font-playfair text-3xl font-bold mb-8 text-gray-800">
-                  Get in Touch
+                  संपर्क साधा
                 </h2>
                 <p className="text-gray-600 mb-10">
-                  Whether you have questions about our programs, want to volunteer, or need support, our team is here to help. Reach out to us using any of the methods below:
+                  आपल्याला आमच्या कार्यक्रमांबद्दल प्रश्न असतील, स्वयंसेवक म्हणून सहभागी व्हायचे असेल किंवा मदतीची आवश्यकता असेल, तर आमची टीम नेहमी मदतीसाठी तयार आहे. खालील कोणत्याही माध्यमातून आमच्याशी संपर्क साधा.
                 </p>
                 
                 <div className="space-y-8">
@@ -78,11 +78,11 @@ const Contact = () => {
                       <MapPin size={24} />
                     </div>
                     <div>
-                      <h3 className="font-bold text-gray-800 mb-1">Our Location</h3>
+                      <h3 className="font-bold text-gray-800 mb-1">आमचा पत्ता</h3>
                       <p className="text-gray-600">
-                        Near Vitthal Mandir, Mangalkar Peth,<br />
-                        Mandlik Galli, Kolhapur,<br />
-                        Maharashtra, India
+                        अमृत मल्टीपर्पज हॉल जवळ,<br />
+                        कळंबा, कोल्हापूर,<br />
+                        महाराष्ट्र, भारत
                       </p>
                     </div>
                   </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                       <Phone size={24} />
                     </div>
                     <div>
-                      <h3 className="font-bold text-gray-800 mb-1">Phone Number</h3>
+                      <h3 className="font-bold text-gray-800 mb-1">फोन नंबर</h3>
                       <p className="text-gray-600">
                         <a href="tel:+918668545201" className="hover:text-lagori-600 transition-colors">
                           +91 8668545201
@@ -106,10 +106,10 @@ const Contact = () => {
                       <Mail size={24} />
                     </div>
                     <div>
-                      <h3 className="font-bold text-gray-800 mb-1">Email Address</h3>
+                      <h3 className="font-bold text-gray-800 mb-1">ईमेल</h3>
                       <p className="text-gray-600">
                         <a href="mailto:contact@lagorifoundation.org" className="hover:text-lagori-600 transition-colors">
-                          contact@lagorifoundation.org
+                          lagorifoundation1@gmail.com
                         </a>
                       </p>
                     </div>
@@ -117,7 +117,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="mt-12">
-                  <h3 className="font-bold text-gray-800 mb-4">Follow Us</h3>
+                  <h3 className="font-bold text-gray-800 mb-4">आम्हाला फॉलो करा</h3>
                   <div className="flex space-x-4">
                     {/* Social Media Icons */}
                     {["facebook", "twitter", "instagram", "linkedin"].map((social) => (
@@ -149,13 +149,13 @@ const Contact = () => {
               {/* Contact Form */}
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <h2 className="font-playfair text-2xl font-bold mb-6 text-gray-800">
-                  Send Us a Message
+                 आम्हाला मॅसेज पाठवा
                 </h2>
                 <form onSubmit={handleSubmit}>
                   <div className="space-y-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                        Your Name
+                        आपले नाव
                       </label>
                       <input
                         type="text"
@@ -171,7 +171,7 @@ const Contact = () => {
                     
                     <div>
                       <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                        Email Address
+                        ईमेल
                       </label>
                       <input
                         type="email"
@@ -187,7 +187,7 @@ const Contact = () => {
                     
                     <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                        Phone Number
+                        फोन नंबर
                       </label>
                       <input
                         type="tel"
@@ -203,7 +203,7 @@ const Contact = () => {
                     
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                        Your Message
+                        तुमचा मॅसेज
                       </label>
                       <textarea
                         id="message"
@@ -254,7 +254,7 @@ const Contact = () => {
         <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="font-playfair text-3xl font-bold mb-10 text-center text-gray-800">
-              Visit Us
+              आम्हाला भेटा
             </h2>
             <div className="overflow-hidden rounded-xl shadow-lg h-96">
               <iframe 
