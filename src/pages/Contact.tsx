@@ -171,7 +171,7 @@ const Contact = () => {
                     
                     <div>
                       <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                        ईमेल
+                        ई-मेल
                       </label>
                       <input
                         type="email"
@@ -258,7 +258,7 @@ const Contact = () => {
             </h2>
             <div className="overflow-hidden rounded-xl shadow-lg h-96">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15284.14029973186!2d74.21387115!3d16.7058366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc101b8d7291d59%3A0xf708d5030d3828b8!2sMangalwar%20Peth%2C%20Kolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1659608024356!5m2!1sen!2sin" 
+                src="https://maps.app.goo.gl/pBRY2bWYG85ih5t57" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
