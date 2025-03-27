@@ -258,7 +258,7 @@ const Contact = () => {
             </h2>
             <div className="overflow-hidden rounded-xl shadow-lg h-96">
               <iframe 
-                src="https://www.google.com/maps/place/Kalamba,+Kolhapur,+Maharashtra/@16.6617895,74.2194892,14z/data=!3m1!4b1!4m6!3m5!1s0x3bc0555a167e5cab:0x6c674f5a9d7f26fa!8m2!3d16.6700976!4d74.2260408!16s%2Fg%2F1tjff8tx?entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoASAFQAw%3D%3D" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30578.41198625406!2d74.21948915!3d16.6617895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0555a167e5cab%3A0x6c674f5a9d7f26fa!2sKalamba%2C%20Kolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1743094725533!5m2!1sen!2sin"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
