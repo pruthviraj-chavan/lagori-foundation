@@ -94,19 +94,19 @@ const activitiesData = [
   },
   {
     id: 12,
-    title: "Foundation Day Celebration",
-    date: "2020-02-15",
-    description: "Celebrating the first anniversary of Lagori Foundation with community members.",
-    image: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2062&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "राजमाता जिजाऊ जयंती निमित्त लगोरी फाउंडेशनने सुरुवात केली महिलांसाठी मोफत स्वरक्षण प्रशिक्षण",
+    date: "2022-01-12",
+    description: "स्वराज्य जननी राजमाता जिजाऊ जयंती दिनानिमित्त लगोरी फाउंडेशन, संस्कार शिदोरी मंच आणि शांतिदूत मर्दानी आखाड्याने संयुक्तपणे मोफत लाठीकाठी प्रशिक्षण, फोटो पूजन, शास्त्र पूजन आणि मर्दानी खेळाचे प्रात्यक्षिक आयोजित केले. हा कार्यक्रम संस्थापक शुभांगी साखरे, स्मिता खामकर, सूरज केसरकर सर, आणि अन्य कार्यकर्त्यांच्या संकल्पनेतून साजरा करण्यात आला.",
+    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/480047991_9061820723887765_306280664490861300_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=93FmAc52FDEQ7kNvgFL18tw&_nc_oc=Adlaqrlae3rtp7jlYINAPoEdFAX6A8lWYP4-tZSQvsDn8R7e9ANiP0Af7XMaJC30biwprX8jLVmeLukGkiecAcT9&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=etel33PI7BGK1sdkcNv4Tg&oh=00_AYHuAsx_pfpuq4u3xR_WRdaiFEuWF-wA-XnDmr0A-TJOpg&oe=67EE2124",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02AxVWW6bLcgPdKTr8kQGtVuB6hW4EDyNMv4bo7TTZCiXryhnhZ5DugVn39bkmrJXgl"
   },
   {
     id: 13,
-    title: "First Legal Aid Camp",
-    date: "2019-11-05",
-    description: "The inaugural legal assistance program providing free legal advice to women in need.",
-    image: "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "जिजाऊ जयंती निमित्त लगोरी फाउंडेशनचे राजमाता जिजामाता यांच्या पुतळ्याचे पूजन",
+    date: "2024-01-12",
+    description: "जिजाऊ जयंतीच्या औचित्याने, लगोरी फाउंडेशन कोल्हापूर यांच्या वतीने राजमाता जिजामाता यांच्या पुतळ्याचे पूजन करण्यात आले आणि आई साहेबांना अभिवादन केले. यावेळी संस्थापक अध्यक्षा शुभांगी साखरे, पल्लवी घाटगे, उमा बन्ने, ज्योती वेदांते, आरती कनेरे, दीपाली पोळ आणि अन्विका देसाई उपस्थित होत्या.",
+    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/418792965_6921759134560612_5428506900787918522_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gRYDcwIt6BEQ7kNvgHGyhyL&_nc_oc=AdlgkZ6eZJo9jyycou7RhddzmWrDkLCiwSeIDfuhHeQwhjuWtRg-okV3qbUL72SN9pb92IJuDeeeQHBv2Wphigcu&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=RYH3odD45j6lXL7nRx-S1Q&oh=00_AYENxnAgG3UQtaEJgIo7GAyBplICtJNI0QYC59UPDT1nLg&oe=67EE36BA",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid031WUW7tS6dBSTCtcWvd3UTrETZYTCEwtxNpaBmCrTmU4hrpTiiaCyHoKPfhjT1yVml"
   },
   {
     id: 14,
