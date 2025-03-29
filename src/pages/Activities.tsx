@@ -40,25 +40,25 @@ const activitiesData = [
     id: 5,
     title: "लगोरी फाउंडेशन आयोजित श्रावण कुंकूमार्चन सोहळा",
     date: "2024-08-20",
-    description: "संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून मिरजकर तिकटी विठ्ठल मंदिर येथे अतिशय भक्ती पूर्ण वातावरणात संपन्न झाला. सौ मेघाताई भांबोरीकर यांनी श्री सूक्त पठण केले  तर  महिलांनी अतिशय सुंदर भजने म्हटली. यावेळी  सरिता गवळी नेहा मोरे विना सरनाईक  धनश्री राजगिरे, श्रावणी तारळेकर  या पाच महिला लकी ड्रॉच्या विजेत्या ठरल्या. तर भाग्यश्री पाटील, ऐश्वर्या झांजगे, सीमा रेवनकर यांच्याकडून महिलांना चहा आणि प्रसादाचे वाटप करण्यात आले. कार्यक्रम अतिशय उत्स्फूर्त आणि चांगल्या रीतीने पार पाडण्यासाठी सुप्रिया कोरडे धनश्री जाधव गुंजन जाधव विराज कापसे यांचे सहकार्य लाभले.",
+    description: "संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून मिरजकर तिकटी विठ्ठल मंदिर येथे अतिशय भक्ती पूर्ण वातावरणात संपन्न झाला. सौ मेघाताई भांबोरीकर यांनी श्री सूक्त पठण केले तर महिलांनी अतिशय सुंदर भजने म्हटली. कार्यक्रम अतिशय उत्स्फूर्त आणि चांगल्या रीतीने पार पाडण्यासाठी सुप्रिया कोरडे धनश्री जाधव गुंजन जाधव विराज कापसे यांचे सहकार्य लाभले.",
     image: "https://scontent.fblr20-1.fna.fbcdn.net/v/t39.30808-6/455859994_7940823609320821_5589129017939324552_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HldKVa6EV5EQ7kNvgF8Kb4d&_nc_oc=Adkiob8Gi5eDIAE_yUOrLlUjJggm_mlObQg7cF8WeoqDsT0EAWrgDqCe_qrFxAF_2BWj6lukhEl5cWZBlx3ScNfI&_nc_zt=23&_nc_ht=scontent.fblr20-1.fna&_nc_gid=rcpUaCkW_JpkCiolfkVCQQ&oh=00_AYGnUXwQufOudswKfcCIMHXtnjLGZIJY2EZsy4UfC4nEQg&oe=67EE2F9D",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02nEDVCUHeqSssLFCGdFBYUcGA9ix62Co9Z17V8em56oicpYJNVPbFBLQzQjqhPMAZl"
   },
   {
     id: 6,
     title: "लगोरी फाउंडेशनकडून पंचगंगा स्मशानभूमीत ५००० शेणी दान उपक्रम!",
-    date: "2022-04-07",
+    date: "2024-05-16",
     description: "लगोरी फाउंडेशनच्या संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून आज १६ मे २०२४ रोजी पंचगंगा स्मशानभूमीत ५००० शेणी दान उपक्रम राबविण्यात आला. या उपक्रमामुळे समाजात एकता आणि मदतीचा हात देण्याचे एक महत्त्वाचे कार्य घडले आहे. लगोरी फाउंडेशनच्या अंतर्गत अशा प्रकारचे अनेक उपक्रम वेळोवेळी राबवले जातात.",
     image: "https://scontent.fblr20-2.fna.fbcdn.net/v/t39.30808-6/441881171_7436085976461256_4758713055987682142_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=koTD6i8CdmYQ7kNvgGcthdh&_nc_oc=AdmKAC1bOQbjKF13rE1x4OhNgdZGkdr6Ebknhd3RcYC3kqNr3mfG3-p1TRKTmvVD0sfSSWFawGA8pMK0HhLkMH1F&_nc_zt=23&_nc_ht=scontent.fblr20-2.fna&_nc_gid=_48FYMrL3Hx9qgRyVFySEQ&oh=00_AYGHh-jrLW4-tLgzrnKmnZhMo0ljSeduBA8NSZ61feejZg&oe=67EE0B41",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02AkG5dQ4adxhUUF3zLBgVbbCE96LZnFGHXswLY4GrV9hE5UvMiRZhAPZqzPtBYFMel"
   },
   {
     id: 7,
-    title: "Entrepreneurship Seminar",
-    date: "2021-10-15",
-    description: "A seminar to encourage and guide women in starting their own businesses.",
-    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी बहुउद्देशीय संस्था व भालकर्स नृत्यम यांच्या संयुक्त विद्यमाने चोंण्डेश्वरी हॉलमध्ये उत्साही रासदांडिया कार्यक्रम संपन्न",
+    date: "2019-10-07",
+    description: "लगोरी बहुउद्देशिय संस्था आणि भालकर्स नृत्यम यांच्या संयुक्त विद्यमाने ५ ऑक्टोबर २०२४ रोजी चोंण्डेश्वरी हॉल, मंगळवार पेठ येथे रासदांडिया उत्साहात आणि उत्स्फुर्त प्रतिसादात आयोजित करण्यात आला. यावेळी ३ व ४ ऑक्टोबर रोजी नृत्य दिग्दर्शक संग्राम भालकर व त्यांची टीम यांनी दांडिया कार्यशाळेचं आयोजन केलं. या कार्यक्रमाला 'लागिरं झालं जी' फेम राहुल मगदुम (राहुल्या), सिनेकलाकार नम्रता साळोखे, आर जे सुमित, देवस्थान कमिटी अध्यक्षा सौ. वैशालीताई क्षीरसागर, प्रतिमा वेलफेअर च्या सौ. प्रतिमा ताई पाटील यांसह अनेक मान्यवर उपस्थित होते.",
+    image: "https://scontent.fblr20-1.fna.fbcdn.net/v/t1.6435-9/71594749_131501241564477_2063957705302736896_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6RBWuMASgxUQ7kNvgE31gy-&_nc_oc=AdkchR9r8yfzUXitjsMkLsY5STX5GuW0r0a25TUujo6v_X2tBv05XdVhaJ8fJPJgfjkSaqyt5NPdKDOjs1bPASP5&_nc_zt=23&_nc_ht=scontent.fblr20-1.fna&_nc_gid=Vrd4INkLXeL8VgslapzKUw&oh=00_AYHZeXT69F3WyWk1DTOJDCTfBlT6HWfhMIDVmJ3I5Bh4SA&oe=680FDBF1",
+    link: "https://www.facebook.com/permalink.php?story_fbid=pfbid0AzMFUmKfq9bob1ctwuE2PxCFnqWRWFA9JNCGz1UC9mQNAdS2W3qVo1G38xBybyBel&id=111149750266293"
   },
   {
     id: 8,
