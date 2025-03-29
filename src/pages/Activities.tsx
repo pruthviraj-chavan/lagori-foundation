@@ -9,7 +9,7 @@ const activitiesData = [
     title: "Tailoring Workshop",
     date: "2023-06-15",
     description: "A skill development workshop teaching tailoring skills to women from rural communities.",
-    image: "/WhatsApp Image 2025-03-28 at 00.19.55.jpeg",
+    image: "/test.jpeg",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
