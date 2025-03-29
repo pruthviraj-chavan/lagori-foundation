@@ -17,7 +17,7 @@ const activitiesData = [
     title: "Sankranti Haldi-Kunku Celebration",
     date: "2023-01-14",
     description: "A cultural celebration bringing together women from different communities to celebrate the festival of Sankranti.",
-    image: "https://images.unsplash.com/photo-1529333166437-7feb33f752ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1969&q=80",
+    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/474874922_8936526639750508_3482593098440845722_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3_JhPWU6Tq0Q7kNvgHjnol0&_nc_oc=Adk-O-Q_fTW0zYCbYCdwqs2Ga_RZ8nbpU927BI_oR1_2Sv-UWy62Lam9GkZ2OoLkBUuZH2sgXIrEBD_1NRrHg7DY&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=hcJyqdGi0LbtTwBWiTtnJw&oh=00_AYGauJhK7Lgtso5hRWpIM9qFMqIQYyLtyy6sqCRCndDGLA&oe=67EE0890",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
