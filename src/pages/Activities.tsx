@@ -11,6 +11,7 @@ const activitiesData = [
     date: "2023-06-15",
     description: "A skill development workshop teaching tailoring skills to women from rural communities.",
     image: "https://images.unsplash.com/photo-1607748851687-ba9a10438621?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const activitiesData = [
     date: "2023-01-14",
     description: "A cultural celebration bringing together women from different communities to celebrate the festival of Sankranti.",
     image: "https://images.unsplash.com/photo-1529333166437-7feb33f752ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1969&q=80"
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
     id: 3,
@@ -277,6 +279,7 @@ const Activities = () => {
                   date={formatDate(activity.date)}
                   description={activity.description}
                   image={activity.image}
+                  link={activity.link}
                 />
               ))}
             </div>
