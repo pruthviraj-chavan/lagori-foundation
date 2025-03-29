@@ -1,4 +1,4 @@
-ximport { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { PageTransition } from "../components/Transitions";
 import ActivityCard from "../components/ActivityCard";
 
@@ -9,7 +9,7 @@ const activitiesData = [
     title: "Tailoring Workshop",
     date: "2023-06-15",
     description: "A skill development workshop teaching tailoring skills to women from rural communities.",
-    image: "https://images.unsplash.com/photo-1529333166437-7feb33f752ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1969&q=80",
+    image: "https://images.unsplash.com/photo-1607748851687-ba9a10438621?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
@@ -25,7 +25,7 @@ const activitiesData = [
     title: "Legal Awareness Camp",
     date: "2023-03-08",
     description: "An educational workshop on International Women's Day, informing women about their legal rights.",
-    image: "https://images.unsplash.com/photo-1529333166437-7feb33f752ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1969&q=80",
+    image: "https://images.unsplash.com/photo-1618377385526-83108e223cf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
