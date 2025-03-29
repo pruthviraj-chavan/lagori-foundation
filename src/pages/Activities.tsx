@@ -14,10 +14,10 @@ const activitiesData = [
   },
   {
     id: 2,
-    title: "Sankranti Haldi-Kunku Celebration",
-    date: "2023-01-14",
-    description: "A cultural celebration bringing together women from different communities to celebrate the festival of Sankranti.",
-    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/474874922_8936526639750508_3482593098440845722_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3_JhPWU6Tq0Q7kNvgHjnol0&_nc_oc=Adk-O-Q_fTW0zYCbYCdwqs2Ga_RZ8nbpU927BI_oR1_2Sv-UWy62Lam9GkZ2OoLkBUuZH2sgXIrEBD_1NRrHg7DY&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=hcJyqdGi0LbtTwBWiTtnJw&oh=00_AYGauJhK7Lgtso5hRWpIM9qFMqIQYyLtyy6sqCRCndDGLA&oe=67EE0890",
+    title: "संक्रांतीचा हळदी-कुंकू सोहळा – स्त्री शक्तीचा उत्सव",
+    date: "2025-01-24",
+    description: "लगोरी फाउंडेशनच्या वतीने यंदाही मकर संक्रांतीचा हळदी-कुंकू सोहळा मोठ्या उत्साहात आणि पारंपरिक पद्धतीने साजरा करण्यात आला. या कार्यक्रमात महिलांनी संक्रांतीचे विशेष औक्षण, सुवासिनी पूजन आणि तिळगूळ वाटप करून एकमेकींना तिळगूळ घ्या, गोड गोड बोला असा स्नेहाचा संदेश दिला.",
+    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/474938186_8936530623083443_1136913187730060467_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g2_VB-oF7F8Q7kNvgEYYXit&_nc_oc=AdkOc8i7549Zj9J_qyFfBhbJaapEDfufec2LBXnBO3qjD9LRZgJpHXKtv18SQdx89EWbfht_lDS30aERISbKgePd&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=s2fNWSTDh73-uZOhc5w82g&oh=00_AYH8bB8XDhyH3KNZo3JZVDAmX8n0xmr1hIY9riIxZUq_xw&oe=67EE1520",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
