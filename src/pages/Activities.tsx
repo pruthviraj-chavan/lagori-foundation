@@ -30,27 +30,27 @@ const activitiesData = [
   },
   {
     id: 4,
-    title: "Self-Defense Training",
-    date: "2022-11-20",
-    description: "A workshop teaching women essential self-defense techniques to enhance personal safety.",
-    image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1969&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "कोल्हापुरातील महिलांचा एल्गार!",
+    date: "2024-08-24",
+    description: "कोल्हापुरातील स्त्री शक्ती एल्गार करत एकत्र येऊन स्त्री शक्तीला न्याय मागण्यासाठी, होणाऱ्या अन्यायासाठी संरक्षण मागण्यासाठी स्त्री शक्तीचा कायदा कडक करून स्त्रियांना न्याय मिळावा ज्या नराधमांनी वाईट कृत्य केलं त्यांना फाशीची शिक्षा व्हावी. किंवा त्यांना महिलांच्या हाती सोपवा व महिला त्याचा निर्णय घेतील या आशयाचं निवेदन कलेक्टर ऑफिस समोर घोषणाबाजी करून कलेक्टर साहेबांकडे देण्यात आलं यावेळी कोल्हापुरातील महिलांसाठी कार्यरत असणाऱ्या लगोरी फाउंडेशनच्या शुभांगी साखरे यांच्या सोबत अनेक महिला भगिनी उपस्थित होत्या.",
+    image: "https://scontent.fblr20-4.fna.fbcdn.net/v/t39.30808-6/457045255_7986698728066642_395586655646034403_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jcOcijwa2mEQ7kNvgFWBkio&_nc_oc=Adkdg_S0cENqBxt4MJFFWPLC5DOIvGCvMo9M5TGJjfm0DlcyaVHrTb2xrLRhIuZEZT8Bbfp5NPDovV5AAGZxljTU&_nc_zt=23&_nc_ht=scontent.fblr20-4.fna&_nc_gid=bxknj-Ok4T_XCgUsDGSAIQ&oh=00_AYGJ828vuvYyMK9nDf87e6J0-gDq2JH4gUzyYRHL6xyUkw&oe=67EE24D3",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0357HU3PVBfcwC18xQJiE9mAW92dPCJpuUg2hUsRh9pDNjKzk54iX2BQjkrHG9aaqPl"
   },
   {
     id: 5,
-    title: "Financial Literacy Workshop",
-    date: "2022-07-12",
-    description: "A program designed to teach women basic financial concepts and money management skills.",
-    image: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशन आयोजित श्रावण कुंकूमार्चन सोहळा",
+    date: "2024-08-20",
+    description: "संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून मिरजकर तिकटी विठ्ठल मंदिर येथे अतिशय भक्ती पूर्ण वातावरणात संपन्न झाला. सौ मेघाताई भांबोरीकर यांनी श्री सूक्त पठण केले  तर  महिलांनी अतिशय सुंदर भजने म्हटली. यावेळी  सरिता गवळी नेहा मोरे विना सरनाईक  धनश्री राजगिरे, श्रावणी तारळेकर  या पाच महिला लकी ड्रॉच्या विजेत्या ठरल्या. तर भाग्यश्री पाटील, ऐश्वर्या झांजगे, सीमा रेवनकर यांच्याकडून महिलांना चहा आणि प्रसादाचे वाटप करण्यात आले. कार्यक्रम अतिशय उत्स्फूर्त आणि चांगल्या रीतीने पार पाडण्यासाठी सुप्रिया कोरडे धनश्री जाधव गुंजन जाधव विराज कापसे यांचे सहकार्य लाभले.",
+    image: "https://scontent.fblr20-1.fna.fbcdn.net/v/t39.30808-6/455859994_7940823609320821_5589129017939324552_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HldKVa6EV5EQ7kNvgF8Kb4d&_nc_oc=Adkiob8Gi5eDIAE_yUOrLlUjJggm_mlObQg7cF8WeoqDsT0EAWrgDqCe_qrFxAF_2BWj6lukhEl5cWZBlx3ScNfI&_nc_zt=23&_nc_ht=scontent.fblr20-1.fna&_nc_gid=rcpUaCkW_JpkCiolfkVCQQ&oh=00_AYGnUXwQufOudswKfcCIMHXtnjLGZIJY2EZsy4UfC4nEQg&oe=67EE2F9D",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02nEDVCUHeqSssLFCGdFBYUcGA9ix62Co9Z17V8em56oicpYJNVPbFBLQzQjqhPMAZl"
   },
   {
     id: 6,
-    title: "Healthcare Awareness Drive",
+    title: "लगोरी फाउंडेशनकडून पंचगंगा स्मशानभूमीत ५००० शेणी दान उपक्रम!",
     date: "2022-04-07",
-    description: "A campaign to raise awareness about women's health issues and provide basic health checkups.",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    description: "लगोरी फाउंडेशनच्या संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून आज १६ मे २०२४ रोजी पंचगंगा स्मशानभूमीत ५००० शेणी दान उपक्रम राबविण्यात आला. या उपक्रमामुळे समाजात एकता आणि मदतीचा हात देण्याचे एक महत्त्वाचे कार्य घडले आहे. लगोरी फाउंडेशनच्या अंतर्गत अशा प्रकारचे अनेक उपक्रम वेळोवेळी राबवले जातात.",
+    image: "https://scontent.fblr20-2.fna.fbcdn.net/v/t39.30808-6/441881171_7436085976461256_4758713055987682142_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=koTD6i8CdmYQ7kNvgGcthdh&_nc_oc=AdmKAC1bOQbjKF13rE1x4OhNgdZGkdr6Ebknhd3RcYC3kqNr3mfG3-p1TRKTmvVD0sfSSWFawGA8pMK0HhLkMH1F&_nc_zt=23&_nc_ht=scontent.fblr20-2.fna&_nc_gid=_48FYMrL3Hx9qgRyVFySEQ&oh=00_AYGHh-jrLW4-tLgzrnKmnZhMo0ljSeduBA8NSZ61feejZg&oe=67EE0B41",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02AkG5dQ4adxhUUF3zLBgVbbCE96LZnFGHXswLY4GrV9hE5UvMiRZhAPZqzPtBYFMel"
   },
   {
     id: 7,
