@@ -25,7 +25,7 @@ const activitiesData = [
     title: "Legal Awareness Camp",
     date: "2023-03-08",
     description: "An educational workshop on International Women's Day, informing women about their legal rights.",
-    image: "https://images.unsplash.com/photo-1618377385526-83108e223cf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/474938186_8936530623083443_1136913187730060467_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g2_VB-oF7F8Q7kNvgEYYXit&_nc_oc=AdkOc8i7549Zj9J_qyFfBhbJaapEDfufec2LBXnBO3qjD9LRZgJpHXKtv18SQdx89EWbfht_lDS30aERISbKgePd&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=s2fNWSTDh73-uZOhc5w82g&oh=00_AYH8bB8XDhyH3KNZo3JZVDAmX8n0xmr1hIY9riIxZUq_xw&oe=67EE1520",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
