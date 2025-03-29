@@ -7,9 +7,10 @@ interface ActivityCardProps {
   title: string;
   date: string;
   description: string;
+  link: string;
 }
 
-const ActivityCard = ({ image, title, date, description }: ActivityCardProps) => {
+const ActivityCard = ({ image, title, date, description, link }: ActivityCardProps) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
@@ -30,9 +31,11 @@ const ActivityCard = ({ image, title, date, description }: ActivityCardProps) =>
         </div>
         <h3 className="font-playfair text-xl font-bold mb-3 text-gray-800">{title}</h3>
         <p className="text-gray-600 mb-4 flex-grow">{description}</p>
-        <button className="self-start text-lagori-600 font-medium hover:text-lagori-700 transition-colors">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="self-start text-lagori-600 font-medium hover:text-lagori-700 transition-colors">
+{/*         <button className="self-start text-lagori-600 font-medium hover:text-lagori-700 transition-colors"> */}
           Read more →
-        </button>
+{/*         </button> */}
+        </a>  
       </div>
     </div>
   );
