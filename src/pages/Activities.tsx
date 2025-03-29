@@ -62,35 +62,35 @@ const activitiesData = [
   },
   {
     id: 8,
-    title: "Disaster Relief Distribution",
-    date: "2021-08-05",
-    description: "Distribution of essential supplies to areas affected by flooding.",
-    image: "https://images.unsplash.com/photo-1583468982228-19f19164aee3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "महिला दिनाच्या निमित्ताने लगोरी फाउंडेशनचे संवाद आणि कौतुक सोहळा",
+    date: "2024-03-08",
+    description: "८ मार्च महिला दिनाचे औचित्य साधून लगोरी फाउंडेशनच्या अध्यक्ष शुभांगी साखरे यांनी अरुण नरके फाउंडेशनच्या स्पर्धा परीक्षा मार्गदर्शकांसोबत संवाद साधला. या संवादात महिलांच्या सक्षमीकरणाबद्दल महत्त्वपूर्ण माहिती दिली गेली. तसेच, वन खात्यात पोस्ट निघालेल्या मुलीचा कौतुक सोहळा साजरा करण्यात आला. यावेळी महिलांच्या विविध कार्यक्षेत्रातील यशस्वी कामगिरीला मान्यता देण्यात आली, आणि महिला सशक्तीकरणाची महत्त्वाची चर्चा केली गेली.",
+    image: "https://scontent.fblr20-2.fna.fbcdn.net/v/t39.30808-6/431616825_7149635485106308_3298242842659419721_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UlosTIeHaq8Q7kNvgGRsThC&_nc_oc=AdkydLa-7V4iAmk9JfS928zvDB71KxCoN6dbD8315Fix7i2qVMciisi2xN8J0pCM79n6dSfvGJhc-HBkJNElfM7z&_nc_zt=23&_nc_ht=scontent.fblr20-2.fna&_nc_gid=vWrsOvrMrK-71yGPO6iQmA&oh=00_AYFkedcT1RMJdhVfk7at-uXwdbVXeonzKniT9vTQcpi-LQ&oe=67EE3422",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02fzjMYskjmjxpaeHZtBeppVJq5BHYHpR8seCW79usSFqsMuiAH91HEHUijfWCA5g4l"
   },
   {
     id: 9,
-    title: "Computer Skills Training",
-    date: "2021-06-22",
-    description: "A training program to teach basic computer skills to enhance employability.",
-    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "शिवजयंतीनिमित्त लगोरी फाउंडेशन कडून छत्रपती शिवाजी महाराज चौकात लेझीम रॅली व प्रात्यक्षिक",
+    date: "2024-02-19",
+    description: "लगोरी फाउंडेशन अंतर्गत काल छत्रपती शिवाजी महाराज चौक येथे लेझीम रॅली आयोजित करण्यात आली. छत्रपती शिवाजी महाराजांच्या पाळणा म्हणून लेझीम आणि लाठी काठीचा प्रात्यक्षिक सादर करण्यात आला. काही समर्पित महिलांच्या सहभागासह, शिवजयंती उत्सव अत्यंत उत्साहात आणि गौरवपूर्ण वातावरणात साजरा करण्यात आला.",
+    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/429534360_7076217185781472_8609629475981785910_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jMze0SVH6u4Q7kNvgGhQ3fC&_nc_oc=AdkUQHe8aglBr8wn-OTBJBnt5LviY1c9VTGvYyuEXZIo4ihcA4wVmn-EiT-9SgtLOr78-c_g1yAjy8HzD07hQNpD&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=6_fq9AD1gNSk58reYM6_mw&oh=00_AYE0EHMOPIg2SWxvmNocLH5XYi_gQ36-EGdErOwuOxLyWQ&oe=67EE43CA",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid01MJYuJqMWKv1Dxa5fA8qnR69XHbsVewy61YGSamf51Zegm5qmFLaQ4syxycDCcz5l"
   },
   {
     id: 10,
-    title: "Cultural Dance Workshop",
-    date: "2021-03-30",
-    description: "A workshop celebrating traditional dances and cultural heritage.",
-    image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशनचा नॉनव्हेज स्टार्टर रेसिपी वर्कशॉप महिलांसाठी कौशल्य विकासाची नवी दिशा",
+    date: "2023-03-08",
+    description: "लगोरी फाउंडेशनच्या वतीने नॉनव्हेज स्टार्टर रेसिपी वर्कशॉप आयोजित करण्यात आला. संस्थापक अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून धनश्री राजगिरे यांनी घरच्या घरी हायजेनिक आणि सोप्या पद्धतीने नॉनव्हेज पदार्थ तयार करण्याचे प्रशिक्षण दिले. महिलांचा सर्वांगीण विकास साधण्यासाठी, लगोरी फाउंडेशन अत्यंत कमी खर्चात हे वर्कशॉप उपलब्ध करत आहे.",
+    image: "https://scontent.fblr20-2.fna.fbcdn.net/v/t39.30808-6/329505917_768362881373011_9041832521734888537_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=z0a1sFPsU-UQ7kNvgECsyir&_nc_oc=AdlyzHEH1FyHkrnvlySE5F6TnodmoCjLqJipAmSJEJuMQZVRoqOVL5TqtwaHlqiuV9xg3yxMIo28TrLgsixC9J5T&_nc_zt=23&_nc_ht=scontent.fblr20-2.fna&_nc_gid=ZSo4nXTbUvjuKXig7eEZQw&oh=00_AYGsyS4owWSKK_pySGq--Pzoikj5oio0HkiasGysOX1gVQ&oe=67EE479E",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid04aP1eUhHoZDnDyDrFkQX7M9iWUX4dNVVWM5oob1vTDE2z6761p6GTxodt1NfTcJQl"
   },
   {
     id: 11,
-    title: "Community Garden Initiative",
-    date: "2020-09-12",
-    description: "A project to create a community garden providing fresh produce and bonding opportunities.",
-    image: "https://images.unsplash.com/photo-1518012312832-96aea3c91144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशनचा संक्रांती हळदी कुंकू सोहळा उत्साहात साजरा",
+    date: "2024-02-24",
+    description: "लगोरी फाउंडेशन कोल्हापूरने संक्रांती हळदी कुंकू सोहळ्याचे आयोजन शुक्रवारी शिवाजी मंदिरात संस्थापक अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून मोठ्या उत्साहात केला. मान्यवर म्हणून सौ. स्निग्धा चेतन नरके, रंजना पाटील, सविता रायकर, मंगल खुडे आणि कृष्णा चांडक उपस्थित होते. ",
+    image: "https://scontent.fblr20-2.fna.fbcdn.net/v/t39.30808-6/425956725_7007765269293331_8329047326371269117_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B_0E1ZUz75oQ7kNvgEIy3OZ&_nc_oc=AdmGlPWUsAJPugTcHvyg1Ws0mw2GQ-QYwoCdTyizbXg-FlTYklpiHW-LBsjr-1R8pvhEeiW-1qU_yO4O4eJ7VwU8&_nc_zt=23&_nc_ht=scontent.fblr20-2.fna&_nc_gid=6FBXNcqoZ6Q451-PBOkekA&oh=00_AYEmBitIN1mnJT5JbBc56xzx-2LrtEbTMnVq6uHziYM1AA&oe=67EE4407",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02o6ZYfuDkp7ntFaVNojk1ptR78S1Rfnxo5VeqBx45XQRgGvAiGQpbj8YLthyZqhTZl"
   },
   {
     id: 12,
