@@ -326,59 +326,59 @@ export const activitiesData = [
   },
   {
     id: 41,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "श्रावण सोमवार ट्रेकिंग - सातेरी शिव शम्भो दर्शन",
+    date: "2023-08-23",
+    description: "लगोरी फाउंडेशन कोल्हापूर आयोजित ट्रेकिंग कार्यक्रम श्रावण सोमवार निमित्त सातेरी येथे शिव शम्भो दर्शनासाठी पार पडला. हलक्या पावसाच्या सरींमध्ये निसर्गाचा आनंद घेत देवदर्शन झाले. उपवास असतानाही नविताचा वाढदिवस, निकिता चे भेटी, सविता आणि इतरांच्या सुंदर रिल्स, गप्पा, गाणी आणि प्राजक्ताच्या विनोदी किस्स्यांनी वातावरण रंगले.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/370597510_6422329291170268_6873708678397838314_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MwZKGbXauZ0Q7kNvgFYqoP0&_nc_oc=AdkKr_TjeWaIXsTk1ulruo0qxf6riFt9Gmr82yZd_4f_Al-aKw9viXnWBifp4LTbyF1RSMT2H4Whr9708BKmCCx4&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=85nMhgz8GVynwXyKcqbfGw&oh=00_AYHHN8aDbutj2_lfgKnbt9X_m9Q13kpWkGkFEjR77Q5NLg&oe=67EF11E5",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02aZmZYP6iMXrzGAPtCG66zaJqqxcLN3ukokHdQYPL775Uq78zGjMCeZrWAAX99xaHl"
   },
   {
     id: 42,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "स्वातंत्र्य दिनाचे औचित्य - समर्थ श्रावणी केअर सेंटरला भेट",
+    date: "2023-08-15",
+    description: "15 ऑगस्ट, स्वातंत्र्य दिनाच्या औचित्याने लगोरी फाउंडेशनने समर्थ श्रावणी केअर सेंटरला भेट दिली. संस्थापक अध्यक्ष शुभांगी साखरे, प्रेरणा पाटील, सीमा रेवणकर, नेहा कुडाळकर, आर्या पाटील, निकिता कापसे यांच्या सोबत केअर सेंटरला भेट देऊन, रुग्णांशी गप्पा मारल्या. रवी दादांसोबत गाणी गायली आणि उपस्थित आजोबा-आजींच्या चेहऱ्यावर आनंद पाहून मन भरून आलं. गायक दादांच्या गाण्याने वातावरण रंगवले.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/366940884_6377032205699977_8461896298195864637_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8CdPGsf7mXEQ7kNvgEeAbv4&_nc_oc=AdnbjPYa38e-diKAZ49lJplGOho2v9OhBl9Z4AR4iwjWRIKhKyDrUTkDmVZBxnt94q0jdooSoIln2mgqydt1Tb17&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=DnEwPq2aUS6rV7SJ385pow&oh=00_AYGWbtxkN-AdTM54d5RDkKhUWDjKGwosY4yiU-uGEL3uSA&oe=67EF152E",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0jsAAgadm17LW4vGEs4RbEYrowWw8v41eogu9bfXQnr857KMibsho4tumLNKf411Ul"
   },
   {
     id: 43,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "महाविष्णुसहस्त्रनाम सोहळा",
+    date: "2023-08-03",
+    description: "लगोरी फाउंडेशन आयोजित महाविष्णुसहस्त्रनाम सोहळा आज, ३ ऑगस्ट रोजी सनगर तालीम हॉल येथे अत्यंत भक्तिभावाने पार पडला. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून आयोजित या कार्यक्रमात माननीय सौ मेघा भाबोरीकर मॅम यांनी विष्णुसहस्त्रनाम जप आणि महिलांना अधिक मासाचे महत्त्व सांगितले. २५१ महिलांनी या सोहळ्याचा लाभ घेतला.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/362288374_6338570242879507_1815175455256543551_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=m2qxcQtIevIQ7kNvgFInf2P&_nc_oc=AdkX2au3AHi5StFGFEpPxcQzprzl-gwvuwBGupL4M190sK24KQ9fC0BoHAEFZ8z5PJ71erNKEgwKhc7PRksPfE4m&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=my0SBG0reg_REvGsBiqw0A&oh=00_AYFlZUXBkZdotrDgV6zcJuFt8J-nN9L3aOuug5yRQBEo0Q&oe=67EF0F30",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0wYNUtZPKfS65YVMujL2MdHiMKECsNXuePk4qQdpQsUFdWAXR45k3v55jMiDDCjU1l"
   },
   {
     id: 44,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशन मान्सून फन टाइम धमाका २०२३",
+    date: "2023-06-01",
+    description: "लगोरी फाउंडेशनचा मान्सून फन टाइम धमाका आज सागर तालीम येथे उत्साहाने पार पडला. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून कार्यक्रम अतिशय आनंदात आणि उत्साहात पार पडला. वटसावित्री मी निसर्गाची स्पर्धेचे बक्षीस वितरण सविता साळोखे यांच्या उपस्थितीत करण्यात आले. स्पर्धेचे विजेते म्हणून प्राजक्ता पाटील, नविता नाईक, कविता पाटील, सुप्रिया कोरडे आणि आशा खराडे निवडक ठरल्या.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/358047860_6237006559702543_1012551336501810839_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qGcG576KtYAQ7kNvgF0WAOx&_nc_oc=AdmLe_CNnuZNkJu4VBaTLRulaPzhqhn2VDsr71d7RSwbelhZxUZnWz4j9vslTe2SYVU1_gvkqWjGwUhki1RGYjBE&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=94DI7dPTqmQO9Dvpk5CjcA&oh=00_AYFmgzErAoPmb35J7lKPDSPBetAjHg04venk51tPRsGCVQ&oe=67EF30D9",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid024ee1YPsSR8haBQo22uKB3fCmXYU5EBBMc2LNKFCLFjnFutkTgeSHpA2zJDGmCK4kl"
   },
   {
     id: 45,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "सखी मेळावा २०२३ – लगोरी फाउंडेशन कोल्हापूर",
+    date: "2022-03-28",
+    description: "लगोरी फाउंडेशन कोल्हापूर आयोजित सखी मेळावा आज भेडवडे गावात उत्साहात पार पडला. संस्थापक अध्यक्ष शुभांगी साखरे, शिवानी यादव, प्रेरणा पाटील, अलका सणगर, ऐश्वर्या झाजगे, तृप्ती हत्तीकोटे, निकिता कापसे यांच्यासह विविध महिलांनी सहभाग घेतला. कार्यक्रमाचे उत्कृष्ट आयोजन वैशाली चव्हाण, रुपाली महाडिक, तृप्ती माने, आणि सुनीता एडके यांनी केले.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/481348585_9162369157166254_5272690079227694019_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Nzzc8cnSnXsQ7kNvgGjLwGV&_nc_oc=AdkCUNY1T0y8Yd5WkXWjQzgyrtT9wryBn85PJ3XCiLXeE9dFRv43FvtA5KDDVD5NkEagetfmqW0_Zzv1S6Gl_eTu&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=JfVarJrqaBFDDN7d5-2xcQ&oh=00_AYGTAP4RnhuIn928uEUOcwknL3HG_2P7CCIFQm02t6vItQ&oe=67EF18C3",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid09jBPsSvsW2oLv3bVi2pYhuuVujmaJdurdZ7siFtQVrCr2o2xRVBuTpky67MvuUTBl"
   },
   {
     id: 46,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "'एक धागा प्रेमाचा' – रक्षाबंधन विशेष कार्यक्रम",
+    date: "2022-08-22",
+    description: "लगोरी फाउंडेशन, समर्थ श्रावणी सेवाभावी संस्था, आणि SDR फाउंडेशन कोल्हापूर यांच्या संयुक्त विद्यमाने रक्षाबंधनाच्या दिवशी एक खास कार्यक्रम आयोजित करण्यात आला. या कार्यक्रमात कोल्हापूरमधील पूर परिस्थितीत आपत्कालीन व्यवस्थेमध्ये काम करणाऱ्या कोल्हापूर जिल्हा आपत्कालीन व्यवस्थापन रेस्क्यू फॉर्सच्या मुला-मुलींना राखी बांधण्यात आली.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/485373608_9264330393636796_123331890271464502_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JFrokrZIyuwQ7kNvgGTGF2e&_nc_oc=Adm4sj9HgQXyE6XYhrDQWKG5Wi8H05qQii4wp0oxUgUEG5kdPApy5J_dNOqLfQmroh8jMX3MA8u4XL25OO4ONh3I&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=LJmaavuEXYQ415nK69JEoA&oh=00_AYF5cOBA2DQwQ7LBxQlyP5QI07G6PjQ4eV13TKKefFYbxQ&oe=67EF3BE8",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid07JjdapLhcu9KXmqcD4LufbMA6zLWhX2e9yLnHb1pqv4pPnuXnVe6L7xyc12Na1Axl"
   },
   {
     id: 47,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "वाढदिवस आणि श्रावण सोमवार: एक अनोखा अनुभव",
+    date: "2022-08-01",
+    description: "लगोरी फाउंडेशनच्या संस्थापक अध्यक्ष शुभांगी साखरे यांच्या वाढदिवसाच्या आणि श्रावण सोमवाराच्या विशेष प्रसंगी, आज 'एकटी' संस्थेच्या अनाथ व एकट्या महिलांसोबत कोल्हापूरमध्ये एक खास कार्यक्रम आयोजित करण्यात आला. या अनोख्या प्रसंगात केक कापून, गाणी गाऊन, फळ आणि राजगिऱ्याचे लाडू वाटून महिलांना आनंद दिला. या कार्यक्रमाच्या साक्षीदार म्हणून 'एकटी' संस्थेच्या महिलांनी आणि कुलकर्णी आजी, रवी दादा, रमेश भाऊजी यांच्या गाण्यांनी सजीव मैफल निर्माण केली.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/485391122_9262250980511404_7269828970303709253_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kUKZ6XnFzaoQ7kNvgGYWlda&_nc_oc=Adm4UYS3L-iLDeTSP_WO8oZ0uErY48dXyuC-JHTpkTcZWO1En1AhmXNOlveLYGCxhPmNMKgYjhwwgbJ5oc4h3V7j&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=_9hOWk8Dizv0vflYo4XwlA&oh=00_AYE4nbSQnnz7y2vkdoOiUqPA8NCcBXTjdvVj631Wbsrq9Q&oe=67EF1CDC",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0ntmYEUFMpUPN3YTi9RsPZeZYo77tGWKFsPornoHMXZb5bEKoC2SHcbmSiV19FieWl"
   },
   {
     id: 48,
