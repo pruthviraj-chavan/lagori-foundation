@@ -26,7 +26,7 @@ const awardsData = [
     date: "2024-10-24",
     presenter: " हील रायडर्स अडवेंचेर फाउंडेशन",
     description: "Honored for excellent service to the community, particularly for disaster relief work during floods.",
-    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/395685430_6631417163594812_6744358701485592049_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Jlwk6VK7wQAQ7kNvgGTlXjU&_nc_oc=AdlK9ARpoyUoa-w9ESGyDcEmQ4ZvtiXeFZhKwy95pcNow-kK0os_5NrjtG9wBYcngAUVM437tUleiIxTAx_1Hc2S&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=9ZuMEFxRmLw-oNy3Kjd3Og&oh=00_AYH0PavhP9_lzvG5m2qYNWbbCyy_wN2_WmACKy00DgqtqQ&oe=67EF2778"
+    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/487398958_122101255454821707_7911791808112121292_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=x9UwDfRmqMIQ7kNvgEu7vKI&_nc_oc=AdnHrehfdSDUMmiqaRG5tTLYGa6JEvCKvqz3JZkTwHdPTH_Z2VsRYFhr0RxH4-n1bntkzvhtLYlU9KMGj3M1kfpj&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=sHlPb4PJJ7wUlxh1BwoTUA&oh=00_AYEgnItO3LUeG8qaqAZZo58Gw1CRzU_iRaPl7VFuA4_A0g&oe=67EF19AE"
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const awardsData = [
     date: "2021-12-10",
     presenter: "Kolhapur Municipal Corporation",
     description: "Recognition for significant contribution to local community development and improvement of women's welfare.",
-    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/395045634_6631411866928675_890603136968735322_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7c2HQ7KOfLgQ7kNvgEN1QIW&_nc_oc=Adk3KnNxnwQDrICG90ssv2EO8NeE_f4DTxGEK-WQwPX74yLKarOoPuYqqpLKZfiYoksGp14yZa43PGW0lcGceocT&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=xcXedhmTe1QjFk9ZEj1A3Q&oh=00_AYE-M339nfC2IdJLq_tPZmDzmO1V0EorMX6L6xJFSro_FA&oe=67EF022B"
+    image: ""
   },
   {
     id: 5,
