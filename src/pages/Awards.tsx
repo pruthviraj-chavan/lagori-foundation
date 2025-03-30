@@ -25,8 +25,8 @@ const awardsData = [
     title: "रणरागिनी पुरस्कार",
     date: "2024-10-24",
     presenter: " हील रायडर्स अडवेंचेर फाउंडेशन",
-    description: "Honored for excellent service to the community, particularly for disaster relief work during floods.",
-    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/487398958_122101255454821707_7911791808112121292_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=x9UwDfRmqMIQ7kNvgEu7vKI&_nc_oc=AdnHrehfdSDUMmiqaRG5tTLYGa6JEvCKvqz3JZkTwHdPTH_Z2VsRYFhr0RxH4-n1bntkzvhtLYlU9KMGj3M1kfpj&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=sHlPb4PJJ7wUlxh1BwoTUA&oh=00_AYEgnItO3LUeG8qaqAZZo58Gw1CRzU_iRaPl7VFuA4_A0g&oe=67EF19AE"
+    description: "हील रायडर्स अडवेंचर फाउंडेशनने लगोरी फाउंडेशनला रणरागिनी पुरस्काराने सन्मानित करून, भवानी मंडप येथील ऐतिहासिक कमानीला तोरण बांधण्याच्या सोहळ्यात सहभागाची संधी दिली.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/487852774_122101258154821707_966822609445007318_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XXlRTOBlt4MQ7kNvgF9OtnF&_nc_oc=AdnSk1omaB1CsOp_Y6v0GCeKrfHRg166zQ6-H1XUQgukbMT8gnYi2BGZBMJxsN1Zqgqh7KVo7xNN-kPtAa8TA-1n&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=U8dbwTSgWpt3idePYKSbLA&oh=00_AYHnV_elupTgXh4bQKdHdwpE1A7dDkspEybNAWi6CgUJRQ&oe=67EF0076"
   },
   {
     id: 4,
