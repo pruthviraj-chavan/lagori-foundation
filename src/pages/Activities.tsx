@@ -470,19 +470,27 @@ export const activitiesData = [
   },
   {
     id: 59,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशन कोल्हापूर आयोजित सखी मेळावा",
+    date: "2022-09-22",
+    description: "लगोरी फाउंडेशनने कोल्हापूर येथील सनगर तालीम हॉलमध्ये आयोजित सखी मेळावा मोठ्या उत्साहात पार पडला. संस्थेच्या संस्थापक अध्यक्षा शुभांगी साखरे, ऐश्वर्या झांजगे, प्रेरणा पाटील, अलका सनगर, आणि आकाश साखरे यांच्या संयोजनाने महिलांसाठी विविध स्पर्धांचा आयोजन करण्यात आला.",
+    image: "https://scontent.fblr1-6.fna.fbcdn.net/v/t39.30808-6/486319455_9278489542220881_4041047582491720216_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=AqW5igIZ4KIQ7kNvgED0psX&_nc_oc=AdkppM6UEqiTfzHBZBGiqHisK8okT4nOmcCYGENO5akqpqw0cBF-qxnGzVxl6OF7Dex8hcrgFJFztq_VvraornOK&_nc_zt=23&_nc_ht=scontent.fblr1-6.fna&_nc_gid=wUnKJqJMFYYGmRIewZFIUw&oh=00_AYGDoEtby0CKTI-z7uBuVgKoM2aQd5rFCRhH2uctW2ovVw&oe=67EF221C",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02CTyDZfmv5Z26xqiWchHugekqkc5LWS7Rog9yq1uXffxK28ZpxTkUafnCk3w8ZyvDl"
   },
   {
     id: 60,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लिटिल वंडर स्कूल आणि सजीवनी इंग्लिश मीडियम स्कूलमध्ये शाहीर पिराजीराव सरनाईक स्मृतिप्रीत्यर्थ टॅलेंट हंट स्पर्धेचे आयोजन",
+    date: "2022-07-29",
+    description: "लिटिल वंडर स्कूल आणि संजीवनी इंग्लिश मीडियम स्कूलमध्ये शाहीर पिराजीराव सरनाईक यांच्या स्मृतिप्रीत्यर्थ टॅलेंट हंट स्पर्धेचे भव्य आयोजन करण्यात आले. या स्पर्धेत विद्यार्थ्यांनी विविध कला सादर करत आपले कौशल्य दाखवले.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/485800667_9258011334268702_1919986113698914608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CAcZZJK__3EQ7kNvgFdFHPG&_nc_oc=AdkmhZpMzzWUkVHYzrm3C8A-38w5yYHVBsvxVnGrFijcmfXKa8_JJ9dKlrfj9zJr7-oN2_PkqO67aeiSkfrbCvtd&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=HdRrtu8JHm3Biz80NehMbQ&oh=00_AYF8gxFONMyTNBXY6WYgkB1GtyZSZeOrAzG-jwcTpX2BUg&oe=67EF1E90",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02PH47dPTpmyRRyTt1DQ5brm5trV58fokAXjGYoeTkXTMZnnryssmooYN23bZzGUQql"
+  },
+  {
+    id: 61,
+    title: "अंधशाळेतील चिमुकल्यांसोबत खास वाढदिवसाचा आनंदोत्सव",
+    date: "2022-07-02",
+    description: "लगोरी फाउंडेशनच्या सदस्य डॉ. सायली बोरसे यांच्या वाढदिवसाचे औचित्य साधून कोल्हापूर येथील अंधशाळेतील विद्यार्थ्यांसोबत आनंद साजरा करण्यात आला. यावेळी मुलांसोबत केक कापण्यात आला, फळे आणि खाऊ वाटप करण्यात आले तसेच त्यांच्यासोबत आनंदी गप्पा रंगल्या.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/484803483_9245543898848779_463007033299295848_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lq_MT-zguzEQ7kNvgFF4bFo&_nc_oc=AdlSpvFOvuWBsuo7Ot_JHjuOvm06D7EeAVw1oiiE7PkmZo8JnnI_d99ddQrxQa_VR9clHZF9EC6001zr90VkRP4p&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=YCvziB2Jg6LdPHoOeIyX9g&oh=00_AYGN5N3ZaBlVuIR3wVYX1b2OA-7wp9znfuQ-nG08x5biYw&oe=67EF4850",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0AmFCQv2v71uRazPxeffAwaUjqSuHmhr2qLyik17MLuSXtHDg8AqtxsVqicMMnTDBl"
   },
   
 ];
