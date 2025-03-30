@@ -45,10 +45,15 @@ const Index = () => {
       });
     }, options);
 
-    if (activitiesRef.current) observer.observe(activitiesRef.current);
+    const sections = [statsRef.current, servicesRef.current, storiesRef.current, activitiesRef.current, videosRef.current, teamRef.current];
+    sections.forEach(section => {
+      if (section) observer.observe(section);
+    });
 
     return () => {
-      if (activitiesRef.current) observer.unobserve(activitiesRef.current);
+      sections.forEach(section => {
+        if (section) observer.unobserve(section);
+      });
     };
   }, []);
 
