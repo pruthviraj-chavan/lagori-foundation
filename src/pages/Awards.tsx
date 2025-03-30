@@ -22,11 +22,11 @@ const awardsData = [
   },
   {
     id: 3,
-    title: "Community Service Excellence",
-    date: "2022-06-30",
-    presenter: "State Government of Maharashtra",
+    title: "रणरागिनी पुरस्कार",
+    date: "2024-10-24",
+    presenter: " हील रायडर्स अडवेंचेर फाउंडेशन",
     description: "Honored for excellent service to the community, particularly for disaster relief work during floods.",
-    image: "https://images.unsplash.com/photo-1618374645476-4a3672dba2c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/395685430_6631417163594812_6744358701485592049_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Jlwk6VK7wQAQ7kNvgGTlXjU&_nc_oc=AdlK9ARpoyUoa-w9ESGyDcEmQ4ZvtiXeFZhKwy95pcNow-kK0os_5NrjtG9wBYcngAUVM437tUleiIxTAx_1Hc2S&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=9ZuMEFxRmLw-oNy3Kjd3Og&oh=00_AYH0PavhP9_lzvG5m2qYNWbbCyy_wN2_WmACKy00DgqtqQ&oe=67EF2778"
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const awardsData = [
     date: "2021-12-10",
     presenter: "Kolhapur Municipal Corporation",
     description: "Recognition for significant contribution to local community development and improvement of women's welfare.",
-    image: "https://images.unsplash.com/photo-1577896851426-80e8a2a9303a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/395045634_6631411866928675_890603136968735322_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7c2HQ7KOfLgQ7kNvgEN1QIW&_nc_oc=Adk3KnNxnwQDrICG90ssv2EO8NeE_f4DTxGEK-WQwPX74yLKarOoPuYqqpLKZfiYoksGp14yZa43PGW0lcGceocT&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=xcXedhmTe1QjFk9ZEj1A3Q&oh=00_AYE-M339nfC2IdJLq_tPZmDzmO1V0EorMX6L6xJFSro_FA&oe=67EF022B"
   },
   {
     id: 5,
