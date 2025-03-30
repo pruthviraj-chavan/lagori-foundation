@@ -18,6 +18,7 @@ import ServiceCard from "../components/ServiceCard";
 import ActivityCard from "../components/ActivityCard";
 import TeamCard from "../components/TeamCard";
 import YouTubeVideo from "../components/YouTubeVideo";
+import { activitiesData } from './Activities';
 
 const Index = () => {
   const statsRef = useRef<HTMLDivElement>(null);
@@ -44,17 +45,16 @@ const Index = () => {
       });
     }, options);
 
-    const sections = [statsRef.current, servicesRef.current, storiesRef.current, activitiesRef.current, videosRef.current, teamRef.current];
-    sections.forEach(section => {
-      if (section) observer.observe(section);
-    });
+    if (activitiesRef.current) observer.observe(activitiesRef.current);
 
     return () => {
-      sections.forEach(section => {
-        if (section) observer.unobserve(section);
-      });
+      if (activitiesRef.current) observer.unobserve(activitiesRef.current);
     };
   }, []);
+
+  const recentActivities = activitiesData
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 3);
 
   return (
     <PageTransition>
@@ -383,24 +383,16 @@ const Index = () => {
               ref={activitiesRef} 
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 opacity-0"
             >
-              <ActivityCard 
-                image="https://images.unsplash.com/photo-1607748851687-ba9a10438621?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-                title="Tailoring Workshop for Rural Women"
-                date="June 15, 2023"
-                description="A skill development workshop teaching tailoring skills to women from rural communities, providing them with a pathway to financial independence."
-              />
-              <ActivityCard 
-                image="https://images.unsplash.com/photo-1529333166437-7feb33f752ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1969&q=80"
-                title="Sankranti Haldi-Kunku Celebration"
-                date="January 14, 2023"
-                description="A cultural celebration bringing together women from different communities to celebrate the festival of Sankranti with traditional Haldi-Kunku ceremony."
-              />
-              <ActivityCard 
-                image="https://images.unsplash.com/photo-1618377385526-83108e223cf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                title="Legal Awareness Camp"
-                date="March 8, 2023"
-                description="An educational workshop on International Women's Day, informing women about their legal rights and available resources for addressing domestic violence."
-              />
+               {recentActivities.map(activity => (
+                <ActivityCard 
+                  key={activity.id}
+                  image={activity.image}
+                  title={activity.title}
+                  date={activity.date}
+                  description={activity.description}
+                  link={activity.link}
+                />
+              ))}
             </div>
 
             <div className="text-center mt-12">
