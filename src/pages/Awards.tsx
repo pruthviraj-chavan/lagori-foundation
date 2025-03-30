@@ -6,11 +6,11 @@ import { Award } from "lucide-react";
 const awardsData = [
   {
     id: 1,
-    title: "सन्मान स्त्रीशक्ती पुरस्कार",
-    date: "2021-03-015",
-    presenter: "जायंट्स ग्रुप ऑफ कोल्हापूर पर्ल",
-    description: "महिलांच्या सामर्थ्य आणि समाजातील योगदानाबद्दल दिला जातो, ज्याने त्यांना एक नवीन ऊर्जा आणि प्रेरणा दिली आहे.",
-    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/160683978_3702273463175878_2437741425696289663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0zzhDkFxBxsQ7kNvgGkE2d7&_nc_oc=AdndqDbMwjev9MBKygXTiw-_ahfObS_lT_pRmURZDiAdnoTJZ63iBVSm26iZWjOzzPyVYFM_i4DiJH_4asyiuU6B&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=gmqWAu198hAAtIY49xFxOA&oh=00_AYEUo_JHlg3K6qi6wKhnt5zuoYng9vHdFAd-UlwWYbVqEg&oe=68107D63"
+    title: "रणरागिनी पुरस्कार",
+    date: "2024-10-24",
+    presenter: " हील रायडर्स अडवेंचेर फाउंडेशन",
+    description: "हील रायडर्स अडवेंचर फाउंडेशनने लगोरी फाउंडेशनला रणरागिनी पुरस्काराने सन्मानित करून, भवानी मंडप येथील ऐतिहासिक कमानीला तोरण बांधण्याच्या सोहळ्यात सहभागाची संधी दिली.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/487852774_122101258154821707_966822609445007318_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XXlRTOBlt4MQ7kNvgF9OtnF&_nc_oc=AdnSk1omaB1CsOp_Y6v0GCeKrfHRg166zQ6-H1XUQgukbMT8gnYi2BGZBMJxsN1Zqgqh7KVo7xNN-kPtAa8TA-1n&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=U8dbwTSgWpt3idePYKSbLA&oh=00_AYHnV_elupTgXh4bQKdHdwpE1A7dDkspEybNAWi6CgUJRQ&oe=67EF0076"
   },
   {
     id: 2,
@@ -22,19 +22,19 @@ const awardsData = [
   },
   {
     id: 3,
-    title: "रणरागिनी पुरस्कार",
-    date: "2024-10-24",
-    presenter: " हील रायडर्स अडवेंचेर फाउंडेशन",
-    description: "हील रायडर्स अडवेंचर फाउंडेशनने लगोरी फाउंडेशनला रणरागिनी पुरस्काराने सन्मानित करून, भवानी मंडप येथील ऐतिहासिक कमानीला तोरण बांधण्याच्या सोहळ्यात सहभागाची संधी दिली.",
-    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/487852774_122101258154821707_966822609445007318_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XXlRTOBlt4MQ7kNvgF9OtnF&_nc_oc=AdnSk1omaB1CsOp_Y6v0GCeKrfHRg166zQ6-H1XUQgukbMT8gnYi2BGZBMJxsN1Zqgqh7KVo7xNN-kPtAa8TA-1n&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=U8dbwTSgWpt3idePYKSbLA&oh=00_AYHnV_elupTgXh4bQKdHdwpE1A7dDkspEybNAWi6CgUJRQ&oe=67EF0076"
-  },
-  {
-    id: 4,
     title: "राज्य स्तरीय गौरव पुरस्कार महिला सक्षमिकरण पुरस्कार",
     date: "2022-06-22",
     presenter: "आम्ही कोल्हापूरी फौंडेशन",
     description: "महिला सशक्तीकरणासाठी उल्लेखनीय योगदान ",
     image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/485147179_9245520482184454_443428015467753969_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XGbRTExEOawQ7kNvgEB0WEE&_nc_oc=Adm_N5bZFYhAT4ugYmuGw555Ufdo-FFq66BBP2eEstnpiREgzLQ26EKeFBChMD_yBh0EFwxs9nD1TnJlMwGyEHZd&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=i2P5Cv0y_OAYZUpYq9wtyw&oh=00_AYGPktRnLCVLkpE80Ck8heP-uQcUxmfMjUS5wjDdsbFbGg&oe=67EF4B6D"
+  },
+  {
+    id: 4,
+    title: "सन्मान स्त्रीशक्ती पुरस्कार",
+    date: "2021-03-015",
+    presenter: "जायंट्स ग्रुप ऑफ कोल्हापूर पर्ल",
+    description: "महिलांच्या सामर्थ्य आणि समाजातील योगदानाबद्दल दिला जातो, ज्याने त्यांना एक नवीन ऊर्जा आणि प्रेरणा दिली आहे.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/160683978_3702273463175878_2437741425696289663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0zzhDkFxBxsQ7kNvgGkE2d7&_nc_oc=AdndqDbMwjev9MBKygXTiw-_ahfObS_lT_pRmURZDiAdnoTJZ63iBVSm26iZWjOzzPyVYFM_i4DiJH_4asyiuU6B&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=gmqWAu198hAAtIY49xFxOA&oh=00_AYEUo_JHlg3K6qi6wKhnt5zuoYng9vHdFAd-UlwWYbVqEg&oe=68107D63"
   },
   {
     id: 5,
