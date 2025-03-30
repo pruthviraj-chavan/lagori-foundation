@@ -6,11 +6,11 @@ import { Award } from "lucide-react";
 const awardsData = [
   {
     id: 1,
-    title: "National Women's Empowerment Award",
-    date: "2023-03-08",
-    presenter: "Ministry of Women & Child Development",
-    description: "Recognition for outstanding contribution to women's empowerment through innovative programs.",
-    image: "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    title: "सन्मान स्त्रीशक्ती पुरस्कार",
+    date: "2021-03-015",
+    presenter: "जायंट्स ग्रुप ऑफ कोल्हापूर पर्ल",
+    description: "महिलांच्या सामर्थ्य आणि समाजातील योगदानाबद्दल दिला जातो, ज्याने त्यांना एक नवीन ऊर्जा आणि प्रेरणा दिली आहे.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t1.6435-9/161460596_3702273216509236_8022596947164655410_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WMmlzL_fKrwQ7kNvgG-NAGo&_nc_oc=Adk9tBIF6LIBfnEGk5Yg4HkLOEqTkA_z8BBqrSxmIqa47YB66yJO0kuIvBd0WDMVbkAaMyFV5QOSAJuEV6kG-7ax&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=lPB-zJXt_mTyEHtx-LoX7Q&oh=00_AYEVOVSBvxgUetRAircLv9F5Xxdx0ZjGFQVYR2y0RL2u6w&oe=6810843E"
   },
   {
     id: 2,
