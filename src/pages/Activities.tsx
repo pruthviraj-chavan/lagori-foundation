@@ -117,7 +117,7 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0xA5jdbYXQ48UKFM78iHbjXPey6BAwve1sFpq5ZWJWBr9Kby4x2uDyPxD8CxJf7Tsl"
   },
   {
-    id: 16,
+    id: 15,
     title: "डॉक्टर दिनानिमित्त रुग्ण हक्क परिषदेतर्फे मान्यवरांचा सन्मान",
     date: "2020-07-01",
     description: "डॉक्टर दिनाचे औचित्य साधून रुग्ण हक्क परिषदेतर्फे कोल्हापूर जिल्ह्यातील मान्यवर डॉक्टरांचा सन्मान करण्यात आला. यामध्ये डॉ. यू. जी. कुंभार (अतिरिक्त जिल्हा आरोग्य अधिकारी), डॉ. योगेश साळे (जिल्हा आरोग्य अधिकारी), डॉ. मन्सूरअली (ब्रेन स्पेशालिस्ट, ऍस्टर आधार), डॉ. अल्पना चौगुले आणि अथायू हॉस्पिटल टीम यांचा समावेश होता.",
@@ -125,7 +125,7 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0u9M39Ky81NoTQ9PGLD238icSBJXV5NVyfQDPgH5VwTSC3v3pNbWntNzHbSdYe54jl"
   },
   {
-    id: 17,
+    id: 16,
     title: "लगोरी बहुउद्देशीय संस्थेचा प्रथम वर्धापनदिन साजरा",
     date: "2020-09-05",
     description: "लगोरी बहुउद्देशीय संस्थेला आज एक वर्ष पूर्ण झाले. या काळात वृक्षारोपण, अनाथाश्रम भेट, संक्रांतीचा हळदीकुंकू, कॅन्सर निर्मूलनावर डॉक्टर रेश्मा पवार यांचे व्याख्यान, सौंदर्यविषयक मार्गदर्शन, अंधशाळा भेट यासारखे विविध उपक्रम राबवले. वर्धापन दिनानिमित्त पारंपरिक कार्यक्रमांना फाटा देत संस्थेच्या वतीने पंचगंगा स्मशानभूमीत शेणी दान उपक्रम राबवला.",
@@ -133,7 +133,7 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid029RGWBkcZyfQXf1jk9cuzTxzMg5iGmwnnnYBKhTXyHHrnQE5wBx39M6aNB2iSen1Sl"
   },
   {
-    id: 18,
+    id: 17,
     title: "लगोरी फाउंडेशन – महिलांसाठी हक्काचे व्यासपीठ",
     date: "2020-09-20",
     description: "जय महाराष्ट्र चॅनेलच्या टीमचे मनःपूर्वक आभार! त्यांच्या सहकार्यामुळे आमच्या संस्थेतील होतकरू महिलांना नवी प्रेरणा आणि ऊर्जा मिळाली. आमच्या सखींच्या कार्याची दखल घेतल्याबद्दल ज्ञानेश्वर साळोखे आणि त्यांच्या टीमचे पुन्हा एकदा मनःपूर्वक धन्यवाद!",
@@ -141,7 +141,7 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0Adi68TgGNRk1E6R52XKv96ABwMMCPxG37D9YYeYrwgnZArXwUiTV4pGTKW233xZil"
   },
   {
-    id: 19,
+    id: 18,
     title: "लगोरी फाउंडेशनतर्फे मान्यवरांना भेट व शुभेच्छा",
     date: "2020-12-20",
     description: "लगोरी फाउंडेशनच्या संचालक मंडळाने माजी आयुक्त मा. मल्लिनाथ कलशेट्टी, कोल्हापूर जिल्हाधिकारी मा. दौलत देसाई, कोल्हापूरच्या महापौर मा. निलोफर आझरेकर यांची सदिच्छा भेट घेतली. तसेच, कोल्हापूर काँग्रेसचे सचिनभाई चव्हाण यांना वाढदिवसानिमित्त शुभेच्छा दिल्या.",
@@ -149,7 +149,7 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid08zb39AwfbYBFU2mDFyyoqNaLJz5HG8NHmDpe2R58nxFk1M6hgzZ49qhWYkKrsrxCl"
   },
   {
-    id: 20,
+    id: 19,
     title: "लगोरी फाउंडेशनच्या सखींनी दिला मदतीचा हात",
     date: "2022-12-22",
     description: "लगोरी फाउंडेशनच्या सखी महिलांनी एकत्र येत गरजूंसाठी मदतीचा हात पुढे केला. समाजातील महिलांना स्वावलंबी बनवण्यासाठी आणि त्यांना आधार देण्यासाठी संस्थेच्या सदस्यांनी विविध उपक्रम राबवले. आर्थिक मदत, रोजगार संधी, तसेच व्यवसाय उभारण्यासाठी मार्गदर्शन देण्याचे कार्य सखींनी उत्स्फूर्तपणे केले. संस्थेच्या अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून सुरू झालेल्या या उपक्रमांतर्गत अनेक महिलांना आधार मिळाला. भविष्यातही महिलांच्या सशक्तीकरणासाठी लगोरी फाउंडेशन सतत कार्यरत राहणार आहे.",
@@ -157,20 +157,28 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0eaw7JJMhrY1ipbbvmi5p6VvokDLfsD59ZKLag39VgsfiCvQXCpUS2aLbbxujupPil"
   },
   {
+    id: 20,
+    title: "लगोरी फाउंडेशनच्या वतीने महिलांसाठी केक प्रशिक्षण कार्यशाळा",
+    date: "2020-12-23",
+    description: "लगोरी फाउंडेशन आणि Bright Gems Pre-Primary School यांच्या संयुक्त विद्यमाने महिलांसाठी केक बनवण्याचे प्रशिक्षण आयोजित करण्यात आले. या उपक्रमाचा उद्देश महिलांना घरबसल्या उद्योजकतेची संधी उपलब्ध करून देणे हा होता. संस्थेच्या अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून हा उपक्रम राबवण्यात आला.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/133114803_3498481250221768_714845307978589974_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=c27CFhlb5XgQ7kNvgEl8d9C&_nc_oc=AdlbdzxoGoo5sbi0wrVtCywCz0XV5amWlNixioznjQEXGgwmRGH0Jh5XgT1YyRsBYOWbglxrAGvnqWD7M1FZHRjT&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=gygiC0tivVd902ZwzQBaWg&oh=00_AYGIvhEnNBTYRwztYpII5g7eqcqQkHnsMEFwD2R7xW9dDA&oe=68108713",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02SeeeENCBVBW6fBsnd4bnJBqG2e8g9pH1giNyaguh2hWz9K1FjcASWKry4XQdunZfl"
+  },
+  {
     id: 21,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "पाचगांव शांती नगर अंगणवाडीमध्ये राष्ट्रीय बालिका सप्ताह उत्सव",
+    date: "2021-01-26",
+    description: "पाचगांव शांती नगर अंगणवाडीमध्ये २१ ते २६ जानेवारी दरम्यान राष्ट्रीय बालिका सप्ताह साजरा करण्यात आला. यावेळी आदर्श काम करणाऱ्या महिलांचा सत्कार करण्यात आला. या कार्यक्रमात वंदना साळोखे, राधिका खडके, शुभांगी साखरे, माधुरी कान्हटकर, दीपाली पाटिल आणि अंगणवाडी सेविका, मदतनीस, आशा सेविका उपस्थित होत्या.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t1.6435-9/142417367_3574980372571855_3493593839593177978_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1oyyEBb84akQ7kNvgEKKe7E&_nc_oc=Adlp53TNJeXW_SxNkVHLfa4KSsC5UQbGT4VVG1xtPw063qUt43EmC5gKnnnDmn-BkxvxQcIGQkqU_V9qaasoiKv4&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=bedEyTi71uldcEL3KFKIxw&oh=00_AYFG1RqPnLAp3fc__xleB8LsYXThQQippTHnj9tIMO3osg&oe=68109211",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0265xyBo6NvVqfer8tsV9ruXbLsFNWnHFLh1vGPDc33n7bdgQiZBqhDrwdidVq9Re6l"
   },
   {
     id: 22,
-    title: "Foundation Inauguration",
+    title: "स्वच्छंदी मंचचे उद्घाटन आणि हळदीकुंकू सोहळा",
     date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    description: "'स्वच्छंदी मंच' शिवाजी पेठ येथे हळदी कुंकू कार्यक्रमाचे आयोजन करण्यात आले होते. या कार्यक्रमात मकर संक्रांतीच्या विशेष प्रसंगी हलव्याचे आयोजन, दागिने आणि काळी साडी वेशभूषा स्पर्धा, संगीत खुर्ची स्पर्धा आणि खाद्य पदार्थांचे स्टॉल्स ठेवण्यात आले होते.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t1.6435-9/143252690_3576763032393589_7599976273908872649_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tnnm_V6Q2OoQ7kNvgEJPugn&_nc_oc=Adni1xyBBxHypTZPhPw_fubNnNSgkizkWovXPC-gSkWokYQooJ6Fe5xyqvm308B5S1VlwpWGNpn3Z6X08AEFKg8Q&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=WZhPIfNfcukx7ALX-yuNrQ&oh=00_AYHAmMN4NXTinY3L1nD9KvkpkivDZu4xF-EXFHRkljuT1Q&oe=68106BA0",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02WG1H4t29ArBx1PPJPj3gfWjrMEPXSUwYpNg7P74CKRzmSBxFXs3qJ1LLAukgxMdal"
   },
   {
     id: 23,
