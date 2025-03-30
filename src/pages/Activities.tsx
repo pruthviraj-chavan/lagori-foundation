@@ -175,7 +175,7 @@ export const activitiesData = [
   {
     id: 22,
     title: "स्वच्छंदी मंचचे उद्घाटन आणि हळदीकुंकू सोहळा",
-    date: "2019-06-01",
+    date: "2021-01-27",
     description: "'स्वच्छंदी मंच' शिवाजी पेठ येथे हळदी कुंकू कार्यक्रमाचे आयोजन करण्यात आले होते. या कार्यक्रमात मकर संक्रांतीच्या विशेष प्रसंगी हलव्याचे आयोजन, दागिने आणि काळी साडी वेशभूषा स्पर्धा, संगीत खुर्ची स्पर्धा आणि खाद्य पदार्थांचे स्टॉल्स ठेवण्यात आले होते.",
     image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t1.6435-9/143252690_3576763032393589_7599976273908872649_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tnnm_V6Q2OoQ7kNvgEJPugn&_nc_oc=Adni1xyBBxHypTZPhPw_fubNnNSgkizkWovXPC-gSkWokYQooJ6Fe5xyqvm308B5S1VlwpWGNpn3Z6X08AEFKg8Q&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=WZhPIfNfcukx7ALX-yuNrQ&oh=00_AYHAmMN4NXTinY3L1nD9KvkpkivDZu4xF-EXFHRkljuT1Q&oe=68106BA0",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02WG1H4t29ArBx1PPJPj3gfWjrMEPXSUwYpNg7P74CKRzmSBxFXs3qJ1LLAukgxMdal"
