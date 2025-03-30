@@ -7,7 +7,7 @@ const awardsData = [
   {
     id: 1,
     title: "रणरागिनी पुरस्कार",
-    date: "2024-10-24",
+    date: "2023-09-24",
     presenter: " हील रायडर्स अडवेंचेर फाउंडेशन",
     description: "हील रायडर्स अडवेंचर फाउंडेशनने लगोरी फाउंडेशनला रणरागिनी पुरस्काराने सन्मानित करून, भवानी मंडप येथील ऐतिहासिक कमानीला तोरण बांधण्याच्या सोहळ्यात सहभागाची संधी दिली.",
     image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/487852774_122101258154821707_966822609445007318_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XXlRTOBlt4MQ7kNvgF9OtnF&_nc_oc=AdnSk1omaB1CsOp_Y6v0GCeKrfHRg166zQ6-H1XUQgukbMT8gnYi2BGZBMJxsN1Zqgqh7KVo7xNN-kPtAa8TA-1n&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=U8dbwTSgWpt3idePYKSbLA&oh=00_AYHnV_elupTgXh4bQKdHdwpE1A7dDkspEybNAWi6CgUJRQ&oe=67EF0076"
