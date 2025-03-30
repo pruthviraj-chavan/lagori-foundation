@@ -110,12 +110,133 @@ const activitiesData = [
   },
   {
     id: 14,
+    title: "रुग्ण हक्क संरक्षण कायद्याच्या मागणीसाठी घंटानाद आंदोलन",
+    date: "2019-11-21",
+    description: "डिपॉजिटची रक्कम भरू न शकल्याने गरीब व असाहाय्य रुग्णांना वेळेत उपचार मिळत नसतील आणि प्राण गमवावे लागत असतील, तर त्याला जबाबदार कोण? अशा परिस्थितीत संबंधित हॉस्पिटल व डॉक्टरांवर गुन्हा दाखल होऊन शिक्षा झालीच पाहिजे. या मागणीसाठी आणि 'रुग्ण हक्क संरक्षण कायदा' लागू करण्यासाठी, २१ नोव्हेंबर २०१९ रोजी महाराष्ट्रभर घंटानाद आंदोलन करण्यात आले.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/76935907_2499547250115178_9176738192487874560_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8OPM_4YKx40Q7kNvgEqASkc&_nc_oc=Adk-Xvq0dXAiTeJzKcRWh4-ZM-PKfUy1i_IojykudJDuqY4FE2fAapTyuHq_xrEEu9no310Cvj0zZDyVjltNpn74&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=llPML4xe9C777CCPTKlr-g&oh=00_AYHZBEZvmbEW8IVrtc_gAeWSYQ5WezKYjvoTQJLacDSbhw&oe=68107139",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0xA5jdbYXQ48UKFM78iHbjXPey6BAwve1sFpq5ZWJWBr9Kby4x2uDyPxD8CxJf7Tsl"
+  },
+  {
+    id: 16,
     title: "Foundation Inauguration",
     date: "2019-06-01",
     description: "The official launch of Lagori Foundation with a mission to empower women.",
     image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
-  }
+  },
+  {
+    id: 17,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 18,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 19,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 20,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 21,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 22,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 23,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 24,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 25,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 26,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 27,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 28,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 29,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 30,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  
 ];
 
 const Activities = () => {
