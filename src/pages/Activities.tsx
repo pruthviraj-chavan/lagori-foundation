@@ -23,7 +23,7 @@ const activitiesData = [
   {
     id: 3,
     title: "शारदीय नवरात्र उत्सवानिमित्त महारॅली चे आयोजन. लगोरी फाउंडेशन चा सहभाग",
-    date: "2023-24-10",
+    date: "2023-10-24",
     description: "शारदीय नवरात्र उत्सवानिमित्त महारॅलीचे आयोजन करण्यात आले, ज्यामध्ये लगोरी फाउंडेशनने उत्स्फूर्त सहभाग घेतला. या महारॅलीच्या माध्यमातून महिलांच्या सशक्तीकरणाचा संदेश देण्यात आला आणि समाजात एकात्मतेची भावना वृद्धिंगत करण्याचा प्रयत्न करण्यात आला.",
     image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/462883143_8352776588125519_4756712244573059595_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=TNm3rZQWER4Q7kNvgEKobyS&_nc_oc=AdkmzhvdWPRczWhmnA-xMpXIj_Qicmt2z1n-dBxTtRbNy8HL2hVQohPD6AydGxFn7xyX_0TgA0gbJeSaoEqdpqmX&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=Sk7p3JTUCanol0MemtMm9w&oh=00_AYFvFi7Bd38Eug0FsyR9CNXjeuLSBmefdyX-2I4myChkLg&oe=67EE29FC",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid029c5ZeahA3iWcpzVkCsjkriaFoN299vUUnKKtepE8xCYkFsLjizi9ydvcZjkDLTy8l"
