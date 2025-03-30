@@ -351,7 +351,7 @@ export const activitiesData = [
   {
     id: 44,
     title: "लगोरी फाउंडेशन मान्सून फन टाइम धमाका २०२३",
-    date: "2023-06-01",
+    date: "2023-07-04",
     description: "लगोरी फाउंडेशनचा मान्सून फन टाइम धमाका आज सागर तालीम येथे उत्साहाने पार पडला. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून कार्यक्रम अतिशय आनंदात आणि उत्साहात पार पडला. वटसावित्री मी निसर्गाची स्पर्धेचे बक्षीस वितरण सविता साळोखे यांच्या उपस्थितीत करण्यात आले. स्पर्धेचे विजेते म्हणून प्राजक्ता पाटील, नविता नाईक, कविता पाटील, सुप्रिया कोरडे आणि आशा खराडे निवडक ठरल्या.",
     image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/358047860_6237006559702543_1012551336501810839_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qGcG576KtYAQ7kNvgF0WAOx&_nc_oc=AdmLe_CNnuZNkJu4VBaTLRulaPzhqhn2VDsr71d7RSwbelhZxUZnWz4j9vslTe2SYVU1_gvkqWjGwUhki1RGYjBE&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=94DI7dPTqmQO9Dvpk5CjcA&oh=00_AYFmgzErAoPmb35J7lKPDSPBetAjHg04venk51tPRsGCVQ&oe=67EF30D9",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid024ee1YPsSR8haBQo22uKB3fCmXYU5EBBMc2LNKFCLFjnFutkTgeSHpA2zJDGmCK4kl"
@@ -382,14 +382,94 @@ export const activitiesData = [
   },
   {
     id: 48,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "जागतिक महिला दिन २०२३: एक अविस्मरणीय सण",
+    date: "2023-03-08",
+    description: "आज 8 मार्च, जागतिक महिला दिनाचे औचित्य साधून लगोरी फाउंडेशन कोल्हापूर आणि रिलायन्स मॉल लिमिटेड यांनी एक शानदार वुमन्स डे पार्टी आयोजित केली. या कार्यक्रमाला 158 महिलांनी उत्स्फूर्तपणे सहभाग घेतला, आणि सर्वांनी मिळून मजा केली. महिलांनी छान सेल्फी पॉईंटवर सेल्फी काढल्या, गेम्स खेळल्या, व्हिडिओ बनवले, आणि एकमेकांसोबत मस्त आनंद लुटला.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/335364548_767007201220394_2112740742671499108_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ImR41P7N1X4Q7kNvgGqQbGy&_nc_oc=AdmocNnPkLJtpVn6BOPRiJomJFC9aS_iMuRVhvwfhtA3Ttyvn7br9u-DKP5tBmwHXlrfqD1NdrM5Bm3aslrjZ2Df&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=BIUdiD2ku2dfM5kTfzpb9g&oh=00_AYFynjF6jIiUzFu5b-un6bK3HfE2A8Z_cjPA636tzL67rg&oe=67EF3C27",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02Ac53MS6arKkWcENDgFhr7yPZhMBkDiqS6vkxTASTHkhz9x95yPK3vHZR8PGU793pl"
   },
   {
     id: 49,
+    title: "शिवजयंती २०२३ लेझीम रॅली - एक अभूतपूर्व उत्सव",
+    date: "2023-02-23",
+    description: "लगोरी फाउंडेशनने शिवजयंतीच्या औचित्याने मिरजकर तिकटी येथून लेझीम रॅलीचे आयोजन केले, ज्यात सर्व महिलांनी उत्साहाने भाग घेतला. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या नेतृत्वाखाली, स्मिता खामकर (अध्यक्ष, संस्कार शिदोरी मंच), वैशालीताई महाडिक (अध्यक्ष, आनंदीबाई महिला बहुद्देशीय संस्था), उज्वला पटेल (मिसेस इंडिया फेम), कशिश वाधवा (हाय-फाय लेडीज कलेक्शन), आणि चारूलता चव्हाण यांच्या उपस्थितीत रॅलीची सुरुवात झाली.",
+    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/332292090_751559019657901_3481700246931405162_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=48whTK1HVKUQ7kNvgEuiqte&_nc_oc=Admrajm4bgSZ71T60vK8qNM_TfeSzd7er5pHFSGC3KGiQ8RuabhNKs6wUMSSZ2-6KYGYj14ZkuSUEQgnRPA9MTM6&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=G7zIYK4ij-9aGYblq-vFlw&oh=00_AYEEEIBFkbpjPqKENp3xg5MfYbM9G6atGYadnHxVAA_WCw&oe=67EF4139",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0KPs5ki6huvRQjiko8iywMpJkS4npcBZTG6EMJK5pQwKhLhkrag8ZBkqkowGmKfbKl"
+  },
+  {
+    id: 50,
+    title: "संक्रांत हळदी कुंकू २०२३: एक अविस्मरणीय उत्सव",
+    date: "2023-01-23",
+    description: "लगोरी फाउंडेशनने 29 जानेवारी रोजी संक्रांत हळदी कुंकू महोत्सव मोठ्या उत्साहात सागर तालीम येथे आयोजित केला. संस्थापक अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून कार्यक्रम पार पडला. यावेळी स्वाती शहा, सुमन (माई) वाडेकर, वैशाली महाडिक, सविता रायकर, तेजस्विनी पार्टे, स्मिता खामकर, सीमा रेवनकर यांच्या प्रमुख उपस्थितीने कार्यक्रमाला चार चांद लागले.",
+    image: "https://scontent.fblr1-9.fna.fbcdn.net/v/t39.30808-6/327909873_915597682952150_6184655613969316153_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B8h7r3t6xbsQ7kNvgENI-lo&_nc_oc=AdkAHEEExqfPa13Gmb0-JODxRVIhMGJhIXiMgX1JKu6_uRlduXKJkdRysYFX6ds8DerqjU_ZdeSgYvwfQqXtVv84&_nc_zt=23&_nc_ht=scontent.fblr1-9.fna&_nc_gid=4DNPnSjnCNJor1zXKjWgJg&oh=00_AYGjgBGhDsLz99kXgucqm3FGULj7njLkvXtTGBVgiK6RBg&oe=67EF18CE",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0TdYp9BJvbpVZE1GhMsVFts7i3YYUUPEx4Z7WqSP9aKWy6unkEA32TXBLrfHwkjGXl"
+  },
+  {
+    id: 51,
+    title: "लगोरी फाउंडेशन आयोजित स्नेहसंमेलन 2023 चे काही सुंदर क्षण",
+    date: "2023-01-23",
+    description: "लगोरी फाउंडेशनने 2023 मध्ये आयोजित केलेल्या स्नेहसंमेलनाने संपूर्ण समुदायाला एकत्र आणले आणि विविध कार्यक्रमांसह एक अनोखी आठवण जपली. यामध्ये सहभागी झालेल्या सर्व महिलांनी आनंदाने भरलेल्या क्षणांचा अनुभव घेतला.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/325137629_520304250083555_282484303145429730_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dQlRLhJXQYEQ7kNvgGV7rsx&_nc_oc=Adnn3JM_Iz-sgeaL6hmSA0-4njb-tezvhFGyHbP4lmT3j5eis-wKGtQZIroV1f7ppo4ylg8-CsR0VAjyW6fpnxDB&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=FigCVo9-feKjh9lAswwCKQ&oh=00_AYEgx5o5UrhuIGA2oNNvg0Ms5FrR9ArBxuMmzGFfO-EVJg&oe=67EF1E5F",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02Qu4Er9LwpRfNg7bZSqwFDvF4Ds1CjmXKFT1vh9Rgp2zFfDVKpxReQUXdWS2KX72l"
+  },
+  {
+    id: 52,
+    title: "कोल्हापूर येथील एकटी संस्थेला लगोरी फाउंडेशनची भेट",
+    date: "2022-12-24",
+    description: "कोल्हापूर येथील एकटी संस्थेला लगोरी फाउंडेशनच्या सदस्यांनी एक छोट्या पण प्रेमळ भेटीचे आयोजन केले, ज्यामुळे संस्थेतील महिलांच्या चेहऱ्यावर एक विलक्षण आनंद दिसून आला. या भेटीच्या माध्यमातून त्यांच्या जीवनात थोडासा सुखद परिवर्तन आणण्याचा प्रयत्न करण्यात आला.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/321716760_541336554585619_1165452161575225837_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=cI1_pBlzlEkQ7kNvgGBNwhi&_nc_oc=AdmNkfoNu4VUpXSlZYcDbiftQ58CNUEWdbC8V0y_ahdgbt66l0KIGoLkEsfAx_HNFNA2KfZM8QChUT45t0ugpeGc&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=Vp8MHb0nNRVg04J7Ihq97Q&oh=00_AYGbYPAFMp2rluV-Wg6a2vXA3MghHrrhS-ymZ3N1u-9qXg&oe=67EF1D39",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0TMH26yrWGjaNwxFhobE2MHiRtdEEoBW5hXXT7MrV9WfYsS5c6P5zd2V1qMBCZxEJl"
+  },
+  {
+    id: 53,
+    title: "लगोरी फाउंडेशन आयोजित स्पोर्ट्स डे 2022",
+    date: "2022-12-11",
+    description: "आज लगोरी फाउंडेशन द्वारा आयोजित स्पोर्ट्स डे उत्साहात पार पडला. हा कार्यक्रम संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून आयोजित करण्यात आला. स्पर्धेच्या परीक्षक म्हणून सोनाली लगारे मॅडम आणि पारले मॅडम यांनी योगदान दिले. यावेळी प्रेरणा पाटील, आकाश साखरे, आणि ऐश्वर्या झांजगे यांचे बहुमूल्य सहकार्य लाभले.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/487082851_9320113224725179_3446162049732265329_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lgXaPFakWt0Q7kNvgEShuVE&_nc_oc=AdmEVGNDlV9eCL1-JLEBTZt4rkUQan4V97UWLjNyKGmwNbRZM5GzaaXHrYahg0rj3utjrhnnxYIiqYCqg1Yhh1Zg&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=qWjMM-4rlnDIDvxDnDv4cg&oh=00_AYGwvDx5evwv7Poa6WHdP7HLTVCtk1ijvRKrJTJWAnk4eQ&oe=67EF3B1C",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02HT3or8ZMUVti3gDyxSgdbBhnPJAtAKkWNnA2BF1UMHo7mpdkutX5MJhG9cPxL4tkl"
+  },
+  {
+    id: 54,
+    title: "शिवाजी पार्क येथील आग पीडितांना मदत",
+    date: "2022-12-01",
+    description: "शिवाजी पार्क येथे झालेल्या भीषण आगीत जळून खाक झालेल्या झोपड पट्टी धारकांना मदतीचा हात देण्यासाठी लगोरी फाउंडेशन आणि इतर सहकारी संस्था पुढे आले. आज शुभांगी साखरे (लगोरी फाउंडेशन), स्वाती शहा (कोल्हापूर महानगरपालिका संघटिका), वैशाली महाडिक (आनंदीबाई महिला बहुउद्देशीय संस्था), सविता रायकर (शिवकृपा फाउंडेशन) यांच्या सहकार्याने त्यांना अन्न साहित्य, कपडे, भांडी आणि जीवनावश्यक वस्तू दिल्या.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/487823180_9315086001894568_1375449031463771149_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=KVbGfdnvFXEQ7kNvgEnDeih&_nc_oc=Adm9TE_arCYDqVkGQYjkpsxD-4dORXVyK7RAqXrfpqxNM0hI17PsZRDseX_rONJ3PwPV7RukUKpGFp4mzcaKit5x&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=-M5CWWhDD-oMUfg2G4lrTg&oh=00_AYFN5T5eOFzj_PhSwnSNma2NL4JwZ27846JRD4hac9udgQ&oe=67EF1E9F",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02GJRxLWAqAoPtLnUz2mPRKpmW83enddNComqdtP3D48m6W4aUr2uiSK572DDKmvhrl"
+  },
+  {
+    id: 55,
+    title: "पावनखिंड ट्रिपचा अविस्मरणीय अनुभव",
+    date: "2022-11-07",
+    description: "लगोरी फाउंडेशन द्वारा आयोजित वार्षिक एक दिवसीय ट्रिप पावनखिंड येथे घेतला होता. या अनुभवाने एक वेगळीच स्मरणशक्ती दिली. ऐतिहासिक स्थळ पाहून खूप छान वाटले, खास करून छत्रपती शिवाजी महाराज आणि त्यांच्या मावळ्यांची, विशेषतः सरसेनापती बाजीप्रभू देशपांडे यांची कामगिरी पाहून एक वेगळीच प्रेरणा मिळाली.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/486837329_9307193152683853_6849826666359111933_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8niD55MQWncQ7kNvgHH8eQU&_nc_oc=AdnGPQdJumYOaY8z2R86sFZIo2q63GV7i-F6g_CvCyH1bYw5RkzsVsVBLxjORq5jUxSJ2z6dMVTay2BfG1LRxJd_&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=gdCZ-2ClNNPXmm3kvKCApQ&oh=00_AYHaCpZ8CPqHY_3GocaGT80i6S0yB3wMu4GQyouucBcEbQ&oe=67EF200E",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02pgJHfNqYUus7SgBHCv2VgwSBCf7U5V8dhYYWk7Be5JrspTEEd1N9FZajvia7S4yvl"
+  },
+  {
+    id: 56,
+    title: "लगोरी फाउंडेशन कोल्हापूर आयोजित महा हदगा कार्यक्रमाचा आनंददायक अनुभव",
+    date: "2022-10-11",
+    description: "आज लगोरी फाउंडेशन कोल्हापूरने महा हदगा मोठ्या उत्साहात पार केला. संस्थापक अध्यक्ष शुभांगी साखरे, प्रेरणा पाटील, पुनम हवलदार, ऐश्वर्या झांजगे, आणि आकाश साखरे यांच्या संकल्पनेतून हा कार्यक्रम साजरा झाला. या वेळी वर्षा जोशी यांनी मैत्रिणींना खिरापत वाटप केली, आणि एंजल ब्युटी पार्लरच्या सीमा रेवणकर यांच्या कडून 3 बेस्ट खिरापत न बक्षीस देण्यात आले.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/486532516_9295012747235227_3260663024760827901_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MbbUbVH27K8Q7kNvgGavHzp&_nc_oc=AdnVhioS2667KYv9CpRHN41ieZPf6LGyV1AWFX5uhNlD77-DQ7ensj15kXFr5zrHXjX9X2Dq2ZnOBZXb98eNHk3H&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=9oXLlTvsn1pwr_UEcDaMKA&oh=00_AYERLtMe8Nqfidt7yMO7xMbY0JAtA91EDM43qFAjsqPzkw&oe=67EF2202",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0m9rkXCsc1PoKibL5MQAg4oWaUF26oJTpZx23XgmT6af7Y7aHJ7ZVmi6WSbgcr2L9l"
+  },
+  {
+    id: 57,
+    title: "लगोरी फाउंडेशन आयोजित रास दांडिया – उत्साह आणि नावीन्याने भरलेला कार्यक्रम",
+    date: "2022-10-02",
+    description: "लगोरी फाउंडेशनने आज मोचा मॅडनेस कॅफेमध्ये रास दांडिया उत्साहात आणि नावीन्यपूर्ण वातावरणात आयोजित केला. संस्थापक अध्यक्षा शुभांगी साखरे, प्रेरणा पाटील, ऐश्वर्या झांजगे यांच्या संकल्पनेतून आणि तेजल वाकरेकर यांच्या सहकार्यातून हा कार्यक्रम यशस्वीपणे पार पडला.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/486683032_9288714957865006_5528353743583783641_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=acPM7b-bXUoQ7kNvgG_AiNC&_nc_oc=AdnS7oixKTToS1qG_9d9sl2AvHneNtLqTJKNlCsRH08EtX-onSZIz613TxAoEd_dIFVAh0Gu64Ze8O7rFNWcRO2v&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=ma3bkKKnoqLtk9tSDbmdgg&oh=00_AYEs7vNwHRehfl5X0Fi0cDVRiIa8nqgVtwE4xWOqbpVR7g&oe=67EF35A3",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0kEnLUi58pW86WgVP6eSHfbj6ZXybvodUW6eVauwm2dQw9zmPh4Yp4AXvJK8mALBUl"
+  },
+  {
+    id: 58,
+    title: "लगोरी फाउंडेशन कोल्हापूर आयोजित कुंकुमार्चन सोहळा",
+    date: "2022-09-27",
+    description: "लगोरी फाउंडेशनच्या वतीने कोल्हापूर येथील विठ्ठल मंदिरात कुंकुमार्चन सोहळा अतिशय उत्साहात आणि आनंदात पार पडला. संस्थेच्या संस्थापक अध्यक्षा शुभांगी साखरे, ऐश्वर्या साखरे, आकाश साखरे, निकिता कापसे, प्रेरणा पाटील, आणि अलका सनगर यांच्या संकल्पनेतून हा कार्यक्रम उत्कृष्ट नियोजनासह पार पडला.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/486147372_9284153421654493_3601228355789722041_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pHpSzcb1_WMQ7kNvgGfJ7y0&_nc_oc=AdnjzWE5Nr4ALIK1194Mzwg4XgBM9olqQPVXE-vxUVKv0zy1USslemt60DJSy-Qw0zYR0-AEGtRnvL77pYrRnkgK&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=0VDUFkR3itucm6Pp7uwP6Q&oh=00_AYE84RN29lkBv8UvaUolAdRUK1fqaHFHNM8tdBZ_Gyd02g&oe=67EF153B",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02S5ZPExWUC4W1wPbqBXP2Z5mejKYztjK8dUFLwrbdXU3seR3wKSxzM3rKcrpBzoaVl"
+  },
+  {
+    id: 59,
     title: "Foundation Inauguration",
     date: "2019-06-01",
     description: "The official launch of Lagori Foundation with a mission to empower women.",
@@ -397,7 +477,7 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
-    id: 50,
+    id: 60,
     title: "Foundation Inauguration",
     date: "2019-06-01",
     description: "The official launch of Lagori Foundation with a mission to empower women.",
