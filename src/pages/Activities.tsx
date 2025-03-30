@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { PageTransition } from "../components/Transitions";
 import ActivityCard from "../components/ActivityCard";
 
-// Sample activity data
-const activitiesData = [
+// Sample activity data - export is added
+export const activitiesData = [
   {
     id: 1,
     title: "वार्षिक स्नेहसंमेलन २०२४ जल्लोषात साजरे!",
