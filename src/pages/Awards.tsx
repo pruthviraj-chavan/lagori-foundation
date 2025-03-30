@@ -30,11 +30,11 @@ const awardsData = [
   },
   {
     id: 4,
-    title: "Certificate of Merit",
-    date: "2021-12-10",
-    presenter: "Kolhapur Municipal Corporation",
-    description: "Recognition for significant contribution to local community development and improvement of women's welfare.",
-    image: ""
+    title: "राज्य स्तरीय गौरव पुरस्कार महिला सक्षमिकरण पुरस्कार",
+    date: "2022-06-22",
+    presenter: "आम्ही कोल्हापूरी फौंडेशन",
+    description: "महिला सशक्तीकरणासाठी उल्लेखनीय योगदान ",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/485147179_9245520482184454_443428015467753969_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XGbRTExEOawQ7kNvgEB0WEE&_nc_oc=Adm_N5bZFYhAT4ugYmuGw555Ufdo-FFq66BBP2eEstnpiREgzLQ26EKeFBChMD_yBh0EFwxs9nD1TnJlMwGyEHZd&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=i2P5Cv0y_OAYZUpYq9wtyw&oh=00_AYGPktRnLCVLkpE80Ck8heP-uQcUxmfMjUS5wjDdsbFbGg&oe=67EF4B6D"
   },
   {
     id: 5,
