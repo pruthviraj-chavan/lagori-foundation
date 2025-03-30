@@ -278,38 +278,54 @@ export const activitiesData = [
   },
   {
     id: 35,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "रणरागिनी पुरस्काराने सन्मानित",
+    date: "2023-10-24",
+    description: "दसऱ्याच्या सणानिमित्त, हील रायडर्स अडवेंचर फाउंडेशनने लगोरी फाउंडेशनला रणरागिनी पुरस्काराने सन्मानित केले. यासोबतच, भवानी मंडप येथील ऐतिहासिक कमानीला तोरण बांधण्याच्या सोहळ्यात आम्ही सहभागी होण्याचा संयोग मिळाला. आपल्या कार्याची पोचपावती मिळाल्यावर दिलेल्या सन्मानामुळे खूप प्रेरणा मिळाली आणि नवी ऊर्जा मिळाली. हा ऐतिहासिक क्षण आदरणीय संस्थापक अध्यक्ष शुभांगी साखरे आणि अन्य सभासदांसोबत साजरा केला.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/395769712_6631413270261868_4936593018838895211_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MVl906rN_pEQ7kNvgHFl5Sa&_nc_oc=AdmMoBCzqVm1jPan5Q0MrVptACXrcsRgSjC3QLJlpD4z8v9jmwwlFR3q9tMzAXux7pvxPotqKE2TqrP28n6jpAJZ&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=oE6jyFX4tNV3TyV_f2RUCw&oh=00_AYFZYe5BJfx7Pv7_20jjuJ2S1xYsjOzzMasuWqQRV4IE4Q&oe=67EF11AF",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0gkxm4BKdCEXfTmkhXfLZcbPtTYC5zgpGZVg3YWfi8Hiwmdazi36me2D57zdYUb1ol"
   },
   {
     id: 36,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "जय जिजाऊ महिला मंडळाचे नव दुर्गा देवी पूजा आयोजन",
+    date: "2023-10-23",
+    description: "जय जिजाऊ महिला मंडळाने उत्तरेश्वर पेठेतील महिलांच्या पुढाकाराने नव दुर्गा देवीची पूजा याचना आणि विविध स्पर्धांचे सुंदर नियोजन केले. मंडळाच्या अध्यक्षे सुनीता ताईंनी आम्हाला आरतीसाठी आमंत्रित करून मान दिला. मंडळाच्या भावी वाटचालीस मनःपूर्वक शुभेच्छा!",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/394318301_6625139920889203_4500783522225245452_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Wc8JZ9vszIwQ7kNvgG5p1es&_nc_oc=Adn3_B94c3F9oUbeEVTwpQZD7oJ5zTj4b1P5mjC_9SfKx0J7p8f_5qmfnDlLi1PBRDlrv3bemZYjJIsnFKC_225F&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=cUUrWlNBl4swunp8afN3kA&oh=00_AYGhWJCo8z8wbgsfvHSfvUcBM-Jxx5UpBCRzGvW8a_Qn_w&oe=67EF00BC",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0GqSvXHQzFubWEboRbcamHuPfgBFEjyew672Yodfrv1erDjzGC733zZpBQf631RuGl"
   },
   {
     id: 37,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "शाही दसरा कोल्हापूर: नवदुर्गा बाईक रॅलीत लगोरी फाउंडेशनचा छान परफॉर्मन्स",
+    date: "2023-10-20",
+    description: "शाही दसरा कोल्हापूरच्या नवदुर्गा बाईक रॅलीचे आयोजन जिल्हा माहिती कार्यालयाने केले. यामध्ये लगोरी फाउंडेशन कोल्हापूरचा समावेश होता, ज्यांनी खूप छान परफॉर्मन्स सादर केला.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/394278542_6616285938441268_1583555996537731033_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MphBGzpqO20Q7kNvgEvBhZg&_nc_oc=AdnKl44dbYPMKFvXMtIuD1pq2df-bGLwf7LmznyrclTWYvcIWrYfbWHxGbZSf6cYINZtYHIrBmETyGdLZKWkdHf4&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=0M58u2dzbx0jHEIF1H7rkA&oh=00_AYFh3md427L-9nQ9pP6Ws4S8ub2f-6Wn0oaj-8_ZDTz1dA&oe=67EF2481",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02TFGaacSjnFYMeXMCaxjuij9Fd9CERgrtmZGJmPgbizYGY48aWmH6Dibfax7yE8ZPl"
   },
   {
     id: 38,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशन आयोजित भव्य झिम्मा फुगडी २०२३",
+    date: "2023-10-03",
+    description: "लगोरी फाउंडेशनने शिवाजी मंदिर येथे आयोजित केलेल्या भव्य झिम्मा फुगडी 2023 कार्यक्रमात महिलांनी प्रचंड उत्साहाने भाग घेतला. कार्यक्रमाचे परीक्षण सौ. पूनम देसाई यांनी केले. विजेते ग्रुप: तृतीय क्रमांक – साज ग्रुप, द्वितीय क्रमांक – राधेय ग्रुप, आणि प्रथम क्रमांक – फुलबाग ग्रुप. वैयक्तिक स्पर्धेत स्नेहल जाधव, विद्या पाटील यांना बक्षीस मिळाले.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/385258492_6550068458396350_8558179299001259732_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ve5knCNKDAMQ7kNvgFYxkTU&_nc_oc=AdknbgG6IcmXMwKxEHfFjOhjcfddUdJcwQKfM7OLf6vJAJsUZMmndvye5MnR7Yz8VbMgZFSNYJeTvBCkAlXx3Osq&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=VC2gUwWpeRJD12STnLQqzQ&oh=00_AYFADNqXe3wJeOZ0MjjAsAWXLzCCDe0vhJjpeYj2YRPKdQ&oe=67EF21E6",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid037XNeEuWJSAekgJVWS8sRWr4hNc56WHaiRwvKDz4scsSVgXPGcAzGSbGCerDFF9ml"
   },
   {
     id: 39,
+    title: "एकात्मिक बाल विकास योजना कार्यक्रम",
+    date: "2023-09-13",
+    description: "शिवाजी मंदिर, शिवाजी पेठ येथे एकात्मिक बाल विकास योजना अंतर्गत लहान मुलं, त्यांचे पालक आणि गरोदर मातांसाठी एक अतिशय सुंदर कार्यक्रम आयोजित करण्यात आला. यावेळी सुदृढ बालक, पोषक आहार, टाकाऊ पासून टिकाऊ, रान भाजी प्रकार अशा विविध स्पर्धांचे आयोजन करण्यात आले.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/378346711_6476492209087309_3138838786652454748_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=mLS18NRcfCoQ7kNvgFnwPbw&_nc_oc=AdmeS4Bxg927b1p5isLjd8QCaPqFWTfZmMO6JxtbKrYjDq1augr8Im7gNr9ejmWVMHwzGDd5LyKS5aw97FJtoIs6&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=fmnVOsIxw39WH7fNOgY0Tg&oh=00_AYHs_uVdH91h-wyb-4rWpX-v7BAUE2bAFYAV4raveMHamQ&oe=67EF0509",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0u6wiA71BRRxXe7d8vEbWvTX6a9eDZR8KLpw55TZbcHMGk9U4CQn31XcXJGg3RDWHl"
+  },
+  {
+    id: 40,
+    title: "श्रावणमास निमित्त कुंकूमार्चन २०२३",
+    date: "2023-09-09",
+    description: "लगोरी फाउंडेशन आयोजित संस्थापक अध्यक्ष सौ. शुभांगी साखरे यांच्या संकल्पनेतून श्रावणमासाच्या निमित्ताने कुंकूमार्चन 2023 चे आयोजन विठ्ठल मंदिर, मिरजकर तिकटी येथे करण्यात आले. अतिशय जोरदार पावसातही महिलांनी उत्स्फूर्तपणे सहभाग घेतला. मेघा ताई भाबुरेकर यांनी महालक्ष्मी सहस्त्रनाम पठण केले. कार्यक्रमासाठी डॉ. स्मिता गिरी आणि नीलिशा सामंत यांची मदत अनमोल होती. ",
+    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/375854445_6460347484035115_8827123364971872070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=78xuc7ERlkYQ7kNvgHYEiB6&_nc_oc=Adn3CY70J4cBx8Asbs5kTHGpHUG0KRWBTcOxSChmCfo012zzUd0L_Zf0pD5-yNEPV29FrVqpibSxPPgtclVpYK9i&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=CkPYCiS6FiWCFnK1YANHow&oh=00_AYHysiJPUGh1ekUgsNAR3_GdHlY0lm_iCd5_lfL5vrAlag&oe=67EF2B78",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0MnLravk2vRqyhFsZpLduLFTWTMGiingW7iTRjdT8ppFWsauTMb1AAHHemKfNrgPQl"
+  },
+  {
+    id: 41,
     title: "Foundation Inauguration",
     date: "2019-06-01",
     description: "The official launch of Lagori Foundation with a mission to empower women.",
@@ -317,7 +333,71 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
   },
   {
-    id: 40,
+    id: 42,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 43,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 44,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 45,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 46,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 47,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 48,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 49,
+    title: "Foundation Inauguration",
+    date: "2019-06-01",
+    description: "The official launch of Lagori Foundation with a mission to empower women.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+  },
+  {
+    id: 50,
     title: "Foundation Inauguration",
     date: "2019-06-01",
     description: "The official launch of Lagori Foundation with a mission to empower women.",
