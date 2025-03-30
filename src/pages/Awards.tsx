@@ -14,11 +14,11 @@ const awardsData = [
   },
   {
     id: 2,
-    title: "Social Impact Award",
-    date: "2022-11-15",
-    presenter: "International NGO Federation",
-    description: "Awarded for creating measurable social impact through sustainable initiatives and community engagement.",
-    image: "https://images.unsplash.com/photo-1553484604-9f524520c793?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    title: "शाही दसरा शोभायात्रेतील उत्कृष्ट सहभाग पुरस्कार",
+    date: "2023-10-23",
+    presenter: "जिल्हाधिकारी कार्यालय महाराष्ट्र शासन पर्यटन विभाग",
+    description: "शाही दसरा शोभायात्रेतील प्रांतीय वेशभूषेच्या थीम मध्ये उत्कृष्ट सहभाग दाखवून, नियोजनबद्ध आणि सुंदर प्रस्तुती करणाऱ्या लगोरी फाउंडेशन कोल्हापूरच्या सभासदांचा सन्मान.",
+    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/395646018_6636886959714499_5412929873604728551_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bVsiiFtBDKwQ7kNvgFAwoJm&_nc_oc=AdlqAeoAiV3G608DGWpTe62rxDMuZmrkgZTDW5VmIWx9_XrhxAgV8kvxRsP6gTRL9uLNHMZVx86i_lgb1gPPhsni&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=kONtlslcZp2mieLh1P2dpg&oh=00_AYGRFLK7Vk1blyJIyzZd7VT8tQCO9ftkyqa3neOTqKoz_A&oe=67EEF6EF"
   },
   {
     id: 3,
