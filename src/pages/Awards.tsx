@@ -90,7 +90,7 @@ const Awards = () => {
                 Our Journey of Excellence
               </h2>
               <p className="text-gray-600 mb-8">
-                Since our foundation in 2019, Lagori Foundation has been recognized for its dedication and impact in the field of women's empowerment. These awards are a testament to our commitment to creating positive change in the lives of women and our community.
+                २०१९ मध्ये संस्थेच्या स्थापनेपासून, लगोरी फाउंडेशन महिलांच्या सक्षमीकरणाच्या क्षेत्रात आपली समर्पण आणि प्रभावासाठी ओळखली जात आहे. हे पुरस्कार आपल्या कर्तृत्व आणि महिलांमधील सकारात्मक बदल घडवण्यासाठी केलेल्या प्रयत्नांचा प्रतीक आहेत.
               </p>
               <div className="flex justify-center">
                 <div className="w-24 h-1 bg-lagori-500 rounded"></div>
