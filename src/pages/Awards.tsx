@@ -10,7 +10,7 @@ const awardsData = [
     date: "2021-03-015",
     presenter: "जायंट्स ग्रुप ऑफ कोल्हापूर पर्ल",
     description: "महिलांच्या सामर्थ्य आणि समाजातील योगदानाबद्दल दिला जातो, ज्याने त्यांना एक नवीन ऊर्जा आणि प्रेरणा दिली आहे.",
-    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t1.6435-9/161460596_3702273216509236_8022596947164655410_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WMmlzL_fKrwQ7kNvgG-NAGo&_nc_oc=Adk9tBIF6LIBfnEGk5Yg4HkLOEqTkA_z8BBqrSxmIqa47YB66yJO0kuIvBd0WDMVbkAaMyFV5QOSAJuEV6kG-7ax&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=lPB-zJXt_mTyEHtx-LoX7Q&oh=00_AYEVOVSBvxgUetRAircLv9F5Xxdx0ZjGFQVYR2y0RL2u6w&oe=6810843E"
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/160683978_3702273463175878_2437741425696289663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0zzhDkFxBxsQ7kNvgGkE2d7&_nc_oc=AdndqDbMwjev9MBKygXTiw-_ahfObS_lT_pRmURZDiAdnoTJZ63iBVSm26iZWjOzzPyVYFM_i4DiJH_4asyiuU6B&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=gmqWAu198hAAtIY49xFxOA&oh=00_AYEUo_JHlg3K6qi6wKhnt5zuoYng9vHdFAd-UlwWYbVqEg&oe=68107D63"
   },
   {
     id: 2,
