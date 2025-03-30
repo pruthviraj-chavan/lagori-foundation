@@ -117,8 +117,11 @@ const Index = () => {
                   <p className="text-black-200 mb-4">
                     संस्थापक आणि अध्यक्षा, लगोरी फाउंडेशन, कोल्हापूर
                   </p>
-                  <Link to="/about" className="text-lagori-200 font-medium hover:text-white flex items-center">
-                    'ती' चा प्रवास <ArrowRight size={16} className="ml-2" />
+                  <Link 
+                    to="/about" 
+                    className="text-black font-medium hover:text-white flex items-center"
+                    >
+                  'ती' चा प्रवास <ArrowRight size={16} className="ml-2" />
                   </Link>
                 </div>
               </div>
