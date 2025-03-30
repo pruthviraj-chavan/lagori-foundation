@@ -118,43 +118,43 @@ export const activitiesData = [
   },
   {
     id: 16,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "डॉक्टर दिनानिमित्त रुग्ण हक्क परिषदेतर्फे मान्यवरांचा सन्मान",
+    date: "2020-07-01",
+    description: "डॉक्टर दिनाचे औचित्य साधून रुग्ण हक्क परिषदेतर्फे कोल्हापूर जिल्ह्यातील मान्यवर डॉक्टरांचा सन्मान करण्यात आला. यामध्ये डॉ. यू. जी. कुंभार (अतिरिक्त जिल्हा आरोग्य अधिकारी), डॉ. योगेश साळे (जिल्हा आरोग्य अधिकारी), डॉ. मन्सूरअली (ब्रेन स्पेशालिस्ट, ऍस्टर आधार), डॉ. अल्पना चौगुले आणि अथायू हॉस्पिटल टीम यांचा समावेश होता.",
+    image: "https://scontent.fblr1-9.fna.fbcdn.net/v/t1.6435-9/106363163_2991622027574362_6687757100321545420_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DrfQIBucmVIQ7kNvgGBEbuI&_nc_oc=AdloxF0YPppHvFxYyy2BVRUUNuvdZwIBT3mRJH9XYwKSs43AKKLKTlq-wlkI150EqQjWWY-VLjnlGFlbUcmZ1pxn&_nc_zt=23&_nc_ht=scontent.fblr1-9.fna&_nc_gid=0FrNkhH5aF0ZyNzBQfaWVw&oh=00_AYHv2Hq_hvpifPCa-2ppT0Vmo_4t5MffQt3fDnxAZ5Iq5A&oe=681062BC",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0u9M39Ky81NoTQ9PGLD238icSBJXV5NVyfQDPgH5VwTSC3v3pNbWntNzHbSdYe54jl"
   },
   {
     id: 17,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी बहुउद्देशीय संस्थेचा प्रथम वर्धापनदिन साजरा",
+    date: "2020-09-05",
+    description: "लगोरी बहुउद्देशीय संस्थेला आज एक वर्ष पूर्ण झाले. या काळात वृक्षारोपण, अनाथाश्रम भेट, संक्रांतीचा हळदीकुंकू, कॅन्सर निर्मूलनावर डॉक्टर रेश्मा पवार यांचे व्याख्यान, सौंदर्यविषयक मार्गदर्शन, अंधशाळा भेट यासारखे विविध उपक्रम राबवले. वर्धापन दिनानिमित्त पारंपरिक कार्यक्रमांना फाटा देत संस्थेच्या वतीने पंचगंगा स्मशानभूमीत शेणी दान उपक्रम राबवला.",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/118825235_3179398495463380_6348992114939650221_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0QGV6K9VdvoQ7kNvgH1oTy5&_nc_oc=AdkLV2uutVt2M2vrT6QvgFAocHRZLbwPAvupblBFgZ0vac5kxHY9CTXCXqzBm9VYsfKJA4KwqMjpvxxJFAgtMEMm&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=Gu1ohI126e8Y2JqvOTWFwQ&oh=00_AYGYRqkdJbPlVVI59R_nJVWQaeymTRF3tIcYIDFK9VFIBw&oe=68105953",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid029RGWBkcZyfQXf1jk9cuzTxzMg5iGmwnnnYBKhTXyHHrnQE5wBx39M6aNB2iSen1Sl"
   },
   {
     id: 18,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशन – महिलांसाठी हक्काचे व्यासपीठ",
+    date: "2020-09-20",
+    description: "जय महाराष्ट्र चॅनेलच्या टीमचे मनःपूर्वक आभार! त्यांच्या सहकार्यामुळे आमच्या संस्थेतील होतकरू महिलांना नवी प्रेरणा आणि ऊर्जा मिळाली. आमच्या सखींच्या कार्याची दखल घेतल्याबद्दल ज्ञानेश्वर साळोखे आणि त्यांच्या टीमचे पुन्हा एकदा मनःपूर्वक धन्यवाद!",
+    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/124398070_3376444585758769_4655173973128738808_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ep1_opax-nMQ7kNvgGJ17yW&_nc_oc=Adkt2xAMODn6DN-GL7k7yI45MhHoDooUjh7_x9fnlY9ENUlcO0snt6S3wTVUdKyZ579y_UAGxcZPUev_vf04zdFA&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=O8Ui05MUo_y9tK_GzrR9RA&oh=00_AYGWw--04lzPW6n3OQhIbJxvKxWG5jdMwxdQjciHGpPEKg&oe=681088FB",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0Adi68TgGNRk1E6R52XKv96ABwMMCPxG37D9YYeYrwgnZArXwUiTV4pGTKW233xZil"
   },
   {
     id: 19,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशनतर्फे मान्यवरांना भेट व शुभेच्छा",
+    date: "2020-12-20",
+    description: "लगोरी फाउंडेशनच्या संचालक मंडळाने माजी आयुक्त मा. मल्लिनाथ कलशेट्टी, कोल्हापूर जिल्हाधिकारी मा. दौलत देसाई, कोल्हापूरच्या महापौर मा. निलोफर आझरेकर यांची सदिच्छा भेट घेतली. तसेच, कोल्हापूर काँग्रेसचे सचिनभाई चव्हाण यांना वाढदिवसानिमित्त शुभेच्छा दिल्या.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t1.6435-9/131980864_3483666491703244_8622410326788341378_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=b-UCdBj8WzAQ7kNvgF5_3XU&_nc_oc=AdlpmOhTKklDhoWAtulnkz6fVPpNcbSidwb0wsjtxDxNQ21zaQRJ98LUFgqTZDiQoemugLd4m491RP_i3bF1Wegt&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=BlLBUom7gnGUdjq2Q0PlkA&oh=00_AYG4OF8KiZlH2gt-1hpbPm0MWIABmS9gtuSz4BGyq4EKrA&oe=68108E56",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid08zb39AwfbYBFU2mDFyyoqNaLJz5HG8NHmDpe2R58nxFk1M6hgzZ49qhWYkKrsrxCl"
   },
   {
     id: 20,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशनच्या सखींनी दिला मदतीचा हात",
+    date: "2022-12-22",
+    description: "लगोरी फाउंडेशनच्या सखी महिलांनी एकत्र येत गरजूंसाठी मदतीचा हात पुढे केला. समाजातील महिलांना स्वावलंबी बनवण्यासाठी आणि त्यांना आधार देण्यासाठी संस्थेच्या सदस्यांनी विविध उपक्रम राबवले. आर्थिक मदत, रोजगार संधी, तसेच व्यवसाय उभारण्यासाठी मार्गदर्शन देण्याचे कार्य सखींनी उत्स्फूर्तपणे केले. संस्थेच्या अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून सुरू झालेल्या या उपक्रमांतर्गत अनेक महिलांना आधार मिळाला. भविष्यातही महिलांच्या सशक्तीकरणासाठी लगोरी फाउंडेशन सतत कार्यरत राहणार आहे.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t1.6435-9/132564006_3487942421275651_1307399249280735403_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=F87hO2l1SjMQ7kNvgFb6uW1&_nc_oc=Adl0yEdE-tOqUFLj10ARDTb-nYtKqkKMdDPptaksFM763QGopVXr7vD3ecaXIoJiWJHVmt_OxGr-J645HL7tXWU0&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=dGvC06Ia-I9j5sc4O5d3hw&oh=00_AYFXejv7KopUtB4wwNdswJgKyHc9jPW8Gjoa_ZiObGw4Iw&oe=6810918C",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0eaw7JJMhrY1ipbbvmi5p6VvokDLfsD59ZKLag39VgsfiCvQXCpUS2aLbbxujupPil"
   },
   {
     id: 21,
