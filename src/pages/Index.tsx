@@ -114,7 +114,7 @@ const Index = () => {
                   <h3 className="font-playfair text-2xl font-bold text-white mb-2">
                     Mrs. शुभांगी साखरे
                   </h3>
-                  <p className="text-gray-200 mb-4">
+                  <p className="text-black-200 mb-4">
                     संस्थापक आणि अध्यक्षा, लगोरी फाउंडेशन, कोल्हापूर
                   </p>
                   <Link to="/about" className="text-lagori-200 font-medium hover:text-white flex items-center">
