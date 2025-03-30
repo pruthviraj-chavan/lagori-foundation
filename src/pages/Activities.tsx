@@ -262,19 +262,19 @@ export const activitiesData = [
   },
   {
     id: 33,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशन आयोजित वार्षिक स्नेहस्मेलन: महिलांच्या सुप्त गुणांचा उदय",
+    date: "2023-10-11",
+    description: "लगोरी फाउंडेशन च्या वतीने आयोजित वार्षिक स्नेहस्मेलन शनिवारी, ९ ऑक्टोबर रोजी शिवाजी मंदिरात मोठ्या उत्साहात आणि प्रचंड गर्दीमध्ये पार पडले. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून महिलांमधील सुप्त गुणांना वाव देण्यासाठी हा छोटा प्रयत्न करण्यात आला. कार्यक्रमाला प्रमुख पाहुण्यांच्या रूपात मा. निलोफर आझरेकर (महापौर को.म. ना. पा.), मा. मनीषा जाधव (इनरव्हील क्लब ऑफ सनराईझच्या अध्यक्ष), मा. प्राची फडणीस (कथक्क विशारद), मा. ज्योती पडवळ, मा. सविता रायकर, मा. अपर्णा गांधी, मा. स्मिता खामकर, श्री. कृष्णा शेट्टी (उदयोगपती, कोल्हापूर) यांची उपस्थिती होती.",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/409209787_6806316102771583_971416728811811129_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MPDPhZDBtO4Q7kNvgEz7COM&_nc_oc=Adnniji1CY1y-42vIt2B4OjMwJQAXnGTi6qanaHtogO2o1_207UVOGVdVSqUQRJ90lvxZnWxeZGaaZXhpj3tRUDO&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=ptGyNOzCzvjX1l_tPYET4g&oh=00_AYF-DCEUlnnnWwcAVEDrA4tepSox_57EPPgrEt6SH7oHPA&oe=67EEF213",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02dXZEhBJCgK41GzixXnL1h4NKiy2DrhmNMRXkRYnkdTrfGZHBeVQ9DDGvY4FXuMuJl"
   },
   {
     id: 34,
-    title: "Foundation Inauguration",
-    date: "2019-06-01",
-    description: "The official launch of Lagori Foundation with a mission to empower women.",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dCLTMVivsvBWQ8AkT1Kz41jgfrwA6DH3RQLQnmiZG5196SetSbgGu3mBGARKjwxSl"
+    title: "लगोरी फाउंडेशन कोल्हापूर आयोजित स्पोर्ट्स डे",
+    date: "2023-10-23",
+    description: "संस्थापक अध्यक्ष सौ शुभांगी साखरे यांच्या संकल्पनेतून टिकी टाका टर्फ येथे संपन्न झाला, कोच उमेश चौगुले सर यांनी सर्व खेळ हे अतिशय नियोजनबद्ध पार पाडले यावेळी महिलांन करिता कबड्डी, क्रिकेट,रनींग, लींबू चमचा, लांब उडी,पोत्यात पाय,(सॅक रेस )दोर उडी अशा अनेक विविध स्पर्धा घेण्यात आल्या महिलांनी अतिउत्साह त्याला प्रतिसाद दिला. ",
+    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/403891239_6737710016298859_3561803063248275175_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ws3DKOLrcPQQ7kNvgGk-YWb&_nc_oc=AdlzSjwudS_EXdDFiGL80-_d8IYj9NQn95B3Dr0Vi4XryDYcv9b5WEzELRsHE7PgZ_Yl69xM8_vY46SiZSuxSUFs&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=xA57JXm7TLHWwptTUitLOg&oh=00_AYHlffj052aIzSni4NhXeT97RisRMNfolvsjxKOzeu_pgg&oe=67EEF204",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0gwzWieYrxe4uXKGbT1m9seaAvArCk21hfCivEGwiWyuiz7FxTygLZCJVoRThiso8l"
   },
   {
     id: 35,
