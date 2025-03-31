@@ -38,11 +38,11 @@ const awardsData = [
   },
   {
     id: 5,
-    title: "Vocational Training Recognition",
-    date: "2021-08-15",
+    title: "महिला सशक्तीकरणासाठी उल्लेखनीय योगदान",
+    date: "2025-08-15",
     presenter: "Chamber of Commerce",
     description: "Appreciation for excellence in providing vocational training programs that enhance women's employability.",
-    image: "https://images.unsplash.com/photo-1587837073080-448bc6a2329b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+    image: "https://scontent.fblr1-6.fna.fbcdn.net/v/t39.30808-6/487758857_122101977008821707_3600548083797810729_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=x3hUGQZljgwQ7kNvgFNOhxs&_nc_oc=AdlEEZTSe9YTZ_NWWvLhjWFPYE4cYCD1T__2--AF50Ijrq-sb16GHe_qVzfvLv7DG7AB-46a4-iZDhWcTxPZXS58&_nc_zt=23&_nc_ht=scontent.fblr1-6.fna&_nc_gid=lLf4ghsEz20WqVUyJGoTPQ&oh=00_AYHMEVRUCfrQ6t6dukrw8Kk7ixI5qtgVAS47WrpP8MNWBQ&oe=67F051B7"
   },
   {
     id: 6,
@@ -64,6 +64,8 @@ const Awards = () => {
     };
     return new Date(dateString).toLocaleDateString('en-US', options);
   };
+  
+ const sortedAwardsData = [...awardsData].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
     <PageTransition>
@@ -108,7 +110,7 @@ const Awards = () => {
               
               {/* Award Items */}
               <div className="space-y-16 md:space-y-32">
-                {awardsData.map((award, index) => {
+                {sortedAwardsData.map((award, index) => {
                   // Determine gradient based on index
                   const gradients = [
                     'bg-pink-gradient', 
@@ -175,17 +177,17 @@ const Awards = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="font-playfair text-3xl font-bold mb-6">
-                Join Us in Our Journey
+                आमच्या प्रवासात सामील व्हा
               </h2>
               <p className="text-white/90 mb-8">
-                We're grateful for the recognition our work has received, but our true reward is the positive change we see in the lives of women. Help us continue making a difference by getting involved or supporting our cause.
+                आमच्या कार्याला मिळालेल्या मान्यतेबद्दल आम्ही मनःपूर्वक आभारी आहोत, पण आमच्यासाठी खरी पुरस्कार म्हणजे महिलांच्या जीवनात झालेला सकारात्मक बदल. आमच्या सोबत जोडून घ्या किंवा आमच्या उद्दिष्टाला पाठिंबा देऊन हा बदल घडविण्यास मदत करा.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="#" className="btn-primary bg-white text-purple-700 hover:bg-gray-100">
-                  Donate Now
+                  देणगी द्या
                 </a>
-                <a href="/contact" className="btn-secondary text-white border-white hover:bg-white/10">
-                  Get Involved
+                <a href="/contact" className="btn-secondary text-purple-700 border-white hover:bg-white/10">
+                  सहभागी व्हा
                 </a>
               </div>
             </div>
