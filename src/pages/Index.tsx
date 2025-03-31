@@ -429,7 +429,7 @@ const Index = () => {
               >
                 देणगी द्या
               </a>
-              <Link to="/contact" className="btn-secondary text-white border-white hover:bg-white/10">
+              <Link to="/contact" className="btn-secondary text-lagori-700 border-white hover:bg-white/10">
                 सहभागी व्हा ...
               </Link>
             </div>
