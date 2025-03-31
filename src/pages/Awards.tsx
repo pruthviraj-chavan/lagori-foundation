@@ -61,7 +61,7 @@ const Awards = () => {
             <div className="text-center text-white">
               <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Awards & Recognition</h1>
               <p className="text-lg md:text-xl max-w-3xl mx-auto">
-                Celebrating the milestones and achievements of Lagori Foundation in women's empowerment.
+                महिला सशक्तीकरणातील लगोरी फाउंडेशनच्या टप्पे आणि यशस्वी वाटचालाचा उत्सव!
               </p>
             </div>
           </div>
