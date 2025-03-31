@@ -1,4 +1,5 @@
 
+
 import { useState } from "react";
 import { PageTransition } from "../components/Transitions";
 import { MapPin, Phone, Mail, Send, CheckCircle, AlertCircle } from "lucide-react";
@@ -118,30 +119,33 @@ const Contact = () => {
                 
                 <div className="mt-12">
                   <h3 className="font-bold text-gray-800 mb-4">आम्हाला फॉलो करा</h3>
-                              <div className="flex space-x-4">
-              <a 
-                href="#" 
-                className="text-white hover:text-lagori-400 transition-colors" 
-                aria-label="Facebook"
-              >
-                <Facebook size={20} />
-              </a>
-              <a 
-                href="#" 
-                className="text-white hover:text-lagori-400 transition-colors" 
-                aria-label="Instagram"
-              >
-                <Instagram size={20} />
-              </a>
-              <a 
-                href="#" 
-                className="text-white hover:text-lagori-400 transition-colors" 
-                aria-label="Twitter"
-              >
-                <Twitter size={20} />
-              </a>
-            </div>
-          </div>
+                  <div className="flex space-x-4">
+                    {/* Social Media Icons */}
+                    {["facebook", "twitter", "instagram", "linkedin"].map((social) => (
+                      <a
+                        key={social}
+                        href={`#${social}`}
+                        className="bg-white text-lagori-600 p-3 rounded-full shadow-md hover:bg-lagori-600 hover:text-white transition-colors"
+                      >
+                        <span className="sr-only">{social}</span>
+                        {/* Replace with actual social icons if needed */}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="w-5 h-5"
+                        >
+                          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
               
               {/* Contact Form */}
               <div className="bg-white rounded-xl shadow-lg p-8">
