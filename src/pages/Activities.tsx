@@ -492,6 +492,22 @@ export const activitiesData = [
     image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/484803483_9245543898848779_463007033299295848_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lq_MT-zguzEQ7kNvgFF4bFo&_nc_oc=AdlSpvFOvuWBsuo7Ot_JHjuOvm06D7EeAVw1oiiE7PkmZo8JnnI_d99ddQrxQa_VR9clHZF9EC6001zr90VkRP4p&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=YCvziB2Jg6LdPHoOeIyX9g&oh=00_AYGN5N3ZaBlVuIR3wVYX1b2OA-7wp9znfuQ-nG08x5biYw&oe=67EF4850",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0AmFCQv2v71uRazPxeffAwaUjqSuHmhr2qLyik17MLuSXtHDg8AqtxsVqicMMnTDBl"
   },
+  {
+    id: 62,
+    title: "महिला दिन उत्साहात साजरा – लगोरी फाउंडेशनतर्फे विविध स्पर्धा आणि सत्कार सोहळा",
+    date: "2025-03-08",
+    description: "महिला दिनाच्या औचित्याने लगोरी फाउंडेशन तर्फे रिलायन्स मॉल, कोल्हापूर येथे विविध स्पर्धांचे आयोजन करण्यात आले. संस्थापक अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून हा कार्यक्रम अतिशय उत्साहात पार पडला. या कार्यक्रमात समाजातील कर्तृत्ववान महिलांचा गौरव करण्यात आला. सौ. चारुलता चव्हाण (ऍडव्होकेट), सौ. रितू गरग (उद्योजिका), सौ. पायल लाहोटी (डॉक्टर), सौ. शीतल माळी (शासकीय अधिकारी) यांचा विशेष सत्कार करण्यात आला.",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/483980803_9202276509842185_6360813973971276609_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8XPRqoCy8qMQ7kNvgGB0Xnq&_nc_oc=Adnfr3T2dpA0MZkBng2gqF2lLQ4gtxBncRrZdwiByE2LYoqp5sIZhpmIlNM24OFsIva0fSanq7LSPvw1iqDLUMhV&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=21AuV6XPvnOwdjBsMQRXYQ&oh=00_AYGGb5J-H0SiCdg1exD6QCbSgJZnZ5-VetOXZEmMiXXw9w&oe=67F06040",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dW8yd12PsyeYRYjTsGPdoyLq2pYo74dNxLTx3A9iGuhWgqA9xtVGor28J9ugw9q1l"
+  },
+  {
+    id: 62,
+    title: "गुढी पाडव्याच्या पार्श्वभूमीवर लगोरी फाउंडेशन आणि रिलायन्स मॉलतर्फे स्पर्धा व सांस्कृतिक कार्यक्रमांचे आयोजन",
+    date: "2025-03-30",
+    description: "गुढी पाडव्याच्या शुभमुहूर्तावर लगोरी फाउंडेशन व रिलायन्स मॉल यांच्या संयुक्त विद्यमाने महिलांसाठी रांगोळी स्पर्धा, गुढी सजावट स्पर्धा आणि मराठी वेशभूषा स्पर्धा आयोजित करण्यात आल्या. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून हा कार्यक्रम पार पडला. कार्यक्रमाच्या यशस्वी आयोजनासाठी रिलायन्स मॉलचे दीपक लगारे आणि नरेंद्रकुमार वाडेकर यांचे मोलाचे सहकार्य लाभले.",
+    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/487858718_9326104057459429_5214464722693391179_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ea6PXtV5DmgQ7kNvgE7jzpd&_nc_oc=AdlKL4zY0x5BPV_igcxlm8mP91GsdM7eLGj6iET0scEM5rrXjwU6NaP5Ud4HxIGmuTeC2TDUwgwy4D4FWiv72_wH&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=ubAgZFJoY0FuYcb0Thmb4w&oh=00_AYHWyvoBJfbqM6xIpyQ9SmRxE4Gbl8BmfU766eMrTdxLyA&oe=67F0546A",
+    link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dDKY72SCke8P9J1zMgiZjqmo2Umrc5hZYsnZQB7guhWReCiDF7nn35m41m9XyQzCl"
+  },
   
 ];
 
