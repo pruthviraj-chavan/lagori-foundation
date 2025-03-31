@@ -35,22 +35,6 @@ const awardsData = [
     presenter: "जायंट्स ग्रुप ऑफ कोल्हापूर पर्ल",
     description: "महिलांच्या सामर्थ्य आणि समाजातील योगदानाबद्दल दिला जातो, ज्याने त्यांना एक नवीन ऊर्जा आणि प्रेरणा दिली आहे.",
     image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/160683978_3702273463175878_2437741425696289663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0zzhDkFxBxsQ7kNvgGkE2d7&_nc_oc=AdndqDbMwjev9MBKygXTiw-_ahfObS_lT_pRmURZDiAdnoTJZ63iBVSm26iZWjOzzPyVYFM_i4DiJH_4asyiuU6B&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=gmqWAu198hAAtIY49xFxOA&oh=00_AYEUo_JHlg3K6qi6wKhnt5zuoYng9vHdFAd-UlwWYbVqEg&oe=68107D63"
-  },
-  {
-    id: 5,
-    title: "महिला सशक्तीकरणासाठी उल्लेखनीय योगदान",
-    date: "2025-08-15",
-    presenter: "Chamber of Commerce",
-    description: "Appreciation for excellence in providing vocational training programs that enhance women's employability.",
-    image: "https://scontent.fblr1-6.fna.fbcdn.net/v/t39.30808-6/487758857_122101977008821707_3600548083797810729_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=x3hUGQZljgwQ7kNvgFNOhxs&_nc_oc=AdlEEZTSe9YTZ_NWWvLhjWFPYE4cYCD1T__2--AF50Ijrq-sb16GHe_qVzfvLv7DG7AB-46a4-iZDhWcTxPZXS58&_nc_zt=23&_nc_ht=scontent.fblr1-6.fna&_nc_gid=lLf4ghsEz20WqVUyJGoTPQ&oh=00_AYHMEVRUCfrQ6t6dukrw8Kk7ixI5qtgVAS47WrpP8MNWBQ&oe=67F051B7"
-  },
-  {
-    id: 6,
-    title: "Entrepreneurship Development Award",
-    date: "2020-10-22",
-    presenter: "Small Business Association",
-    description: "Recognition for efforts in fostering entrepreneurship among women and creating self-employment opportunities.",
-    image: "https://images.unsplash.com/photo-1589558428577-44bc1c747e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
   }
 ];
 
