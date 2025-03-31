@@ -44,10 +44,10 @@ const Contact = () => {
 
   // Define social media links and icons
   const socialMedia = [
-    { name: "Facebook", link: "https://www.facebook.com/lagorifoundation", icon: Facebook },
+    { name: "Facebook", link: "https://www.facebook.com/profile.php?id=100068957100372", icon: Facebook },
     { name: "Twitter", link: "https://twitter.com/lagorifoundation", icon: Twitter },
     { name: "Instagram", link: "https://www.instagram.com/shubhangisakhare01", icon: Instagram },
-    { name: "YouTube", link: "https://www.youtube.com/@lagorifoundation", icon: Youtube },
+    { name: "YouTube", link: "https://www.youtube.com/@shubhangisakhare4679", icon: Youtube },
   ];
 
   return (
