@@ -1,8 +1,6 @@
-
-
 import { useState } from "react";
 import { PageTransition } from "../components/Transitions";
-import { MapPin, Phone, Mail, Send, CheckCircle, AlertCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Send, CheckCircle, AlertCircle, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 import { toast } from "@/components/ui/use-toast";
 
 const Contact = () => {
@@ -43,6 +41,14 @@ const Contact = () => {
       setTimeout(() => setFormStatus("idle"), 3000);
     }, 1500);
   };
+
+  // Define social media links and icons
+  const socialMedia = [
+    { name: "Facebook", link: "https://www.facebook.com/lagorifoundation", icon: Facebook },
+    { name: "Twitter", link: "https://twitter.com/lagorifoundation", icon: Twitter },
+    { name: "Instagram", link: "https://www.instagram.com/shubhangisakhare01", icon: Instagram },
+    { name: "YouTube", link: "https://www.youtube.com/@lagorifoundation", icon: Youtube },
+  ];
 
   return (
     <PageTransition>
@@ -120,27 +126,17 @@ const Contact = () => {
                 <div className="mt-12">
                   <h3 className="font-bold text-gray-800 mb-4">आम्हाला फॉलो करा</h3>
                   <div className="flex space-x-4">
-                    {/* Social Media Icons */}
-                    {["facebook", "twitter", "instagram", "linkedin"].map((social) => (
+                    {socialMedia.map((social) => (
                       <a
-                        key={social}
-                        href={`#${social}`}
+                        key={social.name}
+                        href={social.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={`Follow us on ${social.name}`}
                         className="bg-white text-lagori-600 p-3 rounded-full shadow-md hover:bg-lagori-600 hover:text-white transition-colors"
                       >
-                        <span className="sr-only">{social}</span>
-                        {/* Replace with actual social icons if needed */}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="w-5 h-5"
-                        >
-                          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                        </svg>
+                        <span className="sr-only">{social.name}</span>
+                        <social.icon className="w-5 h-5" />
                       </a>
                     ))}
                   </div>
@@ -150,7 +146,7 @@ const Contact = () => {
               {/* Contact Form */}
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <h2 className="font-playfair text-2xl font-bold mb-6 text-gray-800">
-                 आम्हाला मॅसेज पाठवा
+                  आम्हाला मॅसेज पाठवा
                 </h2>
                 <form onSubmit={handleSubmit}>
                   <div className="space-y-6">
