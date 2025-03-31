@@ -95,10 +95,10 @@ const Index = () => {
                     rel="noopener noreferrer" 
                     className="btn-primary"
                   >
-                    Donate Now
+                    देणगी द्या
                   </a>
                   <Link to="/about" className="btn-secondary bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-white/20">
-                    Learn More
+                    अधिक जाणून घ्या
                   </Link>
                 </div>
               </div>
