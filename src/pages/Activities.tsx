@@ -501,11 +501,11 @@ export const activitiesData = [
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dW8yd12PsyeYRYjTsGPdoyLq2pYo74dNxLTx3A9iGuhWgqA9xtVGor28J9ugw9q1l"
   },
   {
-    id: 62,
+    id: 63,
     title: "गुढी पाडव्याच्या पार्श्वभूमीवर लगोरी फाउंडेशन आणि रिलायन्स मॉलतर्फे स्पर्धा व सांस्कृतिक कार्यक्रमांचे आयोजन",
     date: "2025-03-30",
     description: "गुढी पाडव्याच्या शुभमुहूर्तावर लगोरी फाउंडेशन व रिलायन्स मॉल यांच्या संयुक्त विद्यमाने महिलांसाठी रांगोळी स्पर्धा, गुढी सजावट स्पर्धा आणि मराठी वेशभूषा स्पर्धा आयोजित करण्यात आल्या. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून हा कार्यक्रम पार पडला. कार्यक्रमाच्या यशस्वी आयोजनासाठी रिलायन्स मॉलचे दीपक लगारे आणि नरेंद्रकुमार वाडेकर यांचे मोलाचे सहकार्य लाभले.",
-    image: "https://scontent.fblr1-8.fna.fbcdn.net/v/t39.30808-6/487858718_9326104057459429_5214464722693391179_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ea6PXtV5DmgQ7kNvgE7jzpd&_nc_oc=AdlKL4zY0x5BPV_igcxlm8mP91GsdM7eLGj6iET0scEM5rrXjwU6NaP5Ud4HxIGmuTeC2TDUwgwy4D4FWiv72_wH&_nc_zt=23&_nc_ht=scontent.fblr1-8.fna&_nc_gid=ubAgZFJoY0FuYcb0Thmb4w&oh=00_AYHWyvoBJfbqM6xIpyQ9SmRxE4Gbl8BmfU766eMrTdxLyA&oe=67F0546A",
+    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/487010721_9326101387459696_7882641636510953086_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=26UBpaNuvlUQ7kNvgFzdg_9&_nc_oc=Adk8ppChDJyOshkV6NFRmEJvaWYwS2qcYIpiC0Fr1yy8zT-YgjecNFfJekpKUcC5jnmy32dh02Am33eSIDsBOPtQ&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=I1XOsZWdLGJtiFMy8CSjCg&oh=00_AYEeSrI-lr6-e6IY8OHcn0MkfYHmjTW-TO-r4Ot0e74PjA&oe=67F04DA9",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dDKY72SCke8P9J1zMgiZjqmo2Umrc5hZYsnZQB7guhWReCiDF7nn35m41m9XyQzCl"
   },
   
