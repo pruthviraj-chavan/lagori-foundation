@@ -276,9 +276,9 @@ const About = () => {
                 },
                 {
                   
-                  name: " निकिता कापसे",
+                  name: "निकिता कापसे",
                   position: "उपाध्यक्षा",
-                  image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                  image: "/n1.jpeg"
                 },
                 {
                   name: "ऐश्वर्या झांजगे",
@@ -290,15 +290,15 @@ const About = () => {
                   position: "संचालक",
                   image: "/l1.jpg"
                 },
-                {
-                  name: "कमल झांजगे",
-                  position: "संचालक",
-                  image: ""
-                },
+                // {
+                //   name: "कमल झांजगे",
+                //   position: "संचालक",
+                //   image: ""
+                // },
                 {
                   name: "शारदा कापसे",
                   position: "संचालक",
-                  image: ""
+                  image: "/l2.jpeg"
                 }
               ].map((member, index) => (
                 <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover-lift">
