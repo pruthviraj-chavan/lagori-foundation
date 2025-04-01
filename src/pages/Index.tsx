@@ -331,7 +331,7 @@ const Index = () => {
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
               <span className="inline-block px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-lagori-800 font-medium mb-4">
-                स्त्री शक्ती
+                Women's Power
               </span>
               <h2 className="section-title text-gray-800">परिवर्तनाच्या प्रेरणादायी कथा</h2>
               <p className="section-subtitle text-gray-700">
