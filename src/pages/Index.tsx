@@ -83,7 +83,7 @@ const Index = () => {
                   महिला सशक्तीकरण
                 </span>
                 <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  महिलांना सक्षम बनवून,<br /> जगण्याची नवी उमेद देणे
+                  महिलांना सक्षम बनवणे,<br /> जगण्याची नवी उमेद देणे
                 </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
                   "महिला सशक्तीकरण हा केवळ योग्य मार्ग नाही, तर तो हुशारीचा मार्ग आहे. जेव्हा महिला यशस्वी होतात, तेव्हा संपूर्ण समाज समृद्ध होतो."
