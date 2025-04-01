@@ -347,7 +347,7 @@ const Index = () => {
                 <div className="relative">
                   <div className="absolute -top-6 -left-6 w-24 h-24 bg-lagori-300 rounded-full opacity-20"></div>
                   <img 
-                    src="https://images.unsplash.com/photo-1621346878414-47c854e8954c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" 
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" 
                     alt="Success Story" 
                     className="rounded-2xl w-full h-auto relative z-10 shadow-xl"
                   />
