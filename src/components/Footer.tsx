@@ -72,7 +72,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 flex-shrink-0 text-lagori-400" />
-                <span className="text-gray-300">Near Vitthal Mandir, Mangalkar Peth, Mandlik Galli, Kolhapur</span>
+                <span className="text-gray-300">Near Amrut multipurpose hall, Kalamba, Kolhapur</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 flex-shrink-0 text-lagori-400" />
@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 flex-shrink-0 text-lagori-400" />
-                <a href="mailto:info@lagorifoundation.org" className="text-gray-300 hover:text-white transition-colors">info@lagorifoundation.org</a>
+                <a href="mailto:lagorifoundation1@gmail.com" className="text-gray-300 hover:text-white transition-colors">lagorifoundation1@gmail.com</a>
               </li>
             </ul>
           </div>
