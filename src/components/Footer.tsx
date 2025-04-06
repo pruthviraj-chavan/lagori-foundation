@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Lagori Foundation. All rights reserved. Build By dieVektor.Tech</p>
+          <p>© {new Date().getFullYear()} Lagori Foundation  | Designed by dieVektor.tech | All rights reserved</p>
         </div>
       </div>
     </footer>
