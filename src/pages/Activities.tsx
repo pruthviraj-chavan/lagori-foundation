@@ -17,7 +17,7 @@ export const activitiesData = [
     title: "संक्रांतीचा हळदी-कुंकू सोहळा – स्त्री शक्तीचा उत्सव",
     date: "2025-01-24",
     description: "लगोरी फाउंडेशनच्या वतीने यंदाही मकर संक्रांतीचा हळदी-कुंकू सोहळा मोठ्या उत्साहात आणि पारंपरिक पद्धतीने साजरा करण्यात आला. या कार्यक्रमात महिलांनी संक्रांतीचे विशेष औक्षण, सुवासिनी पूजन आणि तिळगूळ वाटप करून एकमेकींना तिळगूळ घ्या, गोड गोड बोला असा स्नेहाचा संदेश दिला.",
-    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/474938186_8936530623083443_1136913187730060467_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g2_VB-oF7F8Q7kNvgEYYXit&_nc_oc=AdkOc8i7549Zj9J_qyFfBhbJaapEDfufec2LBXnBO3qjD9LRZgJpHXKtv18SQdx89EWbfht_lDS30aERISbKgePd&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=s2fNWSTDh73-uZOhc5w82g&oh=00_AYH8bB8XDhyH3KNZo3JZVDAmX8n0xmr1hIY9riIxZUq_xw&oe=67EE1520",
+    image: "https://scontent.fblr24-3.fna.fbcdn.net/v/t39.30808-6/474938186_8936530623083443_1136913187730060467_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XalXAHLmNCMQ7kNvwHs5dcC&_nc_oc=AdlnPC8DwdSdWQhktFdZE2z1CAAHVjIAqBtaslZY5ioD8Afa-HnTgNv34EtRaeVy8UUTKcvVmPVDWpsCgAA6tntp&_nc_zt=23&_nc_ht=scontent.fblr24-3.fna&_nc_gid=1QBNiZ9LZFa-v7W8iX9kKw&oh=00_AfEVOKM7rzIh9RPMKwOzUHvTvDyNxmr9WKb3cNfI6bTADQ&oe=67F9F2A0",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0s9USZ4Z9AhB6MwAEKvsvXpGpp47X2YJXShJmhftKoLRA2e9tzhjTq4pTarqaSikcl"
   },
   {
@@ -497,7 +497,7 @@ export const activitiesData = [
     title: "महिला दिन उत्साहात साजरा – लगोरी फाउंडेशनतर्फे विविध स्पर्धा आणि सत्कार सोहळा",
     date: "2025-03-08",
     description: "महिला दिनाच्या औचित्याने लगोरी फाउंडेशन तर्फे रिलायन्स मॉल, कोल्हापूर येथे विविध स्पर्धांचे आयोजन करण्यात आले. संस्थापक अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून हा कार्यक्रम अतिशय उत्साहात पार पडला. या कार्यक्रमात समाजातील कर्तृत्ववान महिलांचा गौरव करण्यात आला. सौ. चारुलता चव्हाण (ऍडव्होकेट), सौ. रितू गरग (उद्योजिका), सौ. पायल लाहोटी (डॉक्टर), सौ. शीतल माळी (शासकीय अधिकारी) यांचा विशेष सत्कार करण्यात आला.",
-    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/483980803_9202276509842185_6360813973971276609_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8XPRqoCy8qMQ7kNvgGB0Xnq&_nc_oc=Adnfr3T2dpA0MZkBng2gqF2lLQ4gtxBncRrZdwiByE2LYoqp5sIZhpmIlNM24OFsIva0fSanq7LSPvw1iqDLUMhV&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=21AuV6XPvnOwdjBsMQRXYQ&oh=00_AYGGb5J-H0SiCdg1exD6QCbSgJZnZ5-VetOXZEmMiXXw9w&oe=67F06040",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/483980803_9202276509842185_6360813973971276609_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GVzobEnWGGoQ7kNvwFV1M2V&_nc_oc=Adn_z-PLWivtAd2ueqYncEtRVCMPUUqT10UEFPOu_RpwJfI8wkk56VJMXUUvg6_NK9aEfxyajCZyKNwuvF4axDE-&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=wv2-PxNgZs_QJxKaKrZVLw&oh=00_AfEZdP9OfEx6awG1Ndlq8o0TN8BeAcrBc2vAXrq39ywUcw&oe=67F9D300",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0dW8yd12PsyeYRYjTsGPdoyLq2pYo74dNxLTx3A9iGuhWgqA9xtVGor28J9ugw9q1l"
   },
   {
