@@ -25,7 +25,7 @@ export const activitiesData = [
     title: "शारदीय नवरात्र उत्सवानिमित्त महारॅली चे आयोजन. लगोरी फाउंडेशन चा सहभाग",
     date: "2023-10-24",
     description: "शारदीय नवरात्र उत्सवानिमित्त महारॅलीचे आयोजन करण्यात आले, ज्यामध्ये लगोरी फाउंडेशनने उत्स्फूर्त सहभाग घेतला. या महारॅलीच्या माध्यमातून महिलांच्या सशक्तीकरणाचा संदेश देण्यात आला आणि समाजात एकात्मतेची भावना वृद्धिंगत करण्याचा प्रयत्न करण्यात आला.",
-    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/462883143_8352776588125519_4756712244573059595_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=TNm3rZQWER4Q7kNvgEKobyS&_nc_oc=AdkmzhvdWPRczWhmnA-xMpXIj_Qicmt2z1n-dBxTtRbNy8HL2hVQohPD6AydGxFn7xyX_0TgA0gbJeSaoEqdpqmX&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=Sk7p3JTUCanol0MemtMm9w&oh=00_AYFvFi7Bd38Eug0FsyR9CNXjeuLSBmefdyX-2I4myChkLg&oe=67EE29FC",
+    image: "https://scontent.fblr24-3.fna.fbcdn.net/v/t39.30808-6/462883143_8352776588125519_4756712244573059595_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ZmGFI-usj9kQ7kNvwHt1VFb&_nc_oc=Admfl4I4Hoq3H2gMJEjAUCodhrbEpilqzmfnjujDssOjSZ-OQzfg0sC-O_OmZrRTU3KkyealCuHzpms3ZHnqnB2p&_nc_zt=23&_nc_ht=scontent.fblr24-3.fna&_nc_gid=tzZTs3iy6IL3dJcHCiMndg&oh=00_AfHYv2M82uIHcYxPBrg0jvNPiYApSUv9KlTAivIplhOuqA&oe=67F9CF3C",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid029c5ZeahA3iWcpzVkCsjkriaFoN299vUUnKKtepE8xCYkFsLjizi9ydvcZjkDLTy8l"
   },
   {
@@ -65,7 +65,7 @@ export const activitiesData = [
     title: "महिला दिनाच्या निमित्ताने लगोरी फाउंडेशनचे संवाद आणि कौतुक सोहळा",
     date: "2024-03-08",
     description: "८ मार्च महिला दिनाचे औचित्य साधून लगोरी फाउंडेशनच्या अध्यक्ष शुभांगी साखरे यांनी अरुण नरके फाउंडेशनच्या स्पर्धा परीक्षा मार्गदर्शकांसोबत संवाद साधला. या संवादात महिलांच्या सक्षमीकरणाबद्दल महत्त्वपूर्ण माहिती दिली गेली. तसेच, वन खात्यात पोस्ट निघालेल्या मुलीचा कौतुक सोहळा साजरा करण्यात आला. यावेळी महिलांच्या विविध कार्यक्षेत्रातील यशस्वी कामगिरीला मान्यता देण्यात आली, आणि महिला सशक्तीकरणाची महत्त्वाची चर्चा केली गेली.",
-    image: "https://scontent.fblr20-2.fna.fbcdn.net/v/t39.30808-6/431616825_7149635485106308_3298242842659419721_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UlosTIeHaq8Q7kNvgGRsThC&_nc_oc=AdkydLa-7V4iAmk9JfS928zvDB71KxCoN6dbD8315Fix7i2qVMciisi2xN8J0pCM79n6dSfvGJhc-HBkJNElfM7z&_nc_zt=23&_nc_ht=scontent.fblr20-2.fna&_nc_gid=vWrsOvrMrK-71yGPO6iQmA&oh=00_AYFkedcT1RMJdhVfk7at-uXwdbVXeonzKniT9vTQcpi-LQ&oe=67EE3422",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/431616825_7149635485106308_3298242842659419721_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7S9DG25QDgwQ7kNvwE0zn9w&_nc_oc=Adl8vIJKQW8CswRgkUXg5osfFxkvhpj9AgVqBriulQ9bTe3YRiv33GCAca1heByBYijUya7xq0E05Kzrkobhnuaa&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=WMS9cla644WSgAWSNmBwTg&oh=00_AfFiY3R4CIfqgPmHp1fBSSkaeCxB7qjCsfX5o96uy0xdyg&oe=67F9D962",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02fzjMYskjmjxpaeHZtBeppVJq5BHYHpR8seCW79usSFqsMuiAH91HEHUijfWCA5g4l"
   },
   {
@@ -73,7 +73,7 @@ export const activitiesData = [
     title: "शिवजयंतीनिमित्त लगोरी फाउंडेशन कडून छत्रपती शिवाजी महाराज चौकात लेझीम रॅली व प्रात्यक्षिक",
     date: "2024-02-19",
     description: "लगोरी फाउंडेशन अंतर्गत काल छत्रपती शिवाजी महाराज चौक येथे लेझीम रॅली आयोजित करण्यात आली. छत्रपती शिवाजी महाराजांच्या पाळणा म्हणून लेझीम आणि लाठी काठीचा प्रात्यक्षिक सादर करण्यात आला. काही समर्पित महिलांच्या सहभागासह, शिवजयंती उत्सव अत्यंत उत्साहात आणि गौरवपूर्ण वातावरणात साजरा करण्यात आला.",
-    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/429534360_7076217185781472_8609629475981785910_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jMze0SVH6u4Q7kNvgGhQ3fC&_nc_oc=AdkUQHe8aglBr8wn-OTBJBnt5LviY1c9VTGvYyuEXZIo4ihcA4wVmn-EiT-9SgtLOr78-c_g1yAjy8HzD07hQNpD&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=6_fq9AD1gNSk58reYM6_mw&oh=00_AYE0EHMOPIg2SWxvmNocLH5XYi_gQ36-EGdErOwuOxLyWQ&oe=67EE43CA",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/472425465_8841973732539133_7434182902718126087_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PB95hY24TRcQ7kNvwE45sPi&_nc_oc=Adm37_vfcBuCXO6sZp9CMThBibO7O4PbXKQxv3DsncmliYSRwORlUHAfYEr7DMD32BKPnozpK6cwkrHbVDOqoxej&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=jRItGFv61ltTmZK_1wWKFA&oh=00_AfHVDzcE2E92XqMA8dj0gzBoS7UPgQPw7tFvVC2y1QJ1ag&oe=67F9DCEC",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid01MJYuJqMWKv1Dxa5fA8qnR69XHbsVewy61YGSamf51Zegm5qmFLaQ4syxycDCcz5l"
   },
   {
@@ -89,7 +89,7 @@ export const activitiesData = [
     title: "लगोरी फाउंडेशनचा संक्रांती हळदी कुंकू सोहळा उत्साहात साजरा",
     date: "2024-02-24",
     description: "लगोरी फाउंडेशन कोल्हापूरने संक्रांती हळदी कुंकू सोहळ्याचे आयोजन शुक्रवारी शिवाजी मंदिरात संस्थापक अध्यक्षा शुभांगी साखरे यांच्या संकल्पनेतून मोठ्या उत्साहात केला. मान्यवर म्हणून सौ. स्निग्धा चेतन नरके, रंजना पाटील, सविता रायकर, मंगल खुडे आणि कृष्णा चांडक उपस्थित होते. ",
-    image: "https://scontent.fblr20-2.fna.fbcdn.net/v/t39.30808-6/425956725_7007765269293331_8329047326371269117_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B_0E1ZUz75oQ7kNvgEIy3OZ&_nc_oc=AdmGlPWUsAJPugTcHvyg1Ws0mw2GQ-QYwoCdTyizbXg-FlTYklpiHW-LBsjr-1R8pvhEeiW-1qU_yO4O4eJ7VwU8&_nc_zt=23&_nc_ht=scontent.fblr20-2.fna&_nc_gid=6FBXNcqoZ6Q451-PBOkekA&oh=00_AYEmBitIN1mnJT5JbBc56xzx-2LrtEbTMnVq6uHziYM1AA&oe=67EE4407",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/425956725_7007765269293331_8329047326371269117_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BBxAnaqKRYMQ7kNvwGA6q1i&_nc_oc=AdmURwux4vyaD4a2Ak1-pN9HNbK95pcS4L7hPXGCCCq3JCqw_pNW-1PrisdzjcZsl5GemlnTvWKQA59o_Hkzf-JP&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=chh3QomVCRy0v2EHzYFb7A&oh=00_AfEiTPRuU1TLK77HosX8m7ZejuOwWGQRx2s13wMvozoWxA&oe=67F9E947",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02o6ZYfuDkp7ntFaVNojk1ptR78S1Rfnxo5VeqBx45XQRgGvAiGQpbj8YLthyZqhTZl"
   },
   {
@@ -105,7 +105,7 @@ export const activitiesData = [
     title: "जिजाऊ जयंती निमित्त लगोरी फाउंडेशनचे राजमाता जिजामाता यांच्या पुतळ्याचे पूजन",
     date: "2024-01-12",
     description: "जिजाऊ जयंतीच्या औचित्याने, लगोरी फाउंडेशन कोल्हापूर यांच्या वतीने राजमाता जिजामाता यांच्या पुतळ्याचे पूजन करण्यात आले आणि आई साहेबांना अभिवादन केले. यावेळी संस्थापक अध्यक्षा शुभांगी साखरे, पल्लवी घाटगे, उमा बन्ने, ज्योती वेदांते, आरती कनेरे, दीपाली पोळ आणि अन्विका देसाई उपस्थित होत्या.",
-    image: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/418792965_6921759134560612_5428506900787918522_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gRYDcwIt6BEQ7kNvgHGyhyL&_nc_oc=AdlgkZ6eZJo9jyycou7RhddzmWrDkLCiwSeIDfuhHeQwhjuWtRg-okV3qbUL72SN9pb92IJuDeeeQHBv2Wphigcu&_nc_zt=23&_nc_ht=scontent.fblr20-3.fna&_nc_gid=RYH3odD45j6lXL7nRx-S1Q&oh=00_AYENxnAgG3UQtaEJgIo7GAyBplICtJNI0QYC59UPDT1nLg&oe=67EE36BA",
+    image: "https://scontent.fblr24-3.fna.fbcdn.net/v/t39.30808-6/418731236_6921757617894097_4896679337675774805_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zjY2jb12KEQQ7kNvwHFlhSe&_nc_oc=AdncfHxQcHrSuDBoSwIJeu0HEG3axX8jrGpokM88TFI3mObyGMZFyGF_BVOwveaMnRJdN-nkDU99D3gqVM9HvZ07&_nc_zt=23&_nc_ht=scontent.fblr24-3.fna&_nc_gid=DJOasxFpPQh41nxD27ZCVg&oh=00_AfHDa1thDnQwBOMG_uA5I0ujXwI41lKpFCj2_a3BLF0Q6Q&oe=67F9F882",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid031WUW7tS6dBSTCtcWvd3UTrETZYTCEwtxNpaBmCrTmU4hrpTiiaCyHoKPfhjT1yVml"
   },
   {
