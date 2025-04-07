@@ -9,7 +9,7 @@ export const activitiesData = [
     title: "वार्षिक स्नेहसंमेलन २०२४ जल्लोषात साजरे!",
     date: "2024-01-06",
     description: "लगोरी फाउंडेशन आयोजित वार्षिक संमेलन 2024 अतिशय उत्साहात धुमधडाक्यात आयोजित करण्यात आली. यावेळी प्रमुख पाहुणे माननीय उदयानी साळुंखे (संचालक कोल्हापूर मध्यवर्ती बँक ) लाभल्या.सौ संध्या घोटणे, वैशालीताई महाडिक, मंगल ताई खुडे,स्मिता खामकर, स्मिता गिरी,उज्ज्वला पटेल,राधिका खडके, पूजा आरडे, सविता रायकर यांच्या उपस्थिती मध्ये हा कार्यक्रम पार पडला.",
-    image: "https://scontent.fblr20-1.fna.fbcdn.net/v/t39.30808-6/472425465_8841973732539133_7434182902718126087_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=-nDQ0njCsMIQ7kNvgENT27p&_nc_oc=AdlmRCE9Yuo4KZtHONOuEjuZ25lLZsm_zvc2NpnUlRM3Ece2y7dfoqnwm-C1WC2rcxBONyRBAMs3Bgq30ebGPJtk&_nc_zt=23&_nc_ht=scontent.fblr20-1.fna&_nc_gid=7ZSxjIGjAEfmO3xMr_2Ukg&oh=00_AYHMg-knXFwDuS0nGu2lt7mvhayi9S3MJCPEOj-MJxwnzQ&oe=67EE37AC",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/472425465_8841973732539133_7434182902718126087_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PB95hY24TRcQ7kNvwE45sPi&_nc_oc=Adm37_vfcBuCXO6sZp9CMThBibO7O4PbXKQxv3DsncmliYSRwORlUHAfYEr7DMD32BKPnozpK6cwkrHbVDOqoxej&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=-OrevOou7S-6lVk4HoSu8w&oh=00_AfEOj67xfFbAcZ6fTQU33HuBncj1rN3U_PJBP7pfqJ0YoA&oe=67F9DCEC",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid03qTgCq5rxGRq4L2XHRa49kR2mvUWFfwmtsGapVzpzYH5NJqAsHb1sF5J3AULTJY7l"
   },
   {
@@ -281,7 +281,7 @@ export const activitiesData = [
     title: "रणरागिनी पुरस्काराने सन्मानित",
     date: "2023-10-24",
     description: "दसऱ्याच्या सणानिमित्त, हील रायडर्स अडवेंचर फाउंडेशनने लगोरी फाउंडेशनला रणरागिनी पुरस्काराने सन्मानित केले. यासोबतच, भवानी मंडप येथील ऐतिहासिक कमानीला तोरण बांधण्याच्या सोहळ्यात आम्ही सहभागी होण्याचा संयोग मिळाला. आपल्या कार्याची पोचपावती मिळाल्यावर दिलेल्या सन्मानामुळे खूप प्रेरणा मिळाली आणि नवी ऊर्जा मिळाली. हा ऐतिहासिक क्षण आदरणीय संस्थापक अध्यक्ष शुभांगी साखरे आणि अन्य सभासदांसोबत साजरा केला.",
-    image: "https://scontent.fblr1-7.fna.fbcdn.net/v/t39.30808-6/395769712_6631413270261868_4936593018838895211_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MVl906rN_pEQ7kNvgHFl5Sa&_nc_oc=AdmMoBCzqVm1jPan5Q0MrVptACXrcsRgSjC3QLJlpD4z8v9jmwwlFR3q9tMzAXux7pvxPotqKE2TqrP28n6jpAJZ&_nc_zt=23&_nc_ht=scontent.fblr1-7.fna&_nc_gid=oE6jyFX4tNV3TyV_f2RUCw&oh=00_AYFZYe5BJfx7Pv7_20jjuJ2S1xYsjOzzMasuWqQRV4IE4Q&oe=67EF11AF",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/395769712_6631413270261868_4936593018838895211_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xQ_I9f1PMFsQ7kNvwG61Jzj&_nc_oc=AdnIg3yB15d14FFpp8l2N2qvnANAVzPxxU9tu62T4ecC-mIeK8fgYhIefzYjFAEH91ua1SEbeSME_Riqwd7k3sQd&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=bbOT-AytS4BXezxudyHJWA&oh=00_AfH3mszV_WT-_RxkHEuLlK3szjbJP6mYJKX_IhgNhggL4w&oe=67F9D5EF",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0gkxm4BKdCEXfTmkhXfLZcbPtTYC5zgpGZVg3YWfi8Hiwmdazi36me2D57zdYUb1ol"
   },
   {
