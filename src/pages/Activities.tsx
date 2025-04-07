@@ -265,7 +265,7 @@ export const activitiesData = [
     title: "लगोरी फाउंडेशन आयोजित वार्षिक स्नेहस्मेलन: महिलांच्या सुप्त गुणांचा उदय",
     date: "2023-10-11",
     description: "लगोरी फाउंडेशन च्या वतीने आयोजित वार्षिक स्नेहस्मेलन शनिवारी, ९ ऑक्टोबर रोजी शिवाजी मंदिरात मोठ्या उत्साहात आणि प्रचंड गर्दीमध्ये पार पडले. संस्थापक अध्यक्ष शुभांगी साखरे यांच्या संकल्पनेतून महिलांमधील सुप्त गुणांना वाव देण्यासाठी हा छोटा प्रयत्न करण्यात आला. कार्यक्रमाला प्रमुख पाहुण्यांच्या रूपात मा. निलोफर आझरेकर (महापौर को.म. ना. पा.), मा. मनीषा जाधव (इनरव्हील क्लब ऑफ सनराईझच्या अध्यक्ष), मा. प्राची फडणीस (कथक्क विशारद), मा. ज्योती पडवळ, मा. सविता रायकर, मा. अपर्णा गांधी, मा. स्मिता खामकर, श्री. कृष्णा शेट्टी (उदयोगपती, कोल्हापूर) यांची उपस्थिती होती.",
-    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/409209787_6806316102771583_971416728811811129_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MPDPhZDBtO4Q7kNvgEz7COM&_nc_oc=Adnniji1CY1y-42vIt2B4OjMwJQAXnGTi6qanaHtogO2o1_207UVOGVdVSqUQRJ90lvxZnWxeZGaaZXhpj3tRUDO&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=ptGyNOzCzvjX1l_tPYET4g&oh=00_AYF-DCEUlnnnWwcAVEDrA4tepSox_57EPPgrEt6SH7oHPA&oe=67EEF213",
+    image: "https://scontent.fblr24-1.fna.fbcdn.net/v/t39.30808-6/409209787_6806316102771583_971416728811811129_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XpEsvjZYJc4Q7kNvwFemv7Q&_nc_oc=AdnZcModwbaq1wOy02-D6CuB_YBubC1QVpBhtNnI-Ks07vauJIffEfzaHZgTAGvcyFsCJRllC6fG9qasEYiqMb_d&_nc_zt=23&_nc_ht=scontent.fblr24-1.fna&_nc_gid=gJZLEKFIVsWdj1QdzWI6lw&oh=00_AfEMv0livGuViIh9hjsiLtPrMWej3wd4mRLZUg7Zm1NzEA&oe=67F9EE93",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02dXZEhBJCgK41GzixXnL1h4NKiy2DrhmNMRXkRYnkdTrfGZHBeVQ9DDGvY4FXuMuJl"
   },
   {
@@ -273,7 +273,7 @@ export const activitiesData = [
     title: "लगोरी फाउंडेशन कोल्हापूर आयोजित स्पोर्ट्स डे",
     date: "2023-10-23",
     description: "संस्थापक अध्यक्ष सौ शुभांगी साखरे यांच्या संकल्पनेतून टिकी टाका टर्फ येथे संपन्न झाला, कोच उमेश चौगुले सर यांनी सर्व खेळ हे अतिशय नियोजनबद्ध पार पाडले यावेळी महिलांन करिता कबड्डी, क्रिकेट,रनींग, लींबू चमचा, लांब उडी,पोत्यात पाय,(सॅक रेस )दोर उडी अशा अनेक विविध स्पर्धा घेण्यात आल्या महिलांनी अतिउत्साह त्याला प्रतिसाद दिला. ",
-    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/403891239_6737710016298859_3561803063248275175_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ws3DKOLrcPQQ7kNvgGk-YWb&_nc_oc=AdlzSjwudS_EXdDFiGL80-_d8IYj9NQn95B3Dr0Vi4XryDYcv9b5WEzELRsHE7PgZ_Yl69xM8_vY46SiZSuxSUFs&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=xA57JXm7TLHWwptTUitLOg&oh=00_AYHlffj052aIzSni4NhXeT97RisRMNfolvsjxKOzeu_pgg&oe=67EEF204",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/403891239_6737710016298859_3561803063248275175_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LI_OphkI-qYQ7kNvwHuwYTw&_nc_oc=Adn-87T_WOyQ-IsRsrdoVNmb2Dy2y8lqYWsuMpcUQexl8rbk_Ngnj7Y5D_pnbonrMu4iooWP8XZZplge-aGGRmWV&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=VugifKqZhX13Li1YAeeDKQ&oh=00_AfG-dy6AsGxqiULihiBQmdUlyahLqbhbdAPCcq2OuFjN2Q&oe=67F9EE84",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0gwzWieYrxe4uXKGbT1m9seaAvArCk21hfCivEGwiWyuiz7FxTygLZCJVoRThiso8l"
   },
   {
@@ -287,9 +287,9 @@ export const activitiesData = [
   {
     id: 36,
     title: "जय जिजाऊ महिला मंडळाचे नव दुर्गा देवी पूजा आयोजन",
-    date: "2023-10-23",
+    date: "2023-10-22",
     description: "जय जिजाऊ महिला मंडळाने उत्तरेश्वर पेठेतील महिलांच्या पुढाकाराने नव दुर्गा देवीची पूजा याचना आणि विविध स्पर्धांचे सुंदर नियोजन केले. मंडळाच्या अध्यक्षे सुनीता ताईंनी आम्हाला आरतीसाठी आमंत्रित करून मान दिला. मंडळाच्या भावी वाटचालीस मनःपूर्वक शुभेच्छा!",
-    image: "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/394318301_6625139920889203_4500783522225245452_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Wc8JZ9vszIwQ7kNvgG5p1es&_nc_oc=Adn3_B94c3F9oUbeEVTwpQZD7oJ5zTj4b1P5mjC_9SfKx0J7p8f_5qmfnDlLi1PBRDlrv3bemZYjJIsnFKC_225F&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=cUUrWlNBl4swunp8afN3kA&oh=00_AYGhWJCo8z8wbgsfvHSfvUcBM-Jxx5UpBCRzGvW8a_Qn_w&oe=67EF00BC",
+    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/394318301_6625139920889203_4500783522225245452_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WWF9pzJ9YaYQ7kNvwHPgNyl&_nc_oc=AdkELrQ1PXtrU8c3Cjh1LtmkpZ6W_UEh3RW2bK8eQkCchtQld75CvRLNUmHmyX7u-I4USXqrQ3NP5cUGbkRptJLg&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=1NWujhxBP3zCXiIlBVI7JA&oh=00_AfHtI-BCmnBOu_SvAxUYLofoAr5SYKE36TG0D0bMPutFoQ&oe=67F9FD3C",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0GqSvXHQzFubWEboRbcamHuPfgBFEjyew672Yodfrv1erDjzGC733zZpBQf631RuGl"
   },
   {
@@ -297,7 +297,7 @@ export const activitiesData = [
     title: "शाही दसरा कोल्हापूर: नवदुर्गा बाईक रॅलीत लगोरी फाउंडेशनचा छान परफॉर्मन्स",
     date: "2023-10-20",
     description: "शाही दसरा कोल्हापूरच्या नवदुर्गा बाईक रॅलीचे आयोजन जिल्हा माहिती कार्यालयाने केले. यामध्ये लगोरी फाउंडेशन कोल्हापूरचा समावेश होता, ज्यांनी खूप छान परफॉर्मन्स सादर केला.",
-    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t39.30808-6/394278542_6616285938441268_1583555996537731033_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MphBGzpqO20Q7kNvgEvBhZg&_nc_oc=AdnKl44dbYPMKFvXMtIuD1pq2df-bGLwf7LmznyrclTWYvcIWrYfbWHxGbZSf6cYINZtYHIrBmETyGdLZKWkdHf4&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=0M58u2dzbx0jHEIF1H7rkA&oh=00_AYFh3md427L-9nQ9pP6Ws4S8ub2f-6Wn0oaj-8_ZDTz1dA&oe=67EF2481",
+    image: "https://scontent.fblr24-3.fna.fbcdn.net/v/t39.30808-6/394278542_6616285938441268_1583555996537731033_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=aQ8LDiMuY8UQ7kNvwG_iUS5&_nc_oc=AdlYO-1hKp_5AeZUHHmZ_ZpH8-uVuVFxs49kLcsJqzWVss_fSHdyEQYO_8JivDLurVoxFnwPH8GJUxCo3ZrwEiDX&_nc_zt=23&_nc_ht=scontent.fblr24-3.fna&_nc_gid=lrAJJ9HN_M85yIm5Pnk-MA&oh=00_AfEH5oxzQ5iIcWoszgicTvT_x1a-49JdnWHxLnksbcGvSA&oe=67F9E8C1",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid02TFGaacSjnFYMeXMCaxjuij9Fd9CERgrtmZGJmPgbizYGY48aWmH6Dibfax7yE8ZPl"
   },
   {
@@ -305,7 +305,7 @@ export const activitiesData = [
     title: "लगोरी फाउंडेशन आयोजित भव्य झिम्मा फुगडी २०२३",
     date: "2023-10-03",
     description: "लगोरी फाउंडेशनने शिवाजी मंदिर येथे आयोजित केलेल्या भव्य झिम्मा फुगडी 2023 कार्यक्रमात महिलांनी प्रचंड उत्साहाने भाग घेतला. कार्यक्रमाचे परीक्षण सौ. पूनम देसाई यांनी केले. विजेते ग्रुप: तृतीय क्रमांक – साज ग्रुप, द्वितीय क्रमांक – राधेय ग्रुप, आणि प्रथम क्रमांक – फुलबाग ग्रुप. वैयक्तिक स्पर्धेत स्नेहल जाधव, विद्या पाटील यांना बक्षीस मिळाले.",
-    image: "https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/385258492_6550068458396350_8558179299001259732_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ve5knCNKDAMQ7kNvgFYxkTU&_nc_oc=AdknbgG6IcmXMwKxEHfFjOhjcfddUdJcwQKfM7OLf6vJAJsUZMmndvye5MnR7Yz8VbMgZFSNYJeTvBCkAlXx3Osq&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=VC2gUwWpeRJD12STnLQqzQ&oh=00_AYFADNqXe3wJeOZ0MjjAsAWXLzCCDe0vhJjpeYj2YRPKdQ&oe=67EF21E6",
+    image: "https://scontent.fblr24-1.fna.fbcdn.net/v/t39.30808-6/385258492_6550068458396350_8558179299001259732_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ENuGL68zjn4Q7kNvwEUhBx1&_nc_oc=Adng8OwSVap_9YHxBKv8QmFDCcjwrsbwbEA-zujgvIjxn8QrNDX4eWENVdg_Dgz83Z7t1Pfbu56ionl_hZdNlIUw&_nc_zt=23&_nc_ht=scontent.fblr24-1.fna&_nc_gid=lKqBBNhcKJoV0Ke8mrnAZA&oh=00_AfFgmJpOsb-MHCbs6JK7oJX_Ne8Hnvl0NGeYNZJqD9aL3w&oe=67F9E626",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid037XNeEuWJSAekgJVWS8sRWr4hNc56WHaiRwvKDz4scsSVgXPGcAzGSbGCerDFF9ml"
   },
   {
