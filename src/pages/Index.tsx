@@ -74,7 +74,7 @@ const Index = () => {
               width="1200"
               height="800"
               loading="eager"
-              fetchpriority="high"
+              fetchPriority="high"
             />
             {/* Darker gradient overlay for better text contrast */}
             <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-lagori-900/80 z-10"></div>
@@ -90,7 +90,7 @@ const Index = () => {
                   महिलांना सक्षम बनवणे,<br /> जगण्याची नवी उमेद देणे
                 </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
-                  "महिला सशक्तीकरण हा केवळ योग्य मार्ग नाही, तर तो हुशारीचा मार्ग आहे. जेव्हा महिला यशस्वी होतात, तेव्हा संपूर्ण समाज समृद्ध होतो."
+                  "महिला सशक्तीकरण हा केवळ योग्य मार्ग न��ही, तर तो हुशारीचा मार्ग आहे. जेव्हा महिला यशस्वी होतात, तेव्हा संपूर्ण समाज समृद्ध होतो."
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a 

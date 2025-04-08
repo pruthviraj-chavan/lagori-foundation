@@ -8,7 +8,7 @@ interface LazyImageProps {
   width: number | string;
   height: number | string;
   loading?: "lazy" | "eager";
-  fetchpriority?: "high" | "low" | "auto";
+  fetchPriority?: "high" | "low" | "auto";
 }
 
 const LazyImage = ({ 
@@ -18,7 +18,7 @@ const LazyImage = ({
   width, 
   height,
   loading = "lazy",
-  fetchpriority = "auto" 
+  fetchPriority = "auto" 
 }: LazyImageProps) => {
   const [imageSrc, setImageSrc] = useState<string>('/placeholder.svg');
   const [imageLoaded, setImageLoaded] = useState<boolean>(false);
@@ -48,7 +48,7 @@ const LazyImage = ({
       width={width}
       height={height}
       loading={loading}
-      fetchpriority={fetchpriority}
+      fetchPriority={fetchPriority}
       onLoad={() => setImageLoaded(true)}
     />
   );
