@@ -1,0 +1,16 @@
+
+/* Ensure consistent background colors regardless of system dark mode preferences */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #ffffff !important; /* Force white background */
+    color-scheme: light !important; /* Force light mode */
+  }
+}
+
+/* Generic background override for dark mode sections */
+[class*="dark"], 
+[data-theme="dark"],
+[class*="dark-mode"] {
+  background-color: #ffffff !important;
+  color-scheme: light !important;
+}
