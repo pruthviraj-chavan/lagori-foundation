@@ -1,0 +1,87 @@
+
+/* Additional responsive styles to ensure cross-device compatibility */
+
+/* Small screens and mobile devices */
+@media (max-width: 640px) {
+  .section-container {
+    @apply py-10;
+  }
+  
+  .section-title {
+    @apply text-2xl mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-base mb-8;
+  }
+  
+  .grid {
+    @apply gap-4;
+  }
+  
+  /* Improve touch targets for mobile */
+  button, a {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Adjust font sizes for readability */
+  h1 {
+    @apply text-3xl;
+  }
+  
+  h2 {
+    @apply text-2xl;
+  }
+  
+  p {
+    @apply text-sm;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .section-container {
+    @apply py-16;
+  }
+  
+  /* Optimize layouts for tablet viewing */
+  .grid-cols-3, .grid-cols-4 {
+    @apply grid-cols-2;
+  }
+}
+
+/* Ensure proper spacing on all devices */
+.container {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+/* Optimize images for all screen sizes */
+img {
+  @apply max-w-full h-auto;
+}
+
+/* Performance optimizations for animations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Fix for iOS Safari to prevent tap highlight */
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Fix for overflow issues on mobile devices */
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Improve contrast ratio for accessibility */
+.text-gray-400 {
+  @apply text-gray-600;
+}

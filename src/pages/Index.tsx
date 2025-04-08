@@ -1,4 +1,3 @@
-//hey
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { 
@@ -57,8 +56,9 @@ const Index = () => {
     };
   }, []);
 
+  // Fix: Convert string dates to Date objects before comparison
   const recentActivities = activitiesData
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 3);
 
   return (
@@ -71,6 +71,10 @@ const Index = () => {
               src="/DSC.JPG" 
               alt="Women Empowerment" 
               className="w-full h-full object-cover"
+              width="1200"
+              height="800"
+              loading="eager"
+              fetchpriority="high"
             />
             {/* Darker gradient overlay for better text contrast */}
             <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-lagori-900/80 z-10"></div>
@@ -110,6 +114,9 @@ const Index = () => {
                     src="/DSC.JPG" 
                     alt="Mrs. Shubhangi Sakhare" 
                     className="w-full h-auto rounded-xl mb-4"
+                    width="400"
+                    height="300"
+                    loading="lazy"
                   />
                   <h3 className="font-playfair text-2xl font-bold text-black mb-2">
                     सौ. शुभांगी साखरे
@@ -366,9 +373,6 @@ const Index = () => {
                 <p className="text-gray-800 font-medium mb-8">
                   - Priya, Entrepreneur & Mentor
                 </p>
-{/*                 <Link to="/about" className="btn-primary inline-flex items-center">
-                  More Stories <ArrowRight size={16} className="ml-2" />
-                </Link> */}
               </div>
             </div>
           </div>
