@@ -10,7 +10,7 @@ const awardsData = [
     date: "2023-09-24",
     presenter: " हील रायडर्स अडवेंचेर फाउंडेशन",
     description: "हील रायडर्स अडवेंचर फाउंडेशनने लगोरी फाउंडेशनला रणरागिनी पुरस्काराने सन्मानित करून, भवानी मंडप येथील ऐतिहासिक कमानीला तोरण बांधण्याच्या सोहळ्यात सहभागाची संधी दिली.",
-    image: "https://scontent.fblr24-1.fna.fbcdn.net/v/t39.30808-6/487852774_122101258154821707_966822609445007318_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GeR5qjxsjekQ7kNvwEOrjkt&_nc_oc=Adl2ZBrPl2OlH2B2XtIoBsDcaQzffL47ftGojPoWxTk293wd5YbjN9_K34ZtsrcQ4hrFj2xsjBXLWiSJ8_gyjbmU&_nc_zt=23&_nc_ht=scontent.fblr24-1.fna&_nc_gid=1xmWn43gQqieEx29o4Qp8A&oh=00_AfF4ZmjEO1i3L1-_eATj_8KroxsDL-vW4kSUVe6cZpRlYg&oe=67F9FCF6"
+    image: "/b3.jpg"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const awardsData = [
     date: "2023-10-23",
     presenter: "जिल्हाधिकारी कार्यालय महाराष्ट्र शासन पर्यटन विभाग",
     description: "शाही दसरा शोभायात्रेतील प्रांतीय वेशभूषेच्या थीम मध्ये उत्कृष्ट सहभाग दाखवून, नियोजनबद्ध आणि सुंदर प्रस्तुती करणाऱ्या लगोरी फाउंडेशन कोल्हापूरच्या सभासदांचा सन्मान.",
-    image: "https://scontent.fblr24-1.fna.fbcdn.net/v/t39.30808-6/395646018_6636886959714499_5412929873604728551_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=fuwTC3Sy-ZAQ7kNvwGyBxXo&_nc_oc=AdmMCKZ0DQDgp6dlbKik5lcCE-yhBCMjYFj8IsBMvEsJMnvxZK-Sn5oFuxRoG-zMrlyLZslIPz1Y66Jmx3IOcLT4&_nc_zt=23&_nc_ht=scontent.fblr24-1.fna&_nc_gid=lbKnH4xb1CDy5gjk314AYw&oh=00_AfEF9GW_VE8aKCVdXLCI1mEkivVRSqS8WDOkrFf64nkC1w&oe=67F9F36F"
+    image: "/b4.jpg"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const awardsData = [
     date: "2022-06-22",
     presenter: "आम्ही कोल्हापूरी फौंडेशन",
     description: "महिला सशक्तीकरणासाठी उल्लेखनीय योगदान ",
-    image: "https://scontent.fblr24-2.fna.fbcdn.net/v/t39.30808-6/485147179_9245520482184454_443428015467753969_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KKljJa-vNSUQ7kNvwGV1y40&_nc_oc=Adk_-Lp5Yoe7UEx2UQVyBX5bzu1uLbUicjuBROrNdNSJRKyNJ_3Z72_F0uexVFkUOGH9DjQINxbpIqo5DrxIBdqc&_nc_zt=23&_nc_ht=scontent.fblr24-2.fna&_nc_gid=sYOzU-bDmeuuB0e4UgIzeA&oh=00_AfFZ-Hha0NUjSMOQmhoNd2zY1dmKIGQlBD2CCA0gadMtSw&oe=67FA0FAD"
+    image: "/b2.jpg"
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const awardsData = [
     date: "2021-03-015",
     presenter: "जायंट्स ग्रुप ऑफ कोल्हापूर पर्ल",
     description: "महिलांच्या सामर्थ्य आणि समाजातील योगदानाबद्दल दिला जातो, ज्याने त्यांना एक नवीन ऊर्जा आणि प्रेरणा दिली आहे.",
-    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/160683978_3702273463175878_2437741425696289663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0zzhDkFxBxsQ7kNvgGkE2d7&_nc_oc=AdndqDbMwjev9MBKygXTiw-_ahfObS_lT_pRmURZDiAdnoTJZ63iBVSm26iZWjOzzPyVYFM_i4DiJH_4asyiuU6B&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=gmqWAu198hAAtIY49xFxOA&oh=00_AYEUo_JHlg3K6qi6wKhnt5zuoYng9vHdFAd-UlwWYbVqEg&oe=68107D63"
+    image: "/b1.jpg"
   }
 ];
 
