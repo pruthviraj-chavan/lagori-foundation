@@ -113,7 +113,7 @@ export const activitiesData = [
     title: "रुग्ण हक्क संरक्षण कायद्याच्या मागणीसाठी घंटानाद आंदोलन",
     date: "2019-11-21",
     description: "डिपॉजिटची रक्कम भरू न शकल्याने गरीब व असाहाय्य रुग्णांना वेळेत उपचार मिळत नसतील आणि प्राण गमवावे लागत असतील, तर त्याला जबाबदार कोण? अशा परिस्थितीत संबंधित हॉस्पिटल व डॉक्टरांवर गुन्हा दाखल होऊन शिक्षा झालीच पाहिजे. या मागणीसाठी आणि 'रुग्ण हक्क संरक्षण कायदा' लागू करण्यासाठी, २१ नोव्हेंबर २०१९ रोजी महाराष्ट्रभर घंटानाद आंदोलन करण्यात आले.",
-    image: "https://scontent.fblr1-10.fna.fbcdn.net/v/t1.6435-9/76935907_2499547250115178_9176738192487874560_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8OPM_4YKx40Q7kNvgEqASkc&_nc_oc=Adk-Xvq0dXAiTeJzKcRWh4-ZM-PKfUy1i_IojykudJDuqY4FE2fAapTyuHq_xrEEu9no310Cvj0zZDyVjltNpn74&_nc_zt=23&_nc_ht=scontent.fblr1-10.fna&_nc_gid=llPML4xe9C777CCPTKlr-g&oh=00_AYHZBEZvmbEW8IVrtc_gAeWSYQ5WezKYjvoTQJLacDSbhw&oe=68107139",
+    image: "/a2.jpg",
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0xA5jdbYXQ48UKFM78iHbjXPey6BAwve1sFpq5ZWJWBr9Kby4x2uDyPxD8CxJf7Tsl"
   },
   {
@@ -121,7 +121,7 @@ export const activitiesData = [
     title: "डॉक्टर दिनानिमित्त रुग्ण हक्क परिषदेतर्फे मान्यवरांचा सन्मान",
     date: "2020-07-01",
     description: "डॉक्टर दिनाचे औचित्य साधून रुग्ण हक्क परिषदेतर्फे कोल्हापूर जिल्ह्यातील मान्यवर डॉक्टरांचा सन्मान करण्यात आला. यामध्ये डॉ. यू. जी. कुंभार (अतिरिक्त जिल्हा आरोग्य अधिकारी), डॉ. योगेश साळे (जिल्हा आरोग्य अधिकारी), डॉ. मन्सूरअली (ब्रेन स्पेशालिस्ट, ऍस्टर आधार), डॉ. अल्पना चौगुले आणि अथायू हॉस्पिटल टीम यांचा समावेश होता.",
-    image: "https://scontent.fblr1-9.fna.fbcdn.net/v/t1.6435-9/106363163_2991622027574362_6687757100321545420_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DrfQIBucmVIQ7kNvgGBEbuI&_nc_oc=AdloxF0YPppHvFxYyy2BVRUUNuvdZwIBT3mRJH9XYwKSs43AKKLKTlq-wlkI150EqQjWWY-VLjnlGFlbUcmZ1pxn&_nc_zt=23&_nc_ht=scontent.fblr1-9.fna&_nc_gid=0FrNkhH5aF0ZyNzBQfaWVw&oh=00_AYHv2Hq_hvpifPCa-2ppT0Vmo_4t5MffQt3fDnxAZ5Iq5A&oe=681062BC",
+    image: "/a3.jpg"
     link: "https://www.facebook.com/shubhangi.sakhare/posts/pfbid0u9M39Ky81NoTQ9PGLD238icSBJXV5NVyfQDPgH5VwTSC3v3pNbWntNzHbSdYe54jl"
   },
   {
