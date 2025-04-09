@@ -364,7 +364,7 @@ const Index = () => {
                 <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
                   यशोगाथा
                 </span>
-                <h3 className="font-playfair text-3xl font-bold mb-6 text-gray-800">
+                <h3 className="font-playfair text-3xl font-bold mb-6 text-gray-800 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-700">
                   "लगोरी फाउंडेशनने मला माझे जीवन नव्याने उभारण्याची ताकद दिली."
                 </h3>
                 <p className="text-gray-600 mb-6">
