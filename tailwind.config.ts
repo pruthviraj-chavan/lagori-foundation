@@ -1,9 +1,7 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
-  // Disable dark mode variant
-  darkMode: false,
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",

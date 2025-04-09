@@ -1,8 +1,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-// Only allow light mode
-type Theme = 'light';
+type Theme = 'light' | 'dark' | 'system';
 
 interface ThemeContextType {
   theme: Theme;
@@ -20,29 +19,35 @@ export const useTheme = () => {
 };
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  // Always use light mode
-  const [theme] = useState<Theme>('light');
+  const [theme, setTheme] = useState<Theme>('light');
 
   useEffect(() => {
-    // Forcibly remove dark class if it exists
-    document.documentElement.classList.remove('dark');
+    const savedTheme = localStorage.getItem('theme') as Theme | null;
+    if (savedTheme) {
+      setTheme(savedTheme);
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('system');
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else if (theme === 'light') {
+      document.documentElement.classList.remove('dark');
+    } else if (theme === 'system') {
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    }
     
-    // Store theme preference
     localStorage.setItem('theme', theme);
-    
-    // Add meta tag to enforce color scheme
-    const meta = document.createElement('meta');
-    meta.name = 'color-scheme';
-    meta.content = 'light';
-    document.head.appendChild(meta);
-    
-    return () => {
-      document.head.removeChild(meta);
-    };
   }, [theme]);
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme: () => {} }}>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   );
