@@ -27,7 +27,6 @@ const Index = () => {
   const videosRef = useRef<HTMLDivElement>(null);
   const teamRef = useRef<HTMLDivElement>(null);
 
-  // Intersection Observer setup for animation triggers
   useEffect(() => {
     const options = {
       root: null,
@@ -56,7 +55,6 @@ const Index = () => {
     };
   }, []);
 
-  // Fix: Convert string dates to Date objects before comparison
   const recentActivities = activitiesData
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 3);
@@ -64,7 +62,6 @@ const Index = () => {
   return (
     <PageTransition>
       <div className="overflow-hidden">
-        {/* Hero Section with improved layout */}
         <section className="relative pt-20 pb-16 flex items-center bg-gradient-to-r from-lagori-900/90 to-lagori-700/80">
           <div className="absolute inset-0 z-0">
             <img 
@@ -76,7 +73,6 @@ const Index = () => {
               loading="eager"
               fetchPriority="high"
             />
-            {/* Darker gradient overlay for better text contrast */}
             <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-lagori-900/80 z-10"></div>
           </div>
           
@@ -136,7 +132,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* About Section */}
         <section className="section-container bg-section-pattern">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -149,7 +144,6 @@ const Index = () => {
               </p>
             </div>
 
-            {/* Stats Section */}
             <div 
               ref={statsRef} 
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 opacity-0"
@@ -174,7 +168,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Video Section - Updated with YouTube Videos */}
         <section className="section-container bg-purple-gradient py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -213,7 +206,7 @@ const Index = () => {
 
             <div className="text-center mt-12">
               <a 
-                href="https://www.youtube.com/@shubhangisakhare4679/featured" // youtubechannel link will be here
+                href="https://www.youtube.com/@shubhangisakhare4679/featured"
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary bg-white text-lagori-700 hover:bg-gray-100 inline-flex items-center"
@@ -224,7 +217,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Services Section */}
         <section className="section-container py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -269,7 +261,7 @@ const Index = () => {
               <ServiceCard 
                 icon={<Droplet size={32} />}
                 title="आपत्ती निवारण कार्य"
-                description="नैसर्गिक आपत्तीमध्ये तत्काळ मदत व दीर्घकालीन पुनर्वसन समर्थन."
+                description="नैसर्गिक आपत्तीमध्ये तत्काळ मद��� व दीर्घकालीन पुनर्वसन समर्थन."
               />
             </div>
             
@@ -281,7 +273,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Team Section - New Addition */}
         <section className="section-container bg-section-pattern py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -321,7 +312,7 @@ const Index = () => {
                 image="/l1.jpg"
                 name="ललिता साखरे"
                 role="संचालक"
-                bio="विविध सशक्तीकरण कार्यक्रमांचे समन्वय साधणे आणि समुदायांमध्ये सर्व उपक्रम प्रभावीपणे राबवण्याची खात्री करणे."
+                bio="विविध सशक्तीकरण कार्यक्रमांचे समन्वय साधणे आणि समुदायांमध्ये ���र्व उपक्रम प्रभावीपणे राबवण्याची खात्री करणे."
               />
             </div>
 
@@ -333,7 +324,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Women's Power Section */}
         <section className="section-container bg-blue-gradient py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -364,7 +354,7 @@ const Index = () => {
                 <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
                   यशोगाथा
                 </span>
-                <h3 className="font-playfair text-3xl font-bold mb-6 text-gray-800 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-700">
+                <h3 className="font-playfair text-3xl font-bold mb-6 text-black">
                   "लगोरी फाउंडेशनने मला माझे जीवन नव्याने उभारण्याची ताकद दिली."
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -378,7 +368,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Latest Activities Section */}
         <section className="section-container py-20">
           <div className="container max-w-7xl mx-auto px-4 sm:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -415,7 +404,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
         <section className="py-20 bg-pink-gradient text-white">
           <div className="container max-w-5xl mx-auto px-4 sm:px-6 text-center">
             <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 animate-fade-in">
