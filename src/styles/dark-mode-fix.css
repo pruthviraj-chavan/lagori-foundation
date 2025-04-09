@@ -14,3 +14,18 @@
   background-color: #ffffff !important;
   color-scheme: light !important;
 }
+
+/* Ensure heading text is visible in all modes */
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a1a !important; /* Dark gray for headings */
+}
+
+/* Section titles should be visible */
+.section-title {
+  color: #1a1a1a !important;
+}
+
+/* Section subtitles should be visible */
+.section-subtitle {
+  color: #4b5563 !important; /* Medium gray for subtitles */
+}
