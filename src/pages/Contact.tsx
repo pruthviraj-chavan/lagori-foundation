@@ -21,31 +21,69 @@ const Contact = () => {
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setFormStatus("sending");
+  e.preventDefault();
+  setFormStatus("sending");
+
+  // Simulate delay (you can remove this in real use)
+  setTimeout(() => {
+    setFormStatus("success");
+
+    // ✅ WhatsApp redirection
+    const { name, email, phone, message } = formData;
+    const whatsappMessage = `👋 नमस्कार!\n\n*नाव:* ${name}\n*ई-मेल:* ${email}\n*फोन:* ${phone}\n*मॅसेज:* ${message}`;
+    const whatsappNumber = "919028555757"; // ✅ Replace with your WhatsApp number
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+    // Open WhatsApp chat in a new tab
+    window.open(whatsappURL, "_blank");
+
+    // ✅ Show toast
+    toast({
+      title: "Message Sent",
+      description: "Thank you for contacting us. We'll get back to you soon!",
+      variant: "default",
+    });
+
+    // ✅ Reset form data
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      message: ""
+    });
+
+    // Reset status after delay
+    setTimeout(() => setFormStatus("idle"), 3000);
+  }, 1500);
+};
+
+  
+  // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   setFormStatus("sending");
     
-    // Simulate form submission
-    setTimeout(() => {
-      setFormStatus("success");
-      toast({
-        title: "Message Sent",
-        description: "Thank you for contacting us. We'll get back to you soon!",
-        variant: "default",
-      });
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        message: ""
-      });
-      setTimeout(() => setFormStatus("idle"), 3000);
-    }, 1500);
-  };
+  //   // Simulate form submission
+  //   setTimeout(() => {
+  //     setFormStatus("success");
+  //     toast({
+  //       title: "Message Sent",
+  //       description: "Thank you for contacting us. We'll get back to you soon!",
+  //       variant: "default",
+  //     });
+  //     setFormData({
+  //       name: "",
+  //       email: "",
+  //       phone: "",
+  //       message: ""
+  //     });
+  //     setTimeout(() => setFormStatus("idle"), 3000);
+  //   }, 1500);
+  // };
 
   // Define social media links and icons
   const socialMedia = [
-    { name: "Facebook", link: "https://www.facebook.com/profile.php?id=100068957100372", icon: Facebook },
-    { name: "Twitter", link: "https://twitter.com/lagorifoundation", icon: Twitter },
+    { name: "Facebook", link: "https://www.facebook.com/profile.php?id=61574651223752", icon: Facebook },
+    // { name: "Twitter", link: "https://twitter.com/lagorifoundation", icon: Twitter },
     { name: "Instagram", link: "https://www.instagram.com/shubhangisakhare01", icon: Instagram },
     { name: "YouTube", link: "https://www.youtube.com/@shubhangisakhare4679", icon: Youtube },
   ];
@@ -115,7 +153,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-bold text-gray-800 mb-1">ईमेल</h3>
                       <p className="text-gray-600">
-                        <a href="mailto:contact@lagorifoundation.org" className="hover:text-lagori-600 transition-colors">
+                        <a href="mailto:lagorifoundation1@gmail.com" className="hover:text-lagori-600 transition-colors">
                           lagorifoundation1@gmail.com
                         </a>
                       </p>
