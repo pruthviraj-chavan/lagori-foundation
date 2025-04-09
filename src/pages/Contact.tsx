@@ -255,7 +255,7 @@ const Contact = () => {
             </h2>
             <div className="overflow-hidden rounded-xl shadow-lg h-96">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30578.412148727846!2d74.19888943150043!3d16.661788482809488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0555a167e5cab%3A0x6c674f5a9d7f26fa!2sKalamba%2C%20Kolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1744223230403!5m2!1sen!2sin"
+            src="/m1.jpg"
             width="100%" 
             height="450" 
             style={{ border: 0 }} 
