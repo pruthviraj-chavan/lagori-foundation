@@ -114,9 +114,9 @@ const Index = () => {
                     height="300"
                     loading="lazy"
                   />
-                  <h3 className="font-playfair text-2xl font-bold text-black mb-2">
+                  <p className="font-playfair text-2xl font-bold text-black mb-2">
                     सौ. शुभांगी साखरे
-                  </h3>
+                  </p>
                   <p className="text-black-200 mb-4">
                     संस्थापक आणि अध्यक्षा, लगोरी फाउंडेशन, कोल्हापूर
                   </p>
