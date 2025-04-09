@@ -72,7 +72,7 @@ const Awards = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-lg">
               <Award size={48} className="mx-auto mb-6 text-lagori-600" />
-              <h2 className="font-playfair text-3xl font-bold mb-6 text-gray-800">
+              <h2 className="font-playfair text-3xl font-bold mb-6 text-black-800">
                 Our Journey of Excellence
               </h2>
               <p className="text-gray-600 mb-8">
