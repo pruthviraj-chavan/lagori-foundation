@@ -354,9 +354,9 @@ const Index = () => {
                 <span className="inline-block px-3 py-1 rounded-full bg-lagori-100 text-lagori-600 font-medium mb-4">
                   यशोगाथा
                 </span>
-                <h3 className="font-playfair text-3xl font-bold mb-6 text-black">
+{/*                 <h3 className="font-playfair text-3xl font-bold mb-6 text-black">
                   "लगोरी फाउंडेशनने मला माझे जीवन नव्याने उभारण्याची ताकद दिली."
-                </h3>
+                </h3> */}
                 <p className="text-gray-600 mb-6">
                   वर्षानुवर्षे घरगुती हिंसाचार सहन केल्यानंतर, मी आशा आणि साधनांविना उरले होते. लगोरी फाउंडेशनने मला कायदेशीर मदत, भावनिक पाठबळ आणि कौशल्य प्रशिक्षण दिले, ज्यामुळे मी स्वतःचा शिवण व्यवसाय सुरू करू शकले. आज मी आर्थिकदृष्ट्या स्वतंत्र आहे आणि माझ्या समुदायातील इतर महिलांसाठी प्रेरणास्थान आहे.
                 </p>
