@@ -254,7 +254,7 @@ const Contact = () => {
               आम्हाला भेटा
             </h2>
             <div className="overflow-hidden rounded-xl shadow-lg h-96">
-          <iframe 
+{/*           <iframe 
             src="/m1.jpg"
             width="100%" 
             height="450" 
@@ -262,7 +262,12 @@ const Contact = () => {
             allowFullScreen 
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          ></iframe> */}
+               <img 
+            src="/m1.jpg"
+            alt="Map" 
+            className="w-full h-full object-cover"
+             />
             </div>
           </div>
         </section>
