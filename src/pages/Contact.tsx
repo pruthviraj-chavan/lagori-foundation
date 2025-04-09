@@ -25,7 +25,7 @@ const Contact = () => {
 
   const { name, email, phone, message } = formData;
   const whatsappMessage = `👋 नमस्कार!\n\n*नाव:* ${name}\n*ई-मेल:* ${email}\n*फोन:* ${phone}\n*मॅसेज:* ${message}`;
-  const whatsappNumber = "918308527093"; // Replace with your number
+  const whatsappNumber = "918668545201"; // Replace with your number
   const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   // 🔥 Trigger WhatsApp instantly
