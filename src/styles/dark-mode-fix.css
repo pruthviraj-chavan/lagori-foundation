@@ -1,5 +1,5 @@
 
-/* Ensure consistent background and text colors regardless of system dark mode preferences */
+/* Ensure consistent background colors regardless of system dark mode preferences */
 @media (prefers-color-scheme: dark) {
   html, body {
     background-color: #ffffff !important; /* Force white background */
@@ -15,17 +15,87 @@
   color-scheme: light !important;
 }
 
-/* Ensure heading text is visible in all modes */
-h1, h2, h3, h4, h5, h6 {
-  color: #1a1a1a !important; /* Dark gray for headings */
+/* IMPORTANT: Remove the forced heading color rules that were causing issues */
+/* Instead we'll respect the original styling from the theme */
+
+/* Only apply specific overrides for elements that need it */
+.section-title:not(.text-white),
+.section-subtitle:not(.text-white) {
+  color: inherit !important; /* Use the color defined by the parent/theme */
 }
 
-/* Section titles should be visible */
-.section-title {
-  color: #1a1a1a !important;
+/* Let's make sure dark backgrounds with white text work properly */
+[class*="bg-gradient-to"] h1,
+[class*="bg-gradient-to"] h2,
+[class*="bg-gradient-to"] h3,
+[class*="bg-gradient-to"] h4,
+[class*="bg-gradient-to"] h5,
+[class*="bg-gradient-to"] h6,
+.bg-lagori-600 h1,
+.bg-lagori-600 h2,
+.bg-lagori-600 h3,
+.bg-lagori-600 h4,
+.bg-lagori-600 h5,
+.bg-lagori-600 h6,
+.bg-lagori-700 h1,
+.bg-lagori-700 h2,
+.bg-lagori-700 h3,
+.bg-lagori-700 h4,
+.bg-lagori-700 h5,
+.bg-lagori-700 h6,
+.bg-lagori-900 h1,
+.bg-lagori-900 h2,
+.bg-lagori-900 h3,
+.bg-lagori-900 h4,
+.bg-lagori-900 h5,
+.bg-lagori-900 h6,
+.bg-pink-gradient h1,
+.bg-pink-gradient h2,
+.bg-pink-gradient h3,
+.bg-pink-gradient h4,
+.bg-pink-gradient h5,
+.bg-pink-gradient h6,
+.bg-blue-gradient h1,
+.bg-blue-gradient h2,
+.bg-blue-gradient h3,
+.bg-blue-gradient h4,
+.bg-blue-gradient h5,
+.bg-blue-gradient h6,
+.bg-purple-gradient h1,
+.bg-purple-gradient h2,
+.bg-purple-gradient h3,
+.bg-purple-gradient h4,
+.bg-purple-gradient h5,
+.bg-purple-gradient h6,
+.bg-orange-gradient h1,
+.bg-orange-gradient h2,
+.bg-orange-gradient h3,
+.bg-orange-gradient h4,
+.bg-orange-gradient h5,
+.bg-orange-gradient h6,
+.bg-green-gradient h1,
+.bg-green-gradient h2,
+.bg-green-gradient h3,
+.bg-green-gradient h4,
+.bg-green-gradient h5,
+.bg-green-gradient h6 {
+  color: #ffffff !important; /* Force white text on dark backgrounds */
 }
 
-/* Section subtitles should be visible */
-.section-subtitle {
-  color: #4b5563 !important; /* Medium gray for subtitles */
+/* Ensure navbar text remains white */
+.nav-link,
+header .font-playfair,
+header .font-bold {
+  color: #ffffff !important;
+}
+
+/* Ensure footer headings remain white */
+footer h1, 
+footer h2, 
+footer h3, 
+footer h4, 
+footer h5, 
+footer h6,
+footer .font-bold {
+  color: #ffffff !important;
 }

@@ -19,31 +19,20 @@ export const useTheme = () => {
 };
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
+  // Always set theme to light to ensure consistent appearance
   const [theme, setTheme] = useState<Theme>('light');
 
+  // Store theme preference but always use light mode
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme') as Theme | null;
     if (savedTheme) {
-      setTheme(savedTheme);
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('system');
-    }
-  }, []);
-
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else if (theme === 'light') {
-      document.documentElement.classList.remove('dark');
-    } else if (theme === 'system') {
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.classList.add('dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-      }
+      // Store the preference but don't apply it
+      localStorage.setItem('theme', savedTheme);
     }
     
-    localStorage.setItem('theme', theme);
+    // Always ensure we're in light mode regardless of system preference
+    document.documentElement.classList.remove('dark');
+    
   }, [theme]);
 
   return (
