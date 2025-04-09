@@ -70,7 +70,7 @@ const Awards = () => {
         {/* Introduction Section */}
         <section className="py-16 bg-blue-gradient">
           <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-lg">
+            <div className="max-w-3xl mx-auto text-center bg-white p-8 rounded-2xl shadow-lg">
               <Award size={48} className="mx-auto mb-6 text-lagori-600" />
               <h2 className="font-playfair text-3xl font-bold mb-6" style="color: black;">
                 Our Journey of Excellence
