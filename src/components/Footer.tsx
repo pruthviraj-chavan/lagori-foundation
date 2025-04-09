@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, Youtube, MapPin, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -12,25 +12,25 @@ const Footer = () => {
             <p className="mb-4 text-gray-300">Empowering women through support, education, and community building for over four years.</p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.facebook.com/profile.php?id=61574651223752" 
                 className="text-white hover:text-lagori-400 transition-colors" 
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/shubhangisakhare01/" 
                 className="text-white hover:text-lagori-400 transition-colors" 
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
               <a 
-                href="#" 
+                href="https://www.youtube.com/@shubhangisakhare4679/featured" 
                 className="text-white hover:text-lagori-400 transition-colors" 
-                aria-label="Twitter"
+                aria-label="Youtube"
               >
-                <Twitter size={20} />
+                <Youtube size={20} />
               </a>
             </div>
           </div>
