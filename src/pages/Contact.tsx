@@ -22,29 +22,27 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
+
+  const { name, email, phone, message } = formData;
+  const whatsappMessage = `👋 नमस्कार!\n\n*नाव:* ${name}\n*ई-मेल:* ${email}\n*फोन:* ${phone}\n*मॅसेज:* ${message}`;
+  const whatsappNumber = "918308527093"; // Replace with your number
+  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+  // 🔥 Trigger WhatsApp instantly
+  window.open(whatsappURL, "_blank");
+
+  // Now continue the form logic
   setFormStatus("sending");
 
-  // Simulate delay (you can remove this in real use)
   setTimeout(() => {
     setFormStatus("success");
 
-    // ✅ WhatsApp redirection
-    const { name, email, phone, message } = formData;
-    const whatsappMessage = `👋 नमस्कार!\n\n*नाव:* ${name}\n*ई-मेल:* ${email}\n*फोन:* ${phone}\n*मॅसेज:* ${message}`;
-    const whatsappNumber = "919028555757"; // ✅ Replace with your WhatsApp number
-    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-
-    // Open WhatsApp chat in a new tab
-    window.open(whatsappURL, "_blank");
-
-    // ✅ Show toast
     toast({
       title: "Message Sent",
       description: "Thank you for contacting us. We'll get back to you soon!",
       variant: "default",
     });
 
-    // ✅ Reset form data
     setFormData({
       name: "",
       email: "",
@@ -52,10 +50,10 @@ const Contact = () => {
       message: ""
     });
 
-    // Reset status after delay
     setTimeout(() => setFormStatus("idle"), 3000);
   }, 1500);
 };
+  
 
   
   // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
