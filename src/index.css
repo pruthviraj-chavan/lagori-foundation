@@ -48,36 +48,6 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-
-  .dark {
-    --background: 350 20% 10%;
-    --foreground: 350 10% 96%;
-
-    --card: 350 20% 10%;
-    --card-foreground: 350 10% 96%;
-
-    --popover: 350 20% 10%;
-    --popover-foreground: 350 10% 96%;
-
-    --primary: 334 100% 50%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 330 50% 20%;
-    --secondary-foreground: 330 100% 90%;
-
-    --muted: 330 50% 20%;
-    --muted-foreground: 330 50% 70%;
-
-    --accent: 330 50% 20%;
-    --accent-foreground: 330 100% 90%;
-
-    --destructive: 0 100% 40%;
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 330 50% 20%;
-    --input: 330 50% 20%;
-    --ring: 334 100% 50%;
-  }
 }
 
 @layer base {
@@ -88,10 +58,20 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Poppins', sans-serif;
+    color-scheme: light !important;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
+    @apply text-gray-800;
+  }
+  
+  .section-title {
+    @apply text-gray-800 !important;
+  }
+  
+  .section-subtitle {
+    @apply text-gray-600 !important;
   }
 }
 

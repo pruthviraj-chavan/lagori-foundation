@@ -1,9 +1,13 @@
 
-/* Ensure consistent background colors regardless of system dark mode preferences */
+/* Ensure consistent background and text colors regardless of system dark mode preferences */
 @media (prefers-color-scheme: dark) {
   html, body {
     background-color: #ffffff !important; /* Force white background */
     color-scheme: light !important; /* Force light mode */
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, div {
+    color: inherit !important; /* Ensure text colors are inherited from light mode */
   }
 }
 
@@ -13,4 +17,16 @@
 [class*="dark-mode"] {
   background-color: #ffffff !important;
   color-scheme: light !important;
+}
+
+/* Force heading colors to be visible */
+.section-title,
+.font-playfair,
+h1, h2, h3, h4, h5, h6 {
+  color: #333333 !important; /* Force dark text color for headings */
+}
+
+/* Force paragraph text to be visible */
+p, span, div:not([class*="bg-"]) {
+  color: inherit !important;
 }
