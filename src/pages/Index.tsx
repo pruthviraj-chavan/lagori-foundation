@@ -149,19 +149,19 @@ const Index = () => {
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 opacity-0"
             >
               <div className="text-center p-6 bg-pink-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">700+</div>
+                <div className="font-bold text-4xl mb-2"850+</div>
                 <p>सक्रिय सदस्य</p>
               </div>
               <div className="text-center p-6 bg-purple-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">7</div>
+                <div className="font-bold text-4xl mb-2">9</div>
                 <p>वर्षांची अविरत सेवा</p>
               </div>
               <div className="text-center p-6 bg-orange-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">10,000+</div>
+                <div className="font-bold text-4xl mb-2">15,000+</div>
                 <p>महिलांना मदत</p>
               </div>
               <div className="text-center p-6 bg-green-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">10-15</div>
+                <div className="font-bold text-4xl mb-2">15-20</div>
                 <p>वैवाहिक जीवन पूर्ववत</p>
               </div>
             </div>
@@ -294,7 +294,7 @@ const Index = () => {
                 image="/a1.jpeg"
                 name="शुभांगी साखरे"
                 role="संस्थापक आणि अध्यक्षा"
-                bio=" १०+ वर्षांचा सामाजिक कार्याचा अनुभव, शुभांगीने आपल्या जीवनाचा काही भाग मागासलेल्या समुदायांतील महिलांना सक्षम करण्यासाठी समर्पित केला आहे."
+                bio=" ११+ वर्षांचा सामाजिक कार्याचा अनुभव, शुभांगीने आपल्या जीवनाचा काही भाग मागासलेल्या समुदायांतील महिलांना सक्षम करण्यासाठी समर्पित केला आहे."
               />
               <TeamCard 
                 image="/n1.jpeg"
