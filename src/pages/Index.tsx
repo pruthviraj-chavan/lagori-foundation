@@ -149,15 +149,15 @@ const Index = () => {
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 opacity-0"
             >
               <div className="text-center p-6 bg-pink-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">850+</div>
+                <div className="font-bold text-4xl mb-2">950+</div>
                 <p>सक्रिय सदस्य</p>
               </div>
               <div className="text-center p-6 bg-purple-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">9</div>
+                <div className="font-bold text-4xl mb-2">10</div>
                 <p>वर्षांची अविरत सेवा</p>
               </div>
               <div className="text-center p-6 bg-orange-gradient text-white rounded-2xl shadow-md">
-                <div className="font-bold text-4xl mb-2">15,000+</div>
+                <div className="font-bold text-4xl mb-2">16,000+</div>
                 <p>महिलांना मदत</p>
               </div>
               <div className="text-center p-6 bg-green-gradient text-white rounded-2xl shadow-md">
